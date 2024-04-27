@@ -1,4 +1,4 @@
-function scr_deactivate_escape() //gml_Script_scr_deactivate_escape
+function scr_deactivate_escape() //scr_deactivate_escape
 {
     with (obj_baddie)
     {

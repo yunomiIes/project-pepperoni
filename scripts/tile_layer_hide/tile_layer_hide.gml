@@ -1,4 +1,4 @@
-function tile_layer_hide(argument0) //gml_Script_tile_layer_hide
+function tile_layer_hide(argument0) //tile_layer_hide
 {
     var __layers = layer_get_all()
     var __numlayers = array_length_1d(__layers)

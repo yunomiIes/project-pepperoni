@@ -1,4 +1,4 @@
-function scr_enemy_bounce() //gml_Script_scr_enemy_bounce
+function scr_enemy_bounce() //scr_enemy_bounce
 {
     if (!grounded)
         hsp = (image_xscale * movespeed)

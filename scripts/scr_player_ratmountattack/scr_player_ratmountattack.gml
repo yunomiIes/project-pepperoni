@@ -1,4 +1,4 @@
-function scr_player_ratmountattack() //gml_Script_scr_player_ratmountattack
+function scr_player_ratmountattack() //scr_player_ratmountattack
 {
     image_speed = 0.35
     hsp = (xscale * movespeed)

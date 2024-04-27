@@ -1,4 +1,4 @@
-function scr_player_finishingblow() //gml_Script_scr_player_finishingblow
+function scr_player_finishingblow() //scr_player_finishingblow
 {
     hsp = movespeed
     move = (key_right + key_left)

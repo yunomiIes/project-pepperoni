@@ -1,4 +1,4 @@
-function dialog_create(argument0, argument1, argument2, argument3) //gml_Script_dialog_create
+function dialog_create(argument0, argument1, argument2, argument3) //dialog_create
 {
     if ((argument1 == undefined))
         argument1 = -4

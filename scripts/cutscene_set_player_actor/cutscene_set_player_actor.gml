@@ -1,4 +1,4 @@
-function cutscene_set_player_actor() //gml_Script_cutscene_set_player_actor
+function cutscene_set_player_actor() //cutscene_set_player_actor
 {
     with (obj_player)
     {

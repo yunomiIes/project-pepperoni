@@ -1,4 +1,4 @@
-function scr_get_tutorial_key(argument0) //gml_Script_scr_get_tutorial_key
+function scr_get_tutorial_key(argument0) //scr_get_tutorial_key
 {
     var spr = -4
     var ix = 0

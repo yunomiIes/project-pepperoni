@@ -1,4 +1,4 @@
-function cutscene_gustavo_end() //gml_Script_cutscene_gustavo_end
+function cutscene_gustavo_end() //cutscene_gustavo_end
 {
     var finish = 0
     with (obj_player1)

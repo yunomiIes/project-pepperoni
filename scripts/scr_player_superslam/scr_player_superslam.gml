@@ -1,4 +1,4 @@
-function scr_player_superslam() //gml_Script_scr_player_superslam
+function scr_player_superslam() //scr_player_superslam
 {
     if ((sprite_index == spr_piledriver))
     {

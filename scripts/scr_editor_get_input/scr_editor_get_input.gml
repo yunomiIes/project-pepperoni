@@ -1,4 +1,4 @@
-function scr_editor_get_input() //gml_Script_scr_editor_get_input
+function scr_editor_get_input() //scr_editor_get_input
 {
     key_mbleft = mouse_check_button(mb_left)
     key_mbleft2 = mouse_check_button_pressed(mb_left)

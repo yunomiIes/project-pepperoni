@@ -1,4 +1,4 @@
-function scr_player_ratmounttumble() //gml_Script_scr_player_ratmounttumble
+function scr_player_ratmounttumble() //scr_player_ratmounttumble
 {
     hsp = (xscale * movespeed)
     move = (key_left + key_right)

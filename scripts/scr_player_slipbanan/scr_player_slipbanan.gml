@@ -1,4 +1,4 @@
-function scr_player_slipbanan() //gml_Script_scr_player_slipbanan
+function scr_player_slipbanan() //scr_player_slipbanan
 {
     hsp = (xscale * movespeed)
     if grounded

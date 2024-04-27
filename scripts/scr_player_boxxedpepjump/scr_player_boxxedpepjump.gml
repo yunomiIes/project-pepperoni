@@ -1,4 +1,4 @@
-function scr_player_boxxedpepjump() //gml_Script_scr_player_boxxedpepjump
+function scr_player_boxxedpepjump() //scr_player_boxxedpepjump
 {
     move = (key_left + key_right)
     if ((boxxeddash == 1))

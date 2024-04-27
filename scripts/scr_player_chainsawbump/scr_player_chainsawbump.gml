@@ -1,4 +1,4 @@
-function scr_player_chainsawbump() //gml_Script_scr_player_chainsawbump
+function scr_player_chainsawbump() //scr_player_chainsawbump
 {
     hsp = (xscale * movespeed)
     move = (key_right + key_left)

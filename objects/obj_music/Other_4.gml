@@ -66,4 +66,4 @@ if ((room == rank_room))
 }
 if (global.death_mode || global.snickchallenge)
     audio_stop_sound(music)
-scr_entrancemus()
+

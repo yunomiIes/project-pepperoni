@@ -1,4 +1,4 @@
-function __global_object_depths() //gml_Script___global_object_depths
+function __global_object_depths() //__global_object_depths
 {
     global.__objectDepths[0] = 98
     global.__objectDepths[1] = -6

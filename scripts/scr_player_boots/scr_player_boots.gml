@@ -1,4 +1,4 @@
-function scr_player_boots() //gml_Script_scr_player_boots
+function scr_player_boots() //scr_player_boots
 {
     landAnim = 0
     hsp = (move * movespeed)

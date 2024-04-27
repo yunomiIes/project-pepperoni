@@ -1,4 +1,4 @@
-function scr_player_tackle() //gml_Script_scr_player_tackle
+function scr_player_tackle() //scr_player_tackle
 {
     combo = 0
     mach2 = 0

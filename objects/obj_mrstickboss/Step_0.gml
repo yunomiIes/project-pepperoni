@@ -56,7 +56,7 @@ switch state
         break
     case (134 << 0):
         grav = 0.5
-        state_boss_walk(gml_Script_boss_mrstick_decide_attack)
+        state_boss_walk(boss_mrstick_decide_attack)
         inv_timer = 2
         invincible = 1
         break

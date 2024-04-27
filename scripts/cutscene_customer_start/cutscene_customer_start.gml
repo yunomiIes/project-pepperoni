@@ -1,4 +1,4 @@
-function cutscene_customer_start(argument0) //gml_Script_cutscene_customer_start
+function cutscene_customer_start(argument0) //cutscene_customer_start
 {
     var player = argument0
     var finish = 1

@@ -1,4 +1,4 @@
-function scr_solid(argument0, argument1) //gml_Script_scr_solid
+function scr_solid(argument0, argument1) //scr_solid
 {
     var old_x = x
     var old_y = y
@@ -39,7 +39,7 @@ function scr_solid(argument0, argument1) //gml_Script_scr_solid
     return false;
 }
 
-function check_slope(argument0) //gml_Script_check_slope
+function check_slope(argument0) //check_slope
 {
     var slope = instance_place(x, y, argument0)
     if slope
@@ -70,7 +70,7 @@ function check_slope(argument0) //gml_Script_check_slope
     return false;
 }
 
-function scr_solid_slope(argument0, argument1) //gml_Script_scr_solid_slope
+function scr_solid_slope(argument0, argument1) //scr_solid_slope
 {
     old_x = x
     old_y = y

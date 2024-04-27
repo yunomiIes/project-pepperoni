@@ -1,4 +1,4 @@
-function scr_player_ratmountgroundpound() //gml_Script_scr_player_ratmountgroundpound
+function scr_player_ratmountgroundpound() //scr_player_ratmountgroundpound
 {
     if ((sprite_index == spr_player_ratmountgroundpound))
     {

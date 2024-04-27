@@ -1,4 +1,4 @@
-function scr_player_knightpepbump() //gml_Script_scr_player_knightpepbump
+function scr_player_knightpepbump() //scr_player_knightpepbump
 {
     alarm[5] = 2
     alarm[7] = 60

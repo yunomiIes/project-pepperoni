@@ -1,4 +1,4 @@
-function scr_add_wave(argument0, argument1, argument2, argument3, argument4) //gml_Script_scr_add_wave
+function scr_add_wave(argument0, argument1, argument2, argument3, argument4) //scr_add_wave
 {
     var _wave = argument0
     var _enemynumber = argument1

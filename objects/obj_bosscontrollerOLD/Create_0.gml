@@ -1,5 +1,5 @@
 depth = (obj_drawcontroller.depth + 2)
-function get_player_hp_gml_Object_obj_bosscontrollerOLD_Create_0() //gml_Script_get_player_hp_gml_Object_obj_bosscontrollerOLD_Create_0
+function get_player_hp_gml_Object_obj_bosscontrollerOLD_Create_0() //get_player_hp_gml_Object_obj_bosscontrollerOLD_Create_0
 {
 }
 

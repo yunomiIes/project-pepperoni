@@ -1,4 +1,4 @@
-function scr_ragecheck() //gml_Script_scr_ragecheck
+function scr_ragecheck() //scr_ragecheck
 {
     return;
 }

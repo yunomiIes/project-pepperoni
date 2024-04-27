@@ -1,4 +1,4 @@
-function scr_player_climbwall() //gml_Script_scr_player_climbwall
+function scr_player_climbwall() //scr_player_climbwall
 {
     switch character
     {

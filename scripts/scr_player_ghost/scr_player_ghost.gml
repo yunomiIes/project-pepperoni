@@ -1,4 +1,4 @@
-function scr_player_ghostdash_sprites(argument0) //gml_Script_scr_player_ghostdash_sprites
+function scr_player_ghostdash_sprites(argument0) //scr_player_ghostdash_sprites
 {
     if ((argument0 == undefined))
         argument0 = 2.5
@@ -29,7 +29,7 @@ function scr_player_ghostdash_sprites(argument0) //gml_Script_scr_player_ghostda
         sprite_index = spr_ghostidle
 }
 
-function scr_player_ghost() //gml_Script_scr_player_ghost
+function scr_player_ghost() //scr_player_ghost
 {
     visible = true
     image_speed = 0.35
@@ -325,7 +325,7 @@ function scr_player_ghost() //gml_Script_scr_player_ghost
         image_alpha = 1
 }
 
-function scr_player_ghostpossess() //gml_Script_scr_player_ghostpossess
+function scr_player_ghostpossess() //scr_player_ghostpossess
 {
     visible = false
     hsp = 0

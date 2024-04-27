@@ -1,4 +1,4 @@
-function boss_pepperman_decide_attack() //gml_Script_boss_pepperman_decide_attack
+function boss_pepperman_decide_attack() //boss_pepperman_decide_attack
 {
     if ((phase < 5))
         pepperman_decide_attack_phase1()
@@ -9,7 +9,7 @@ function boss_pepperman_decide_attack() //gml_Script_boss_pepperman_decide_attac
     return;
 }
 
-function pepperman_decide_attack_phase6() //gml_Script_pepperman_decide_attack_phase6
+function pepperman_decide_attack_phase6() //pepperman_decide_attack_phase6
 {
     if ((attack_cooldown > 0))
         attack_cooldown--
@@ -44,7 +44,7 @@ function pepperman_decide_attack_phase6() //gml_Script_pepperman_decide_attack_p
     return;
 }
 
-function pepperman_decide_attack_phase5() //gml_Script_pepperman_decide_attack_phase5
+function pepperman_decide_attack_phase5() //pepperman_decide_attack_phase5
 {
     if ((attack_cooldown > 0))
         attack_cooldown--
@@ -91,7 +91,7 @@ function pepperman_decide_attack_phase5() //gml_Script_pepperman_decide_attack_p
     return;
 }
 
-function pepperman_decide_attack_phase1() //gml_Script_pepperman_decide_attack_phase1
+function pepperman_decide_attack_phase1() //pepperman_decide_attack_phase1
 {
     if ((attack_cooldown > 0))
         attack_cooldown--
@@ -160,7 +160,7 @@ function pepperman_decide_attack_phase1() //gml_Script_pepperman_decide_attack_p
     return;
 }
 
-function boss_pepperman_normal() //gml_Script_boss_pepperman_normal
+function boss_pepperman_normal() //boss_pepperman_normal
 {
     image_speed = 0.35
     if ((targetplayer.state != (156 << 0)))
@@ -209,7 +209,7 @@ function boss_pepperman_normal() //gml_Script_boss_pepperman_normal
     return;
 }
 
-function boss_pepperman_phase3normal() //gml_Script_boss_pepperman_phase3normal
+function boss_pepperman_phase3normal() //boss_pepperman_phase3normal
 {
     image_speed = 0.35
     if ((hsp != 0) && grounded)
@@ -227,7 +227,7 @@ function boss_pepperman_phase3normal() //gml_Script_boss_pepperman_phase3normal
     return;
 }
 
-function boss_pepperman_jump() //gml_Script_boss_pepperman_jump
+function boss_pepperman_jump() //boss_pepperman_jump
 {
     image_speed = 0.35
     if ((sprite_index == spr_pepperman_jump) && (image_index > (image_number - 1)))
@@ -265,7 +265,7 @@ function boss_pepperman_jump() //gml_Script_boss_pepperman_jump
     return;
 }
 
-function boss_pepperman_freefallprep() //gml_Script_boss_pepperman_freefallprep
+function boss_pepperman_freefallprep() //boss_pepperman_freefallprep
 {
     hsp = 0
     vsp = 0
@@ -307,7 +307,7 @@ function boss_pepperman_freefallprep() //gml_Script_boss_pepperman_freefallprep
     return;
 }
 
-function boss_pepperman_freefall() //gml_Script_boss_pepperman_freefall
+function boss_pepperman_freefall() //boss_pepperman_freefall
 {
     vsp = 20
     if grounded
@@ -325,7 +325,7 @@ function boss_pepperman_freefall() //gml_Script_boss_pepperman_freefall
     return;
 }
 
-function boss_pepperman_freefallland() //gml_Script_boss_pepperman_freefallland
+function boss_pepperman_freefallland() //boss_pepperman_freefallland
 {
     if ((image_index > (image_number - 1)))
     {
@@ -347,7 +347,7 @@ function boss_pepperman_freefallland() //gml_Script_boss_pepperman_freefallland
     return;
 }
 
-function boss_pepperman_shoulderbash() //gml_Script_boss_pepperman_shoulderbash
+function boss_pepperman_shoulderbash() //boss_pepperman_shoulderbash
 {
     image_speed = 0.35
     if ((sprite_index == spr_pepperman_shoulderstart) && (image_index > (image_number - 1)))
@@ -401,7 +401,7 @@ function boss_pepperman_shoulderbash() //gml_Script_boss_pepperman_shoulderbash
     return;
 }
 
-function boss_pepperman_charge() //gml_Script_boss_pepperman_charge
+function boss_pepperman_charge() //boss_pepperman_charge
 {
     image_speed = 0.35
     hsp = 0
@@ -415,7 +415,7 @@ function boss_pepperman_charge() //gml_Script_boss_pepperman_charge
     return;
 }
 
-function boss_pepperman_supershoulderbash() //gml_Script_boss_pepperman_supershoulderbash
+function boss_pepperman_supershoulderbash() //boss_pepperman_supershoulderbash
 {
     image_speed = 0.35
     hsp = (image_xscale * (shoulder_spd * 2))
@@ -437,7 +437,7 @@ function boss_pepperman_supershoulderbash() //gml_Script_boss_pepperman_supersho
     return;
 }
 
-function boss_pepperman_shoulder() //gml_Script_boss_pepperman_shoulder
+function boss_pepperman_shoulder() //boss_pepperman_shoulder
 {
     image_speed = 0.35
     hsp = (image_xscale * shoulder_spd)
@@ -474,7 +474,7 @@ function boss_pepperman_shoulder() //gml_Script_boss_pepperman_shoulder
     return;
 }
 
-function boss_pepperman_shoulderturn() //gml_Script_boss_pepperman_shoulderturn
+function boss_pepperman_shoulderturn() //boss_pepperman_shoulderturn
 {
     hsp = Approach(hsp, 0, 0.5)
     if ((image_index > (image_number - 1)))
@@ -487,7 +487,7 @@ function boss_pepperman_shoulderturn() //gml_Script_boss_pepperman_shoulderturn
     return;
 }
 
-function boss_pepperman_superattackstart() //gml_Script_boss_pepperman_superattackstart
+function boss_pepperman_superattackstart() //boss_pepperman_superattackstart
 {
     hsp = 0
     vsp = 0
@@ -511,7 +511,7 @@ function boss_pepperman_superattackstart() //gml_Script_boss_pepperman_superatta
     return;
 }
 
-function boss_pepperman_superattackcharge() //gml_Script_boss_pepperman_superattackcharge
+function boss_pepperman_superattackcharge() //boss_pepperman_superattackcharge
 {
     hsp = 0
     vsp = 0
@@ -528,7 +528,7 @@ function boss_pepperman_superattackcharge() //gml_Script_boss_pepperman_superatt
     return;
 }
 
-function boss_pepperman_superslam() //gml_Script_boss_pepperman_superslam
+function boss_pepperman_superslam() //boss_pepperman_superslam
 {
     image_speed = 0.35
     var ss_spd = 16
@@ -540,7 +540,7 @@ function boss_pepperman_superslam() //gml_Script_boss_pepperman_superslam
     return;
 }
 
-function boss_pepperman_fistmatch() //gml_Script_boss_pepperman_fistmatch
+function boss_pepperman_fistmatch() //boss_pepperman_fistmatch
 {
     x = hitX
     y = hitY
@@ -632,7 +632,7 @@ function boss_pepperman_fistmatch() //gml_Script_boss_pepperman_fistmatch
     return;
 }
 
-function boss_pepperman_fistmatchend() //gml_Script_boss_pepperman_fistmatchend
+function boss_pepperman_fistmatchend() //boss_pepperman_fistmatchend
 {
     state_boss_arenaround()
     var c = 0
@@ -651,7 +651,7 @@ function boss_pepperman_fistmatchend() //gml_Script_boss_pepperman_fistmatchend
     return;
 }
 
-function boss_pepperman_summonbricks() //gml_Script_boss_pepperman_summonbricks
+function boss_pepperman_summonbricks() //boss_pepperman_summonbricks
 {
     instance_create((room_width / 2), -64, obj_peppermanbrick)
     instance_create((room_width / 5), -64, obj_peppermanbrick)

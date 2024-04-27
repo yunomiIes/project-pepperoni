@@ -1,4 +1,4 @@
-function scr_player_victory() //gml_Script_scr_player_victory
+function scr_player_victory() //scr_player_victory
 {
     hsp = 0
     mach2 = 0

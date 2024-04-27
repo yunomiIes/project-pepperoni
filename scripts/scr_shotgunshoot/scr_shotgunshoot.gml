@@ -1,4 +1,4 @@
-function scr_shotgunshoot() //gml_Script_scr_shotgunshoot
+function scr_shotgunshoot() //scr_shotgunshoot
 {
     scr_soundeffect(sfx_killingblow)
     with (instance_create(x, y, obj_pistoleffect))

@@ -1,4 +1,4 @@
-function scr_enemy_ratgrabbed() //gml_Script_scr_enemy_ratgrabbed
+function scr_enemy_ratgrabbed() //scr_enemy_ratgrabbed
 {
     var p = ((object_index == obj_junk) ? true : (object_get_parent(object_index) == 408))
     if (((!p) && (state == (205 << 0))) || (p && ratgrabbed))

@@ -1,4 +1,4 @@
-function __view_set_internal(argument0, argument1, argument2) //gml_Script___view_set_internal
+function __view_set_internal(argument0, argument1, argument2) //__view_set_internal
 {
     switch argument0
     {

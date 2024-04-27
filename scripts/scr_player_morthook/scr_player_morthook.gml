@@ -1,4 +1,4 @@
-function scr_player_morthook() //gml_Script_scr_player_morthook
+function scr_player_morthook() //scr_player_morthook
 {
     jumpstop = 1
     doublejump = 0

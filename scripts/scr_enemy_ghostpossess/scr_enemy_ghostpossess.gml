@@ -1,4 +1,4 @@
-function scr_enemy_ghostpossess() //gml_Script_scr_enemy_ghostpossess
+function scr_enemy_ghostpossess() //scr_enemy_ghostpossess
 {
     var _move = 0
     with (playerid)

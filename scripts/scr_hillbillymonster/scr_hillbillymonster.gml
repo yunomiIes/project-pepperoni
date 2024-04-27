@@ -1,4 +1,4 @@
-function scr_hillbilly_idle() //gml_Script_scr_hillbilly_idle
+function scr_hillbilly_idle() //scr_hillbilly_idle
 {
     sprite_index = idlespr
     if (((global.monsterspeed >= 1) && point_in_camera(x, y, view_camera[0])) || distance_to_pos(x, y, playerinst.x, playerinst.y, 480, 270))
@@ -9,7 +9,7 @@ function scr_hillbilly_idle() //gml_Script_scr_hillbilly_idle
     return;
 }
 
-function scr_hillbilly_chase() //gml_Script_scr_hillbilly_chase
+function scr_hillbilly_chase() //scr_hillbilly_chase
 {
     if ((hsp != 0))
         sprite_index = chasespr
@@ -29,7 +29,7 @@ function scr_hillbilly_chase() //gml_Script_scr_hillbilly_chase
     return;
 }
 
-function scr_hillbilly_machslide() //gml_Script_scr_hillbilly_machslide
+function scr_hillbilly_machslide() //scr_hillbilly_machslide
 {
     sprite_index = skidspr
     if ((abs(hsp) > 0))
@@ -49,7 +49,7 @@ function scr_hillbilly_machslide() //gml_Script_scr_hillbilly_machslide
     return;
 }
 
-function scr_hillbilly_detect() //gml_Script_scr_hillbilly_detect
+function scr_hillbilly_detect() //scr_hillbilly_detect
 {
     hsp = 0
     sprite_index = idlespr
@@ -66,7 +66,7 @@ function scr_hillbilly_detect() //gml_Script_scr_hillbilly_detect
     return;
 }
 
-function scr_hillbilly_destroyables() //gml_Script_scr_hillbilly_destroyables
+function scr_hillbilly_destroyables() //scr_hillbilly_destroyables
 {
     with (obj_woodenwalls)
     {

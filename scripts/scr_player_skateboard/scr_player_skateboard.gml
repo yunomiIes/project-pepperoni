@@ -1,4 +1,4 @@
-function scr_player_skateboard() //gml_Script_scr_player_skateboard
+function scr_player_skateboard() //scr_player_skateboard
 {
     machhitAnim = 0
     crouchslideAnim = 1

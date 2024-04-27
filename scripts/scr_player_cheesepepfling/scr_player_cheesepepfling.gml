@@ -1,4 +1,4 @@
-function scr_player_cheesepepfling() //gml_Script_scr_player_cheesepepfling
+function scr_player_cheesepepfling() //scr_player_cheesepepfling
 {
     hsp = 0
     sprite_index = spr_cheesepepintro

@@ -1,4 +1,4 @@
-function scr_player_Sjump() //gml_Script_scr_player_Sjump
+function scr_player_Sjump() //scr_player_Sjump
 {
     move = (key_right + key_left)
     hsp = 0

@@ -1,4 +1,4 @@
-function scr_sleep(argument0) //gml_Script_scr_sleep
+function scr_sleep(argument0) //scr_sleep
 {
     var time = current_time
     var ms = argument0

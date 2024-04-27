@@ -1,4 +1,4 @@
-function scr_player_playersuperattack() //gml_Script_scr_player_playersuperattack
+function scr_player_playersuperattack() //scr_player_playersuperattack
 {
     image_speed = 0.5
     switch superattackstate

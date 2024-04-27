@@ -1,4 +1,4 @@
-function cutscene_check_collision(argument0, argument1) //gml_Script_cutscene_check_collision
+function cutscene_check_collision(argument0, argument1) //cutscene_check_collision
 {
     var obj1 = argument0
     var obj2 = argument1

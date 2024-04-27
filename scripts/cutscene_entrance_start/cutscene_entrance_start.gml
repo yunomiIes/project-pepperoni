@@ -1,4 +1,4 @@
-function cutscene_entrance_start() //gml_Script_cutscene_entrance_start
+function cutscene_entrance_start() //cutscene_entrance_start
 {
     with (obj_player)
     {

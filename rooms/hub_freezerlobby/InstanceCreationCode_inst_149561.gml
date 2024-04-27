@@ -8,7 +8,7 @@ if (global.levelcomplete && (!global.freezercutscene))
     }
     currentroom = room
     dragonactor = 118689
-    scene_info = [[gml_Script_cutscene_medieval_start], [gml_Script_cutscene_waitfor_sprite, 349], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_298_gml_RoomCC_hub_freezerlobby_3_Create
+    scene_info = [[cutscene_medieval_start], [cutscene_waitfor_sprite, 349], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_298_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (obj_actor)
         {
@@ -21,7 +21,7 @@ if (global.levelcomplete && (!global.freezercutscene))
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_player_idleanim], [gml_Script_cutscene_player_float, 1], [gml_Script_cutscene_player_pos_lerp, 832, 288, 0.07], [gml_Script_cutscene_wait, 40], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_622_gml_RoomCC_hub_freezerlobby_3_Create
+], [cutscene_set_player_visible, 0], [cutscene_player_idleanim], [cutscene_player_float, 1], [cutscene_player_pos_lerp, 832, 288, 0.07], [cutscene_wait, 40], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_622_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (dragonactor)
         {
@@ -33,7 +33,7 @@ if (global.levelcomplete && (!global.freezercutscene))
         cutscene_end_action()
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_822_gml_RoomCC_hub_freezerlobby_3_Create
+], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_822_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (dragonactor)
         {
@@ -46,7 +46,7 @@ if (global.levelcomplete && (!global.freezercutscene))
         }
         return;
     }
-], [gml_Script_cutscene_change_room, 640], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_set_player_pos, 1407, 415], [gml_Script_cutscene_wait, 20], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_1101_gml_RoomCC_hub_freezerlobby_3_Create
+], [cutscene_change_room, 640], [cutscene_set_player_visible, 0], [cutscene_set_player_pos, 1407, 415], [cutscene_wait, 20], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_1101_gml_RoomCC_hub_freezerlobby_3_Create
     {
         dragonactor = instance_create(1407, -125, obj_actor)
         dragonactor.sprite_index = spr_cheesedragon_idle
@@ -54,7 +54,7 @@ if (global.levelcomplete && (!global.freezercutscene))
         cutscene_end_action()
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_1293_gml_RoomCC_hub_freezerlobby_3_Create
+], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_1293_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (dragonactor)
         {
@@ -69,7 +69,7 @@ if (global.levelcomplete && (!global.freezercutscene))
         }
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_1522_gml_RoomCC_hub_freezerlobby_3_Create
+], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_1522_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (dragonactor)
         {
@@ -84,7 +84,7 @@ if (global.levelcomplete && (!global.freezercutscene))
         }
         return;
     }
-], [gml_Script_cutscene_soundeffect, 27], [gml_Script_cutscene_camera_shake, 5, (3 / room_speed)], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_1822_gml_RoomCC_hub_freezerlobby_3_Create
+], [cutscene_soundeffect, 27], [cutscene_camera_shake, 5, (3 / room_speed)], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_1822_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (dragonactor)
         {
@@ -97,21 +97,21 @@ if (global.levelcomplete && (!global.freezercutscene))
         }
         return;
     }
-], [gml_Script_cutscene_wait, 50], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_2045_gml_RoomCC_hub_freezerlobby_3_Create
+], [cutscene_wait, 50], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_2045_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (obj_freezerblock)
             instance_destroy()
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_wait, 50], [gml_Script_cutscene_change_room, 638], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_set_player_pos, 190, 600], [gml_Script_cutscene_soundeffect, 27], [gml_Script_cutscene_camera_shake, 5, (3 / room_speed)], [gml_Script_cutscene_wait, 50], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_2369_gml_RoomCC_hub_freezerlobby_3_Create
+], [cutscene_wait, 50], [cutscene_change_room, 638], [cutscene_set_player_visible, 0], [cutscene_set_player_pos, 190, 600], [cutscene_soundeffect, 27], [cutscene_camera_shake, 5, (3 / room_speed)], [cutscene_wait, 50], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_2369_gml_RoomCC_hub_freezerlobby_3_Create
     {
         with (obj_freezerblock)
             instance_destroy()
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_wait, 50], [gml_Script_cutscene_change_room, currentroom], [gml_Script_cutscene_set_player_pos, backx, backy], [gml_Script_cutscene_set_player_visible, 1], [gml_Script_cutscene_player_float, 0], [function() //gml_Script_anon_gml_RoomCC_hub_freezerlobby_3_Create_2631_gml_RoomCC_hub_freezerlobby_3_Create
+], [cutscene_wait, 50], [cutscene_change_room, currentroom], [cutscene_set_player_pos, backx, backy], [cutscene_set_player_visible, 1], [cutscene_player_float, 0], [function() //anon_gml_RoomCC_hub_freezerlobby_3_Create_2631_gml_RoomCC_hub_freezerlobby_3_Create
     {
         instance_destroy(obj_actor)
         with (obj_player)
@@ -129,12 +129,12 @@ if (global.levelcomplete && (!global.freezercutscene))
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_save_game]]
+], [cutscene_save_game]]
 }
 else if global.levelcomplete
 {
     global.levelcomplete = 0
-    scene_info = [[gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_save_game]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 20]]
+    scene_info = [[cutscene_wait, 20]]

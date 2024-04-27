@@ -1,4 +1,4 @@
-function scr_player_rocketslide() //gml_Script_scr_player_rocketslide
+function scr_player_rocketslide() //scr_player_rocketslide
 {
     if ((character == "NTV"))
     {

@@ -1,4 +1,4 @@
-function scr_fakepeppino_hit() //gml_Script_scr_fakepeppino_hit
+function scr_fakepeppino_hit() //scr_fakepeppino_hit
 {
     return;
 }

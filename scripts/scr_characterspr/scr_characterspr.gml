@@ -1,4 +1,4 @@
-function scr_characterspr() //gml_Script_scr_characterspr
+function scr_characterspr() //scr_characterspr
 {
     if ((character == "P") && ispeppino)
     {

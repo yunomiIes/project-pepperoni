@@ -1,4 +1,4 @@
-function scr_player_ejected() //gml_Script_scr_player_ejected
+function scr_player_ejected() //scr_player_ejected
 {
     sprite_index = spr_deathend
     if ((vsp < 20))

@@ -1,4 +1,4 @@
-function scr_player_grabbed() //gml_Script_scr_player_grabbed
+function scr_player_grabbed() //scr_player_grabbed
 {
     var _obj_player = ((object_index == obj_player2) ? obj_player1 : obj_player2)
     if ((fightball == 0))

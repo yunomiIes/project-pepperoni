@@ -1,4 +1,4 @@
-function cutscene_medieval_middle() //gml_Script_cutscene_medieval_middle
+function cutscene_medieval_middle() //cutscene_medieval_middle
 {
     var _finish = 0
     with (obj_knightplatform)

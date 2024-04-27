@@ -1,4 +1,4 @@
-function scr_do_noisejetpack() //gml_Script_scr_do_noisejetpack
+function scr_do_noisejetpack() //scr_do_noisejetpack
 {
     if (global.noisejetpack && (!grounded) && key_jump && (walljumpbuffer <= 0))
     {

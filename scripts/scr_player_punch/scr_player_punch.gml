@@ -1,4 +1,4 @@
-function scr_player_punch() //gml_Script_scr_player_punch
+function scr_player_punch() //scr_player_punch
 {
     if ((sprite_index == spr_breakdanceuppercut) || (sprite_index == spr_breakdanceuppercutend))
     {

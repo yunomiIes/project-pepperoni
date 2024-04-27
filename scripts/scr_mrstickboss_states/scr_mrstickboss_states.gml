@@ -1,4 +1,4 @@
-function boss_mrstick_decide_attack() //gml_Script_boss_mrstick_decide_attack
+function boss_mrstick_decide_attack() //boss_mrstick_decide_attack
 {
     if ((attack_cooldown <= 0))
     {
@@ -67,7 +67,7 @@ function boss_mrstick_decide_attack() //gml_Script_boss_mrstick_decide_attack
     return;
 }
 
-function boss_mrstick_normal() //gml_Script_boss_mrstick_normal
+function boss_mrstick_normal() //boss_mrstick_normal
 {
     image_speed = 0.35
     var dx = abs((targetplayer.x - x))
@@ -123,7 +123,7 @@ function boss_mrstick_normal() //gml_Script_boss_mrstick_normal
     return;
 }
 
-function boss_mrstick_shield() //gml_Script_boss_mrstick_shield
+function boss_mrstick_shield() //boss_mrstick_shield
 {
     if ((shield_buffer > 0))
         shield_buffer--
@@ -132,7 +132,7 @@ function boss_mrstick_shield() //gml_Script_boss_mrstick_shield
     return;
 }
 
-function boss_mrstick_helicopterhat() //gml_Script_boss_mrstick_helicopterhat
+function boss_mrstick_helicopterhat() //boss_mrstick_helicopterhat
 {
     x = Approach(x, target_x, movespeed)
     switch helicopterstate
@@ -167,7 +167,7 @@ function boss_mrstick_helicopterhat() //gml_Script_boss_mrstick_helicopterhat
     return;
 }
 
-function boss_mrstick_panicjump() //gml_Script_boss_mrstick_panicjump
+function boss_mrstick_panicjump() //boss_mrstick_panicjump
 {
     image_speed = 0.35
     hsp = (image_xscale * movespeed)
@@ -187,7 +187,7 @@ function boss_mrstick_panicjump() //gml_Script_boss_mrstick_panicjump
     return;
 }
 
-function boss_mrstick_jump() //gml_Script_boss_mrstick_jump
+function boss_mrstick_jump() //boss_mrstick_jump
 {
     hsp = (image_xscale * movespeed)
     if ((sprite_index == spr_mrstick_jump) && (image_index > (image_number - 1)))
@@ -231,7 +231,7 @@ function boss_mrstick_jump() //gml_Script_boss_mrstick_jump
     return;
 }
 
-function boss_mrstick_smokebombstart() //gml_Script_boss_mrstick_smokebombstart
+function boss_mrstick_smokebombstart() //boss_mrstick_smokebombstart
 {
     hsp = 0
     if ((image_index > (image_number - 1)))
@@ -254,7 +254,7 @@ function boss_mrstick_smokebombstart() //gml_Script_boss_mrstick_smokebombstart
     return;
 }
 
-function boss_mrstick_smokebombcrawl() //gml_Script_boss_mrstick_smokebombcrawl
+function boss_mrstick_smokebombcrawl() //boss_mrstick_smokebombcrawl
 {
     hsp = (image_xscale * movespeed)
     if ((x > (target_x - 16)) && (x < (target_x + 16)))
@@ -265,7 +265,7 @@ function boss_mrstick_smokebombcrawl() //gml_Script_boss_mrstick_smokebombcrawl
     return;
 }
 
-function boss_mrstick_springshoes() //gml_Script_boss_mrstick_springshoes
+function boss_mrstick_springshoes() //boss_mrstick_springshoes
 {
     hsp = (image_xscale * movespeed)
     if ((sprite_index == spr_mrstick_jump) && (image_index > (image_number - 1)))
@@ -292,7 +292,7 @@ function boss_mrstick_springshoes() //gml_Script_boss_mrstick_springshoes
     return;
 }
 
-function boss_mrstick_cardboard() //gml_Script_boss_mrstick_cardboard
+function boss_mrstick_cardboard() //boss_mrstick_cardboard
 {
     x = -400
     y = -400
@@ -313,7 +313,7 @@ function boss_mrstick_cardboard() //gml_Script_boss_mrstick_cardboard
     return;
 }
 
-function boss_mrstick_cardboardend() //gml_Script_boss_mrstick_cardboardend
+function boss_mrstick_cardboardend() //boss_mrstick_cardboardend
 {
     hsp = (image_xscale * movespeed)
     if (scr_solid(x, (y + vsp)) && (!(scr_solid(x, y))))
@@ -326,7 +326,7 @@ function boss_mrstick_cardboardend() //gml_Script_boss_mrstick_cardboardend
     return;
 }
 
-function boss_mrstick_mockery() //gml_Script_boss_mrstick_mockery
+function boss_mrstick_mockery() //boss_mrstick_mockery
 {
     hsp = 0
     targetstunned = 0

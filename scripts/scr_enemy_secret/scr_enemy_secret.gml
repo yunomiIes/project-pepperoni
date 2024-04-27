@@ -1,4 +1,4 @@
-function scr_enemy_secret() //gml_Script_scr_enemy_secret
+function scr_enemy_secret() //scr_enemy_secret
 {
     visible = false
     invincible = 1

@@ -1,4 +1,4 @@
-function scr_player_addslopemomentum(argument0, argument1) //gml_Script_scr_player_addslopemomentum
+function scr_player_addslopemomentum(argument0, argument1) //scr_player_addslopemomentum
 {
     with (instance_place(x, (y + 1), obj_slope))
     {
@@ -12,7 +12,7 @@ function scr_player_addslopemomentum(argument0, argument1) //gml_Script_scr_play
     }
 }
 
-function scr_pizzaball_addslopemomentum(argument0, argument1) //gml_Script_scr_pizzaball_addslopemomentum
+function scr_pizzaball_addslopemomentum(argument0, argument1) //scr_pizzaball_addslopemomentum
 {
     with (instance_place(x, (y + 1), obj_slope))
     {

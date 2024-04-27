@@ -1,4 +1,4 @@
-function scr_player_mach3() //gml_Script_scr_player_mach3
+function scr_player_mach3() //scr_player_mach3
 {
     if ((windingAnim < 2000))
         windingAnim++

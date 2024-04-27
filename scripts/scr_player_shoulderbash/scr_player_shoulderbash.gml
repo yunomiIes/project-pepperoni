@@ -1,4 +1,4 @@
-function scr_player_shoulderbash() //gml_Script_scr_player_shoulderbash
+function scr_player_shoulderbash() //scr_player_shoulderbash
 {
     switch character
     {

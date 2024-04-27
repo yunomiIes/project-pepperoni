@@ -1,4 +1,4 @@
-function scr_rockblock_tag() //gml_Script_scr_rockblock_tag
+function scr_rockblock_tag() //scr_rockblock_tag
 {
     with (instance_place((x + 1), y, obj_rockblock))
     {

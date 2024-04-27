@@ -1,4 +1,4 @@
-function scr_enemy_lungeattack() //gml_Script_scr_enemy_lungeattack
+function scr_enemy_lungeattack() //scr_enemy_lungeattack
 {
     hsp = ((-image_xscale) * 4)
     vsp = 0

@@ -1,4 +1,4 @@
-function scr_player_stunned() //gml_Script_scr_player_stunned
+function scr_player_stunned() //scr_player_stunned
 {
     hsp = 0
     combo = 0

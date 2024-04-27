@@ -1,4 +1,4 @@
-function scr_player_ratmountjump() //gml_Script_scr_player_ratmountjump
+function scr_player_ratmountjump() //scr_player_ratmountjump
 {
     move = (key_left + key_right)
     if ((sprite_index == spr_lonegustavo_dashjump))

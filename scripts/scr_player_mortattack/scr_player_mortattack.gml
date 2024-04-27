@@ -1,4 +1,4 @@
-function scr_player_mortattack() //gml_Script_scr_player_mortattack
+function scr_player_mortattack() //scr_player_mortattack
 {
     image_speed = 0.45
     hsp = movespeed

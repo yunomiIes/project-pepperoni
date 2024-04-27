@@ -1,4 +1,4 @@
-function scr_monster_activate() //gml_Script_scr_monster_activate
+function scr_monster_activate() //scr_monster_activate
 {
     with (obj_monster)
     {
@@ -33,7 +33,7 @@ function scr_monster_activate() //gml_Script_scr_monster_activate
     }
 }
 
-function get_triangle_points(argument0, argument1, argument2, argument3, argument4) //gml_Script_get_triangle_points
+function get_triangle_points(argument0, argument1, argument2, argument3, argument4) //get_triangle_points
 {
     var x2 = (argument0 + lengthdir_x(argument3, (argument2 - argument4)))
     var y2 = (argument1 + lengthdir_y(argument3, (argument2 - argument4)))
@@ -42,7 +42,7 @@ function get_triangle_points(argument0, argument1, argument2, argument3, argumen
     return [x2, y2, x3, y3];
 }
 
-function scr_monster_detect(argument0, argument1, argument2) //gml_Script_scr_monster_detect
+function scr_monster_detect(argument0, argument1, argument2) //scr_monster_detect
 {
     var _dir = ((image_xscale > 0) ? (argument2.x > x) : (argument2.x < x))
     if (_dir && (argument2.x < (x + argument0)) && (argument2.x > (x - argument0)) && (argument2.y < (y + argument1)) && (argument2.y > (y - argument1)))
@@ -62,7 +62,7 @@ function scr_monster_detect(argument0, argument1, argument2) //gml_Script_scr_mo
     return 0;
 }
 
-function scr_puppet_detect() //gml_Script_scr_puppet_detect
+function scr_puppet_detect() //scr_puppet_detect
 {
     with (obj_player)
     {
@@ -72,7 +72,7 @@ function scr_puppet_detect() //gml_Script_scr_puppet_detect
     return -4;
 }
 
-function scr_puppet_appear(argument0) //gml_Script_scr_puppet_appear
+function scr_puppet_appear(argument0) //scr_puppet_appear
 {
     var _xdir = 96
     var i = 0
@@ -109,7 +109,7 @@ function scr_puppet_appear(argument0) //gml_Script_scr_puppet_appear
     }
 }
 
-function scr_monsterinvestigate(argument0, argument1, argument2) //gml_Script_scr_monsterinvestigate
+function scr_monsterinvestigate(argument0, argument1, argument2) //scr_monsterinvestigate
 {
     targetplayer = instance_nearest(x, y, obj_player)
     image_speed = 0.35
@@ -151,7 +151,7 @@ function scr_monsterinvestigate(argument0, argument1, argument2) //gml_Script_sc
         state = (220 << 0)
 }
 
-function scr_monster_detect_audio() //gml_Script_scr_monster_detect_audio
+function scr_monster_detect_audio() //scr_monster_detect_audio
 {
     if scr_monster_audio_check()
     {
@@ -175,7 +175,7 @@ function scr_monster_detect_audio() //gml_Script_scr_monster_detect_audio
     }
 }
 
-function scr_monster_audio_check() //gml_Script_scr_monster_audio_check
+function scr_monster_audio_check() //scr_monster_audio_check
 {
     if (audio_is_playing(sfx_groundpound) || audio_is_playing(sfx_scream5))
         return 1;

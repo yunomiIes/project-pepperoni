@@ -1,4 +1,4 @@
-function scr_player_secondjump() //gml_Script_scr_player_secondjump
+function scr_player_secondjump() //scr_player_secondjump
 {
     move = (key_left + key_right)
     if ((momemtum == 0))

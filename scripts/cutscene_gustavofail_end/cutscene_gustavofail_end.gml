@@ -1,4 +1,4 @@
-function cutscene_gustavofail_end(argument0) //gml_Script_cutscene_gustavofail_end
+function cutscene_gustavofail_end(argument0) //cutscene_gustavofail_end
 {
     var time = argument0
     timer++

@@ -1,4 +1,4 @@
-function cutscene_wait(argument0) //gml_Script_cutscene_wait
+function cutscene_wait(argument0) //cutscene_wait
 {
     timer++
     if ((timer >= argument0))

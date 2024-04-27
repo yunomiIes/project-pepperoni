@@ -1,4 +1,4 @@
-function scr_player_bump() //gml_Script_scr_player_bump
+function scr_player_bump() //scr_player_bump
 {
     if ((sprite_index != spr_wallsplat))
     {

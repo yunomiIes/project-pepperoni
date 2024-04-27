@@ -1,4 +1,4 @@
-function cutscene_set_sprite(argument0, argument1, argument2, argument3) //gml_Script_cutscene_set_sprite
+function cutscene_set_sprite(argument0, argument1, argument2, argument3) //cutscene_set_sprite
 {
     var _obj = argument0
     var _spr = argument1

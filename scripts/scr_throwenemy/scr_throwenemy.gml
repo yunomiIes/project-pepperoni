@@ -1,4 +1,4 @@
-function scr_throwenemy() //gml_Script_scr_throwenemy
+function scr_throwenemy() //scr_throwenemy
 {
     if instance_exists(other.baddieID)
     {

@@ -1,4 +1,4 @@
-function scr_button_pressed(argument0) //gml_Script_scr_button_pressed
+function scr_button_pressed(argument0) //scr_button_pressed
 {
     if (keyboard_check_pressed(vk_return) || keyboard_check_pressed(global.key_jump) || keyboard_check_pressed(global.key_jumpN))
         return -1;

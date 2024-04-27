@@ -1,4 +1,4 @@
-function cutscene_entrance_end() //gml_Script_cutscene_entrance_end
+function cutscene_entrance_end() //cutscene_entrance_end
 {
     with (obj_player)
     {
@@ -13,7 +13,7 @@ function cutscene_entrance_end() //gml_Script_cutscene_entrance_end
     return;
 }
 
-function cutscene_factory_end() //gml_Script_cutscene_factory_end
+function cutscene_factory_end() //cutscene_factory_end
 {
     with (obj_player)
     {
@@ -28,7 +28,7 @@ function cutscene_factory_end() //gml_Script_cutscene_factory_end
     return;
 }
 
-function cutscene_save_game() //gml_Script_cutscene_save_game
+function cutscene_save_game() //cutscene_save_game
 {
     gamesave_async_save()
     cutscene_end_action()

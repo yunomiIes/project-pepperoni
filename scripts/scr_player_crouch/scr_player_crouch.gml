@@ -1,4 +1,4 @@
-function scr_player_crouch() //gml_Script_scr_player_crouch
+function scr_player_crouch() //scr_player_crouch
 {
     move = (key_left + key_right)
     if (!(place_meeting(x, (y + 1), obj_railparent)))

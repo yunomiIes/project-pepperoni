@@ -1,4 +1,4 @@
-function scr_pizzaball_thrown() //gml_Script_scr_pizzaball_thrown
+function scr_pizzaball_thrown() //scr_pizzaball_thrown
 {
     if ((stuntouchbuffer > 0))
         stuntouchbuffer--

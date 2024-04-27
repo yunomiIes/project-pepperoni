@@ -1,4 +1,4 @@
-function state_player_normal() //gml_Script_state_player_normal
+function state_player_normal() //state_player_normal
 {
     mach2 = 0
     move = (key_left + key_right)
@@ -628,7 +628,7 @@ function state_player_normal() //gml_Script_state_player_normal
     return;
 }
 
-function state_pepperman_normal() //gml_Script_state_pepperman_normal
+function state_pepperman_normal() //state_pepperman_normal
 {
     pepperman_grab_reset()
     move = (key_left + key_right)
@@ -725,7 +725,7 @@ function state_pepperman_normal() //gml_Script_state_pepperman_normal
     return;
 }
 
-function pepperman_grab_reset() //gml_Script_pepperman_grab_reset
+function pepperman_grab_reset() //pepperman_grab_reset
 {
     if ((pepperman_grabID != noone))
     {
@@ -735,7 +735,7 @@ function pepperman_grab_reset() //gml_Script_pepperman_grab_reset
     return;
 }
 
-function scr_player_normal() //gml_Script_scr_player_normal
+function scr_player_normal() //scr_player_normal
 {
     if ((character != "M"))
         state_player_normal()

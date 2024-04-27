@@ -1,4 +1,4 @@
-function fakepep_set_attack(argument0, argument1, argument2, argument3, argument4) //gml_Script_fakepep_set_attack
+function fakepep_set_attack(argument0, argument1, argument2, argument3, argument4) //fakepep_set_attack
 {
     if ((argument3 != 0) && (argument4 == 0))
         argument4 = argument3
@@ -11,27 +11,27 @@ function fakepep_set_attack(argument0, argument1, argument2, argument3, argument
 
 }
 
-function fakepep_get_attack(argument0, argument1) //gml_Script_fakepep_get_attack
+function fakepep_get_attack(argument0, argument1) //fakepep_get_attack
 {
     return attack_list[argument0][argument1];
 }
 
-function fakepep_start_projectiles(argument0, argument1) //gml_Script_fakepep_start_projectiles
+function fakepep_start_projectiles(argument0, argument1) //fakepep_start_projectiles
 {
     projectile_list[argument0][argument1] = array_create(0)
 }
 
-function fakepep_add_projectile(argument0, argument1, argument2) //gml_Script_fakepep_add_projectile
+function fakepep_add_projectile(argument0, argument1, argument2) //fakepep_add_projectile
 {
     array_push(projectile_list[argument0][argument1], argument2)
 }
 
-function fakepep_get_projectile(argument0, argument1, argument2) //gml_Script_fakepep_get_projectile
+function fakepep_get_projectile(argument0, argument1, argument2) //fakepep_get_projectile
 {
     return projectile_list[argument0][argument1][argument2];
 }
 
-function fakepep_add_grabclone(argument0, argument1, argument2, argument3) //gml_Script_fakepep_add_grabclone
+function fakepep_add_grabclone(argument0, argument1, argument2, argument3) //fakepep_add_grabclone
 {
     fakepep_add_projectile(argument0, argument1, 
     {
@@ -42,7 +42,7 @@ function fakepep_add_grabclone(argument0, argument1, argument2, argument3) //gml
 )
 }
 
-function fakepep_add_bodyslamclone(argument0, argument1, argument2, argument3) //gml_Script_fakepep_add_bodyslamclone
+function fakepep_add_bodyslamclone(argument0, argument1, argument2, argument3) //fakepep_add_bodyslamclone
 {
     fakepep_add_projectile(argument0, argument1, 
     {
@@ -53,7 +53,7 @@ function fakepep_add_bodyslamclone(argument0, argument1, argument2, argument3) /
 )
 }
 
-function fakepep_add_machclone(argument0, argument1, argument2, argument3, argument4) //gml_Script_fakepep_add_machclone
+function fakepep_add_machclone(argument0, argument1, argument2, argument3, argument4) //fakepep_add_machclone
 {
     fakepep_add_projectile(argument0, argument1, 
     {
@@ -65,7 +65,7 @@ function fakepep_add_machclone(argument0, argument1, argument2, argument3, argum
 )
 }
 
-function fakepep_add_superjumpclones(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9) //gml_Script_fakepep_add_superjumpclones
+function fakepep_add_superjumpclones(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9) //fakepep_add_superjumpclones
 {
     if ((argument7 == undefined))
         argument7 = 100
@@ -90,7 +90,7 @@ function fakepep_add_superjumpclones(argument0, argument1, argument2, argument3,
 )
 }
 
-function fakepep_add_flailingclone(argument0, argument1, argument2, argument3, argument4, argument5, argument6) //gml_Script_fakepep_add_flailingclone
+function fakepep_add_flailingclone(argument0, argument1, argument2, argument3, argument4, argument5, argument6) //fakepep_add_flailingclone
 {
     if ((argument4 == undefined))
         argument4 = 100
@@ -110,7 +110,7 @@ function fakepep_add_flailingclone(argument0, argument1, argument2, argument3, a
 )
 }
 
-function fakepep_add_tauntclones(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7) //gml_Script_fakepep_add_tauntclones
+function fakepep_add_tauntclones(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7) //fakepep_add_tauntclones
 {
     if ((argument5 == undefined))
         argument5 = 125
@@ -131,7 +131,7 @@ function fakepep_add_tauntclones(argument0, argument1, argument2, argument3, arg
 )
 }
 
-function scr_fakepep_init_sounds() //gml_Script_scr_fakepep_init_sounds
+function scr_fakepep_init_sounds() //scr_fakepep_init_sounds
 {
     snd_bodyslam = undefined
     snd_mach = undefined
@@ -141,15 +141,15 @@ function scr_fakepep_init_sounds() //gml_Script_scr_fakepep_init_sounds
     snd_flailing = undefined
 }
 
-function scr_fakepep_destroy_sounds() //gml_Script_scr_fakepep_destroy_sounds
+function scr_fakepep_destroy_sounds() //scr_fakepep_destroy_sounds
 {
 }
 
-function scr_fakepep_update_sounds() //gml_Script_scr_fakepep_update_sounds
+function scr_fakepep_update_sounds() //scr_fakepep_update_sounds
 {
 }
 
-function scr_fakepepboss_do_projectiles(argument0, argument1) //gml_Script_scr_fakepepboss_do_projectiles
+function scr_fakepepboss_do_projectiles(argument0, argument1) //scr_fakepepboss_do_projectiles
 {
     if pizzahead
         return;
@@ -250,7 +250,7 @@ function scr_fakepepboss_do_projectiles(argument0, argument1) //gml_Script_scr_f
 
 }
 
-function scr_fakepepboss_arenaintro() //gml_Script_scr_fakepepboss_arenaintro
+function scr_fakepepboss_arenaintro() //scr_fakepepboss_arenaintro
 {
     if (!skipintro)
     {
@@ -334,7 +334,7 @@ function scr_fakepepboss_arenaintro() //gml_Script_scr_fakepepboss_arenaintro
         scr_boss_genericintro(2077)
 }
 
-function scr_fakepepboss_walk() //gml_Script_scr_fakepepboss_walk
+function scr_fakepepboss_walk() //scr_fakepepboss_walk
 {
     if ((phase == 2) && ((flickertime > 0) || (!grounded)))
     {
@@ -455,7 +455,7 @@ function scr_fakepepboss_walk() //gml_Script_scr_fakepepboss_walk
     }
 }
 
-function scr_fakepepboss_deformed() //gml_Script_scr_fakepepboss_deformed
+function scr_fakepepboss_deformed() //scr_fakepepboss_deformed
 {
     image_speed = 0.35
     hsp = 0
@@ -500,7 +500,7 @@ function scr_fakepepboss_deformed() //gml_Script_scr_fakepepboss_deformed
     }
 }
 
-function scr_fakepepboss_staggered() //gml_Script_scr_fakepepboss_staggered
+function scr_fakepepboss_staggered() //scr_fakepepboss_staggered
 {
     hsp = Approach(hsp, 0, 0.25)
     cooldown = 0
@@ -518,7 +518,7 @@ function scr_fakepepboss_staggered() //gml_Script_scr_fakepepboss_staggered
         state = (134 << 0)
 }
 
-function scr_fakepepboss_grabdash() //gml_Script_scr_fakepepboss_grabdash
+function scr_fakepepboss_grabdash() //scr_fakepepboss_grabdash
 {
     if ((grabstart > 0))
     {
@@ -551,7 +551,7 @@ function scr_fakepepboss_grabdash() //gml_Script_scr_fakepepboss_grabdash
     }
 }
 
-function scr_fakepepboss_grabthrow() //gml_Script_scr_fakepepboss_grabthrow
+function scr_fakepepboss_grabthrow() //scr_fakepepboss_grabthrow
 {
     with (playerID)
     {
@@ -582,7 +582,7 @@ function scr_fakepepboss_grabthrow() //gml_Script_scr_fakepepboss_grabthrow
     }
 }
 
-function scr_fakepepboss_jump() //gml_Script_scr_fakepepboss_jump
+function scr_fakepepboss_jump() //scr_fakepepboss_jump
 {
     if ((sprite_index == spr_fakepeppino_bodyslamstart))
     {
@@ -613,7 +613,7 @@ function scr_fakepepboss_jump() //gml_Script_scr_fakepepboss_jump
     }
 }
 
-function scr_fakepepboss_freefall() //gml_Script_scr_fakepepboss_freefall
+function scr_fakepepboss_freefall() //scr_fakepepboss_freefall
 {
     if ((sprite_index == spr_fakepeppino_bodyslamfall) && (floor(image_index) == (image_number - 1)))
         image_index = (image_number - 4)
@@ -641,7 +641,7 @@ function scr_fakepepboss_freefall() //gml_Script_scr_fakepepboss_freefall
         state = (134 << 0)
 }
 
-function scr_fakepepboss_mach2() //gml_Script_scr_fakepepboss_mach2
+function scr_fakepepboss_mach2() //scr_fakepepboss_mach2
 {
     if ((machcooldown > 0))
     {
@@ -724,7 +724,7 @@ function scr_fakepepboss_mach2() //gml_Script_scr_fakepepboss_mach2
 
 }
 
-function scr_fakepepboss_Sjumpprep() //gml_Script_scr_fakepepboss_Sjumpprep
+function scr_fakepepboss_Sjumpprep() //scr_fakepepboss_Sjumpprep
 {
     hsp = 0
     vsp = 0
@@ -755,7 +755,7 @@ function scr_fakepepboss_Sjumpprep() //gml_Script_scr_fakepepboss_Sjumpprep
     }
 }
 
-function scr_fakepepboss_Sjump() //gml_Script_scr_fakepepboss_Sjump
+function scr_fakepepboss_Sjump() //scr_fakepepboss_Sjump
 {
     hsp = hithsp
     vsp = hitvsp
@@ -842,7 +842,7 @@ function scr_fakepepboss_Sjump() //gml_Script_scr_fakepepboss_Sjump
     }
 }
 
-function scr_fakepepboss_throwing() //gml_Script_scr_fakepepboss_throwing
+function scr_fakepepboss_throwing() //scr_fakepepboss_throwing
 {
     if ((sprite_index == spr_fakepeppino_throwhead))
     {
@@ -898,7 +898,7 @@ function scr_fakepepboss_throwing() //gml_Script_scr_fakepepboss_throwing
         state = (134 << 0)
 }
 
-function scr_fakepepboss_backbreaker() //gml_Script_scr_fakepepboss_backbreaker
+function scr_fakepepboss_backbreaker() //scr_fakepepboss_backbreaker
 {
     if ((sprite_index == spr_fakepeppino_jump) && (floor(image_index) == (image_number - 1)))
         sprite_index = spr_fakepeppino_fall

@@ -1,4 +1,4 @@
-function scr_editor_camera_init() //gml_Script_scr_editor_camera_init
+function scr_editor_camera_init() //scr_editor_camera_init
 {
     view_w = 960
     view_h = 540
@@ -11,7 +11,7 @@ function scr_editor_camera_init() //gml_Script_scr_editor_camera_init
     zoom = 1
 }
 
-function scr_editor_camera_update() //gml_Script_scr_editor_camera_update
+function scr_editor_camera_update() //scr_editor_camera_update
 {
     cx = camera_get_view_x(view_camera[0])
     cy = camera_get_view_y(view_camera[0])

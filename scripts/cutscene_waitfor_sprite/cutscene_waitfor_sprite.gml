@@ -1,4 +1,4 @@
-function cutscene_waitfor_sprite(argument0) //gml_Script_cutscene_waitfor_sprite
+function cutscene_waitfor_sprite(argument0) //cutscene_waitfor_sprite
 {
     var _obj = argument0
     var finish = 0

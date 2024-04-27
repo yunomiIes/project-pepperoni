@@ -1,4 +1,4 @@
-function scr_player_trickjump() //gml_Script_scr_player_trickjump
+function scr_player_trickjump() //scr_player_trickjump
 {
     hsp = (movespeed * xscale)
     if ((sprite_index != spr_supertaunt1) && (sprite_index != spr_supertaunt2) && (sprite_index != spr_supertaunt3) && (sprite_index != spr_supertaunt4))

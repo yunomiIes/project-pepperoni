@@ -1,4 +1,4 @@
-function scr_player_taxi() //gml_Script_scr_player_taxi
+function scr_player_taxi() //scr_player_taxi
 {
     cutscene = 1
     hsp = 0

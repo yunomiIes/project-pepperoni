@@ -1,4 +1,4 @@
-function cutscene_ruin_end() //gml_Script_cutscene_ruin_end
+function cutscene_ruin_end() //cutscene_ruin_end
 {
     with (obj_player)
     {

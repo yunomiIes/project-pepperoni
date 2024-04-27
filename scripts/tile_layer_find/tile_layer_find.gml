@@ -1,4 +1,4 @@
-function tile_layer_find(argument0, argument1, argument2) //gml_Script_tile_layer_find
+function tile_layer_find(argument0, argument1, argument2) //tile_layer_find
 {
     var __layers = layer_get_all()
     var __numlayers = array_length_1d(__layers)

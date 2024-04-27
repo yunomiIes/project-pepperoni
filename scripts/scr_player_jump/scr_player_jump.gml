@@ -1,4 +1,4 @@
-function state_player_jump() //gml_Script_state_player_jump
+function state_player_jump() //state_player_jump
 {
     landAnim = 1
     if (!momemtum)
@@ -609,7 +609,7 @@ function state_player_jump() //gml_Script_state_player_jump
     return;
 }
 
-function state_pepperman_jump() //gml_Script_state_pepperman_jump
+function state_pepperman_jump() //state_pepperman_jump
 {
     pepperman_grab_reset()
     move = (key_left + key_right)
@@ -689,7 +689,7 @@ function state_pepperman_jump() //gml_Script_state_pepperman_jump
     return;
 }
 
-function scr_player_jump() //gml_Script_scr_player_jump
+function scr_player_jump() //scr_player_jump
 {
     if ((character != "M"))
         state_player_jump()

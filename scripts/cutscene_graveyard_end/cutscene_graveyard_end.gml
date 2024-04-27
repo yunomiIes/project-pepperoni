@@ -1,4 +1,4 @@
-function cutscene_graveyard_end() //gml_Script_cutscene_graveyard_end
+function cutscene_graveyard_end() //cutscene_graveyard_end
 {
     with (obj_player)
     {

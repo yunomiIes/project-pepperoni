@@ -1,15 +1,15 @@
-function sprite_set_size(argument0, argument1) //gml_Script_sprite_set_size
+function sprite_set_size(argument0, argument1) //sprite_set_size
 {
     image_xscale = (argument0 / sprite_get_width(sprite_index))
     image_yscale = (argument1 / sprite_get_width(sprite_index))
 }
 
-function snap_tile(argument0, argument1) //gml_Script_snap_tile
+function snap_tile(argument0, argument1) //snap_tile
 {
     return (floor((argument0 / argument1)) * argument1);
 }
 
-function add_object(argument0, argument1, argument2, argument3, argument4, argument5) //gml_Script_add_object
+function add_object(argument0, argument1, argument2, argument3, argument4, argument5) //add_object
 {
     if ((argument4 == undefined))
         argument4 = 0
@@ -34,20 +34,20 @@ function add_object(argument0, argument1, argument2, argument3, argument4, argum
 )
 }
 
-function set_object_place_offset(argument0, argument1, argument2) //gml_Script_set_object_place_offset
+function set_object_place_offset(argument0, argument1, argument2) //set_object_place_offset
 {
     var b = ds_list_find_value(array_get(object_list, argument0), (ds_list_size(objectlist) - 1))
     b.place_xoffset = argument1
     b.place_yoffset = argument1
 }
 
-function set_object_layerdepth(argument0, argument1) //gml_Script_set_object_layerdepth
+function set_object_layerdepth(argument0, argument1) //set_object_layerdepth
 {
     b = ds_list_find_value(array_get(object_list, argument0), (ds_list_size(objectlist) - 1))
     b.layerdepth = argument1
 }
 
-function objectlist_calculate_scrollsize() //gml_Script_objectlist_calculate_scrollsize
+function objectlist_calculate_scrollsize() //objectlist_calculate_scrollsize
 {
     var xx = 0
     var yy = 0
@@ -65,7 +65,7 @@ function objectlist_calculate_scrollsize() //gml_Script_objectlist_calculate_scr
         scroll_ymax = 0
 }
 
-function create_buttons_array(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_buttons_array
+function create_buttons_array(argument0, argument1, argument2, argument3, argument4) //create_buttons_array
 {
     var xsize = 0
     draw_set_font(global.editorfont)

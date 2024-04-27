@@ -1,4 +1,4 @@
-function scr_compile_icon_text(argument0, argument1, argument2) //gml_Script_scr_compile_icon_text
+function scr_compile_icon_text(argument0, argument1, argument2) //scr_compile_icon_text
 {
     if ((argument1 == undefined))
         argument1 = 1

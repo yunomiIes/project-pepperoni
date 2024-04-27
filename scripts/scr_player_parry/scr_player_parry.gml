@@ -1,4 +1,4 @@
-function scr_player_parry() //gml_Script_scr_player_parry
+function scr_player_parry() //scr_player_parry
 {
     if ((image_index > (image_number - 1)))
     {

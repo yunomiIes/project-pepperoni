@@ -1,4 +1,4 @@
-function scr_noise_walk() //gml_Script_scr_noise_walk
+function scr_noise_walk() //scr_noise_walk
 {
     hsp = 0
     if ((sprite_index != spr_playerN_land))
@@ -79,7 +79,7 @@ function scr_noise_walk() //gml_Script_scr_noise_walk
     return;
 }
 
-function scr_noise_punch() //gml_Script_scr_noise_punch
+function scr_noise_punch() //scr_noise_punch
 {
     if ((floor(image_index) == (image_number - 1)))
         state = (134 << 0)
@@ -94,7 +94,7 @@ function scr_noise_punch() //gml_Script_scr_noise_punch
     return;
 }
 
-function scr_noise_do_jump(argument0) //gml_Script_scr_noise_do_jump
+function scr_noise_do_jump(argument0) //scr_noise_do_jump
 {
     if ((argument0 == undefined))
         argument0 = 1
@@ -140,7 +140,7 @@ function scr_noise_do_jump(argument0) //gml_Script_scr_noise_do_jump
     return;
 }
 
-function scr_noise_jump() //gml_Script_scr_noise_jump
+function scr_noise_jump() //scr_noise_jump
 {
     if ((sprite_index == spr_playerN_jump) && (floor(image_index) == (image_number - 1)))
         sprite_index = spr_playerN_fall
@@ -168,7 +168,7 @@ function scr_noise_jump() //gml_Script_scr_noise_jump
     return;
 }
 
-function scr_noise_shield() //gml_Script_scr_noise_shield
+function scr_noise_shield() //scr_noise_shield
 {
     switch substate
     {
@@ -221,7 +221,7 @@ function scr_noise_shield() //gml_Script_scr_noise_shield
     return;
 }
 
-function scr_noise_pistol() //gml_Script_scr_noise_pistol
+function scr_noise_pistol() //scr_noise_pistol
 {
     switch substate
     {

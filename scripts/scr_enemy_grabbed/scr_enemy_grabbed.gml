@@ -1,4 +1,4 @@
-function scr_enemy_grabbed() //gml_Script_scr_enemy_grabbed
+function scr_enemy_grabbed() //scr_enemy_grabbed
 {
     if (!pepperman_grab)
     {
@@ -463,7 +463,7 @@ function scr_enemy_grabbed() //gml_Script_scr_enemy_grabbed
     return;
 }
 
-function check_grabbed_solid(argument0) //gml_Script_check_grabbed_solid
+function check_grabbed_solid(argument0) //check_grabbed_solid
 {
     if instakilled
         return;

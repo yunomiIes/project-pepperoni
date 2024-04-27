@@ -1,4 +1,4 @@
-function create_afterimage(argument0, argument1, argument2, argument3) //gml_Script_create_afterimage
+function create_afterimage(argument0, argument1, argument2, argument3) //create_afterimage
 {
     var q = 
     {
@@ -18,7 +18,7 @@ function create_afterimage(argument0, argument1, argument2, argument3) //gml_Scr
     return q;
 }
 
-function create_mach3effect(argument0, argument1, argument2, argument3) //gml_Script_create_mach3effect
+function create_mach3effect(argument0, argument1, argument2, argument3) //create_mach3effect
 {
     var q = 
     {
@@ -39,7 +39,7 @@ function create_mach3effect(argument0, argument1, argument2, argument3) //gml_Sc
     return q;
 }
 
-function create_heatattack_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_heatattack_afterimage
+function create_heatattack_afterimage(argument0, argument1, argument2, argument3, argument4) //create_heatattack_afterimage
 {
     var _velocity = 6
     with (create_afterimage(argument0, argument1, argument2, argument3))
@@ -84,7 +84,7 @@ function create_heatattack_afterimage(argument0, argument1, argument2, argument3
     }
 }
 
-function create_firemouth_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_firemouth_afterimage
+function create_firemouth_afterimage(argument0, argument1, argument2, argument3, argument4) //create_firemouth_afterimage
 {
     with (create_afterimage(argument0, argument1, argument2, argument3))
     {
@@ -98,7 +98,7 @@ function create_firemouth_afterimage(argument0, argument1, argument2, argument3,
     }
 }
 
-function create_blue_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_blue_afterimage
+function create_blue_afterimage(argument0, argument1, argument2, argument3, argument4) //create_blue_afterimage
 {
     with (create_afterimage(argument0, argument1, argument2, argument3))
     {
@@ -112,7 +112,7 @@ function create_blue_afterimage(argument0, argument1, argument2, argument3, argu
     }
 }
 
-function create_red_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_red_afterimage
+function create_red_afterimage(argument0, argument1, argument2, argument3, argument4) //create_red_afterimage
 {
     var b = create_afterimage(argument0, argument1, argument2, argument3, argument4)
     with (b)
@@ -128,7 +128,7 @@ function create_red_afterimage(argument0, argument1, argument2, argument3, argum
     return b;
 }
 
-function create_blur_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_blur_afterimage
+function create_blur_afterimage(argument0, argument1, argument2, argument3, argument4) //create_blur_afterimage
 {
     var b = create_afterimage(argument0, argument1, argument2, argument3)
     with (b)
@@ -145,7 +145,7 @@ function create_blur_afterimage(argument0, argument1, argument2, argument3, argu
     return b;
 }
 
-function create_redblur_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_redblur_afterimage
+function create_redblur_afterimage(argument0, argument1, argument2, argument3, argument4) //create_redblur_afterimage
 {
     var b = create_afterimage(argument0, argument1, argument2, argument3)
     with (b)
@@ -161,7 +161,7 @@ function create_redblur_afterimage(argument0, argument1, argument2, argument3, a
     return b;
 }
 
-function create_purpleblur_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_purpleblur_afterimage
+function create_purpleblur_afterimage(argument0, argument1, argument2, argument3, argument4) //create_purpleblur_afterimage
 {
     var b = create_afterimage(argument0, argument1, argument2, argument3)
     with (b)
@@ -177,7 +177,7 @@ function create_purpleblur_afterimage(argument0, argument1, argument2, argument3
     return b;
 }
 
-function create_red2_afterimage(argument0, argument1, argument2, argument3, argument4) //gml_Script_create_red2_afterimage
+function create_red2_afterimage(argument0, argument1, argument2, argument3, argument4) //create_red2_afterimage
 {
     var b = create_afterimage(argument0, argument1, argument2, argument3, argument4)
     with (b)

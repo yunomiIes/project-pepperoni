@@ -1,5 +1,5 @@
 trigger = 3
-stepfunc = function() //gml_Script_anon_gml_RoomCC_rm_testing_8_Create_23_gml_RoomCC_rm_testing_8_Create
+stepfunc = function() //anon_gml_RoomCC_rm_testing_8_Create_23_gml_RoomCC_rm_testing_8_Create
 {
     active = 0
     if place_meeting(x, y, obj_baddie)

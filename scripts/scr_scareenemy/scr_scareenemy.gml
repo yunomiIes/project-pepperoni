@@ -1,4 +1,4 @@
-function scr_scareenemy() //gml_Script_scr_scareenemy
+function scr_scareenemy() //scr_scareenemy
 {
     var player = instance_nearest(x, y, obj_player)
     if ((state != (4 << 0)) && (state != (138 << 0)) && (state != (137 << 0)) && (state != (266 << 0)))

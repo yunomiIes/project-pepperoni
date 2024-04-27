@@ -1,7 +1,7 @@
 if (global.levelcomplete && (!global.sewercutscene))
 {
     currentroom = room
-    scene_info = [[gml_Script_cutscene_entrance_start], [gml_Script_cutscene_waitfor_sprite, 349], [gml_Script_cutscene_player_idleanim], [gml_Script_cutscene_change_room, 653], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_player_float, 1], [gml_Script_cutscene_set_player_pos, 320, 288], [gml_Script_cutscene_wait, 39], [function() //gml_Script_anon_gml_RoomCC_hub_sewer_3_Create_347_gml_RoomCC_hub_sewer_3_Create
+    scene_info = [[cutscene_entrance_start], [cutscene_waitfor_sprite, 349], [cutscene_player_idleanim], [cutscene_change_room, 653], [cutscene_set_player_visible, 0], [cutscene_player_float, 1], [cutscene_set_player_pos, 320, 288], [cutscene_wait, 39], [function() //anon_gml_RoomCC_hub_sewer_3_Create_347_gml_RoomCC_hub_sewer_3_Create
     {
         with (obj_hubwater)
         {
@@ -14,12 +14,12 @@ if (global.levelcomplete && (!global.sewercutscene))
         }
         return;
     }
-], [gml_Script_cutscene_wait, 150], [gml_Script_cutscene_change_room, currentroom], [gml_Script_cutscene_player_float, 0], [gml_Script_cutscene_set_player_visible, 1], [gml_Script_cutscene_sewer_end], [gml_Script_cutscene_save_game]]
+], [cutscene_wait, 150], [cutscene_change_room, currentroom], [cutscene_player_float, 0], [cutscene_set_player_visible, 1], [cutscene_sewer_end], [cutscene_save_game]]
 }
 else if global.levelcomplete
 {
     global.levelcomplete = 0
-    scene_info = [[gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_save_game]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 20]]
+    scene_info = [[cutscene_wait, 20]]

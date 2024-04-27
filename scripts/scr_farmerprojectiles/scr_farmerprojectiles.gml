@@ -1,4 +1,4 @@
-function scr_farmerpeasanto_projectile(argument0, argument1) //gml_Script_scr_farmerpeasanto_projectile
+function scr_farmerpeasanto_projectile(argument0, argument1) //scr_farmerpeasanto_projectile
 {
     with (argument0)
     {
@@ -13,7 +13,7 @@ function scr_farmerpeasanto_projectile(argument0, argument1) //gml_Script_scr_fa
     return false;
 }
 
-function scr_farmer2_projectile(argument0, argument1) //gml_Script_scr_farmer2_projectile
+function scr_farmer2_projectile(argument0, argument1) //scr_farmer2_projectile
 {
     with (argument0)
     {
@@ -23,7 +23,7 @@ function scr_farmer2_projectile(argument0, argument1) //gml_Script_scr_farmer2_p
     return true;
 }
 
-function scr_farmer3_projectile(argument0, argument1) //gml_Script_scr_farmer3_projectile
+function scr_farmer3_projectile(argument0, argument1) //scr_farmer3_projectile
 {
     with (argument0)
     {
@@ -33,7 +33,7 @@ function scr_farmer3_projectile(argument0, argument1) //gml_Script_scr_farmer3_p
     return true;
 }
 
-function scr_shoot_farmerprojectile() //gml_Script_scr_shoot_farmerprojectile
+function scr_shoot_farmerprojectile() //scr_shoot_farmerprojectile
 {
     if global.hasfarmer[farmerpos]
     {
@@ -50,7 +50,7 @@ function scr_shoot_farmerprojectile() //gml_Script_scr_shoot_farmerprojectile
     }
 }
 
-function scr_change_farmers() //gml_Script_scr_change_farmers
+function scr_change_farmers() //scr_change_farmers
 {
     var i = 0
     while ((i < 3))

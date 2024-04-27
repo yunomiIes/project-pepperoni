@@ -1,4 +1,4 @@
-function scr_player_revolver() //gml_Script_scr_player_revolver
+function scr_player_revolver() //scr_player_revolver
 {
     hsp = (xscale * movespeed)
     landAnim = 0

@@ -1,4 +1,4 @@
-function scr_player_ratmounthurt() //gml_Script_scr_player_ratmounthurt
+function scr_player_ratmounthurt() //scr_player_ratmounthurt
 {
     hsp = ((-xscale) * movespeed)
     landAnim = 0

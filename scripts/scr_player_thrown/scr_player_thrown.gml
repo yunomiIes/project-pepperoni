@@ -1,4 +1,4 @@
-function scr_player_thrown() //gml_Script_scr_player_thrown
+function scr_player_thrown() //scr_player_thrown
 {
     image_speed = 0.35
     hsp = (movespeed * (-xscale))

@@ -1,4 +1,4 @@
-function scr_player_titlescreen() //gml_Script_scr_player_titlescreen
+function scr_player_titlescreen() //scr_player_titlescreen
 {
     if ((object_index == obj_player1))
         targetDoor = "A"

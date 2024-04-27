@@ -1,4 +1,4 @@
-function scr_player_ratmountcrouch() //gml_Script_scr_player_ratmountcrouch
+function scr_player_ratmountcrouch() //scr_player_ratmountcrouch
 {
     move = (key_left + key_right)
     hsp = movespeed

@@ -1,4 +1,4 @@
-function scr_player_grind() //gml_Script_scr_player_grind
+function scr_player_grind() //scr_player_grind
 {
     sprite_index = ((!skateboarding) ? spr_grind : spr_clown)
     image_speed = 0.35

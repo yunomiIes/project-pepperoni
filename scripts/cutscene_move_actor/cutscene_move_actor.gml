@@ -1,4 +1,4 @@
-function cutscene_move_actor(argument0, argument1, argument2, argument3) //gml_Script_cutscene_move_actor
+function cutscene_move_actor(argument0, argument1, argument2, argument3) //cutscene_move_actor
 {
     var _obj = argument0
     var xx = argument1

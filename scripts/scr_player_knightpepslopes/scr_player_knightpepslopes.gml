@@ -1,4 +1,4 @@
-function scr_player_knightpepslopes() //gml_Script_scr_player_knightpepslopes
+function scr_player_knightpepslopes() //scr_player_knightpepslopes
 {
     if (((x + hsp) == xprevious))
         slope_buffer--

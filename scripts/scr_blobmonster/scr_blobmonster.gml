@@ -1,4 +1,4 @@
-function scr_blob_normal() //gml_Script_scr_blob_normal
+function scr_blob_normal() //scr_blob_normal
 {
     sprite_index = walkspr
     hsp = (image_xscale * movespeed)
@@ -26,7 +26,7 @@ function scr_blob_normal() //gml_Script_scr_blob_normal
     return;
 }
 
-function scr_blob_fall() //gml_Script_scr_blob_fall
+function scr_blob_fall() //scr_blob_fall
 {
     hsp = 0
     sprite_index = fallspr
@@ -38,7 +38,7 @@ function scr_blob_fall() //gml_Script_scr_blob_fall
     return;
 }
 
-function scr_blob_chase() //gml_Script_scr_blob_chase
+function scr_blob_chase() //scr_blob_chase
 {
     if (((playerinst.x - x) != 0))
     {

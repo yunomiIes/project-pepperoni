@@ -1,4 +1,4 @@
-function scr_player_pogo() //gml_Script_scr_player_pogo
+function scr_player_pogo() //scr_player_pogo
 {
     move = (key_left + key_right)
     if ((move == 0) && (hsp != 0))

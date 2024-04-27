@@ -2,7 +2,7 @@ if (global.levelcomplete && (!global.warcutscene))
 {
     global.levelcomplete = 0
     currentroom = room
-    explosion_func = function(argument0, argument1) //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_117_gml_RoomCC_hub_warpath_4_Create
+    explosion_func = function(argument0, argument1) //anon_gml_RoomCC_hub_warpath_4_Create_117_gml_RoomCC_hub_warpath_4_Create
     {
         instance_create(argument0, argument1, obj_canonexplosion)
         cutscene_end_action()
@@ -11,7 +11,7 @@ if (global.levelcomplete && (!global.warcutscene))
 
     bombactor = noone
     planeactor = -4
-    scene_info = [[gml_Script_cutscene_entrance_start], [gml_Script_cutscene_waitfor_sprite, 349], [gml_Script_cutscene_player_idleanim], [gml_Script_cutscene_change_room, 666], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_player_float, 1], [gml_Script_cutscene_set_player_pos, 100, 100], [gml_Script_cutscene_wait, 20], [function() //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_519_gml_RoomCC_hub_warpath_4_Create
+    scene_info = [[cutscene_entrance_start], [cutscene_waitfor_sprite, 349], [cutscene_player_idleanim], [cutscene_change_room, 666], [cutscene_set_player_visible, 0], [cutscene_player_float, 1], [cutscene_set_player_pos, 100, 100], [cutscene_wait, 20], [function() //anon_gml_RoomCC_hub_warpath_4_Create_519_gml_RoomCC_hub_warpath_4_Create
     {
         planeactor = instance_create(1056, 128, obj_actor)
         planeactor.image_speed = 0.35
@@ -20,7 +20,7 @@ if (global.levelcomplete && (!global.warcutscene))
         cutscene_end_action()
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_725_gml_RoomCC_hub_warpath_4_Create
+], [function() //anon_gml_RoomCC_hub_warpath_4_Create_725_gml_RoomCC_hub_warpath_4_Create
     {
         with (planeactor)
         {
@@ -33,7 +33,7 @@ if (global.levelcomplete && (!global.warcutscene))
         }
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_877_gml_RoomCC_hub_warpath_4_Create
+], [function() //anon_gml_RoomCC_hub_warpath_4_Create_877_gml_RoomCC_hub_warpath_4_Create
     {
         bombactor = instance_create(planeactor.x, planeactor.y, obj_actor)
         bombactor.sprite_index = spr_bomb
@@ -42,7 +42,7 @@ if (global.levelcomplete && (!global.warcutscene))
         cutscene_end_action()
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_1099_gml_RoomCC_hub_warpath_4_Create
+], [function() //anon_gml_RoomCC_hub_warpath_4_Create_1099_gml_RoomCC_hub_warpath_4_Create
     {
         planeactor.x += planeactor.hsp
         with (bombactor)
@@ -60,7 +60,7 @@ if (global.levelcomplete && (!global.warcutscene))
         }
         return;
     }
-], [gml_Script_cutscene_change_room, 654], [gml_Script_cutscene_set_player_pos, 1350, 200], [function() //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_1416_gml_RoomCC_hub_warpath_4_Create
+], [cutscene_change_room, 654], [cutscene_set_player_pos, 1350, 200], [function() //anon_gml_RoomCC_hub_warpath_4_Create_1416_gml_RoomCC_hub_warpath_4_Create
     {
         bombactor = instance_create(1344, -60, obj_actor)
         bombactor.sprite_index = spr_bomb
@@ -68,7 +68,7 @@ if (global.levelcomplete && (!global.warcutscene))
         cutscene_end_action()
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_1588_gml_RoomCC_hub_warpath_4_Create
+], [function() //anon_gml_RoomCC_hub_warpath_4_Create_1588_gml_RoomCC_hub_warpath_4_Create
     {
         bombactor.y += 10
         if ((bombactor.y > 390))
@@ -78,7 +78,7 @@ if (global.levelcomplete && (!global.warcutscene))
         }
         return;
     }
-], [explosion_func, 1342, 385], [gml_Script_cutscene_wait, 3], [explosion_func, 1342, 477], [gml_Script_cutscene_wait, 3], [explosion_func, 1342, 531], [gml_Script_cutscene_wait, 40], [gml_Script_cutscene_change_room, 653], [gml_Script_cutscene_set_player_pos, 300, 300], [gml_Script_cutscene_wait, 50], [explosion_func, 267, 4], [gml_Script_cutscene_wait, 3], [explosion_func, 267, 63], [gml_Script_cutscene_wait, 3], [explosion_func, 267, 125], [gml_Script_cutscene_wait, 3], [gml_Script_cutscene_wait, 100], [gml_Script_cutscene_change_room, currentroom], [gml_Script_cutscene_set_player_visible, 1], [function() //gml_Script_anon_gml_RoomCC_hub_warpath_4_Create_2207_gml_RoomCC_hub_warpath_4_Create
+], [explosion_func, 1342, 385], [cutscene_wait, 3], [explosion_func, 1342, 477], [cutscene_wait, 3], [explosion_func, 1342, 531], [cutscene_wait, 40], [cutscene_change_room, 653], [cutscene_set_player_pos, 300, 300], [cutscene_wait, 50], [explosion_func, 267, 4], [cutscene_wait, 3], [explosion_func, 267, 63], [cutscene_wait, 3], [explosion_func, 267, 125], [cutscene_wait, 3], [cutscene_wait, 100], [cutscene_change_room, currentroom], [cutscene_set_player_visible, 1], [function() //anon_gml_RoomCC_hub_warpath_4_Create_2207_gml_RoomCC_hub_warpath_4_Create
     {
         with (obj_player)
         {
@@ -92,12 +92,12 @@ if (global.levelcomplete && (!global.warcutscene))
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_save_game]]
+], [cutscene_save_game]]
 }
 else if global.levelcomplete
 {
     global.levelcomplete = 0
-    scene_info = [[gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_save_game]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 20]]
+    scene_info = [[cutscene_wait, 20]]

@@ -1,4 +1,4 @@
-function cutscene_title_start() //gml_Script_cutscene_title_start
+function cutscene_title_start() //cutscene_title_start
 {
     with (obj_player1)
         state = (146 << 0)
@@ -6,7 +6,7 @@ function cutscene_title_start() //gml_Script_cutscene_title_start
     return;
 }
 
-function cutscene_title_middle() //gml_Script_cutscene_title_middle
+function cutscene_title_middle() //cutscene_title_middle
 {
     var finish = 0
     with (obj_title)
@@ -20,7 +20,7 @@ function cutscene_title_middle() //gml_Script_cutscene_title_middle
     return;
 }
 
-function cutscene_title_end() //gml_Script_cutscene_title_end
+function cutscene_title_end() //cutscene_title_end
 {
     with (obj_player1)
         sprite_index = spr_idle

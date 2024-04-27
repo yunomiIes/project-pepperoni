@@ -1,4 +1,4 @@
-function scr_player_current() //gml_Script_scr_player_current
+function scr_player_current() //scr_player_current
 {
     if (!(place_meeting(x, y, obj_current)))
         state = (0 << 0)

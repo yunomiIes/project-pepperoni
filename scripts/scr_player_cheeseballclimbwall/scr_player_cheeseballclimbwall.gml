@@ -1,4 +1,4 @@
-function scr_player_cheeseballclimbwall() //gml_Script_scr_player_cheeseballclimbwall
+function scr_player_cheeseballclimbwall() //scr_player_cheeseballclimbwall
 {
     hsp = 0
     vsp = (-wallspeed)

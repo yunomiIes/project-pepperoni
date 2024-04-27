@@ -1,4 +1,4 @@
-function scr_loophallway(argument0) //gml_Script_scr_loophallway
+function scr_loophallway(argument0) //scr_loophallway
 {
     if argument0.start
     {

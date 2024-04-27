@@ -1,4 +1,4 @@
-function scr_player_timesup() //gml_Script_scr_player_timesup
+function scr_player_timesup() //scr_player_timesup
 {
     xscale = 1
     inv_frames = 0

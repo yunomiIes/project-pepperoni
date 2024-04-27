@@ -1,4 +1,4 @@
-function cutscene_dungeon_middle() //gml_Script_cutscene_dungeon_middle
+function cutscene_dungeon_middle() //cutscene_dungeon_middle
 {
     with (obj_lavapot)
     {

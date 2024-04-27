@@ -1,4 +1,4 @@
-function cutscene_forest_end() //gml_Script_cutscene_forest_end
+function cutscene_forest_end() //cutscene_forest_end
 {
     with (obj_player)
     {
@@ -14,7 +14,7 @@ function cutscene_forest_end() //gml_Script_cutscene_forest_end
     return;
 }
 
-function cutscene_beach_end() //gml_Script_cutscene_beach_end
+function cutscene_beach_end() //cutscene_beach_end
 {
     with (obj_player)
     {
@@ -30,7 +30,7 @@ function cutscene_beach_end() //gml_Script_cutscene_beach_end
     return;
 }
 
-function cutscene_sewer_end() //gml_Script_cutscene_sewer_end
+function cutscene_sewer_end() //cutscene_sewer_end
 {
     with (obj_player)
     {

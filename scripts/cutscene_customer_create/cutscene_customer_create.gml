@@ -1,4 +1,4 @@
-function cutscene_customer_create(argument0, argument1, argument2, argument3, argument4) //gml_Script_cutscene_customer_create
+function cutscene_customer_create(argument0, argument1, argument2, argument3, argument4) //cutscene_customer_create
 {
     var xx = argument0
     var yy = argument1

@@ -1,4 +1,4 @@
-function tv_set_idle() //gml_Script_tv_set_idle
+function tv_set_idle() //tv_set_idle
 {
     with (obj_tv)
     {
@@ -7,7 +7,7 @@ function tv_set_idle() //gml_Script_tv_set_idle
     }
 }
 
-function tv_reset() //gml_Script_tv_reset
+function tv_reset() //tv_reset
 {
     with (obj_tv)
     {
@@ -17,12 +17,12 @@ function tv_reset() //gml_Script_tv_reset
     }
 }
 
-function tv_create_prompt(argument0, argument1, argument2, argument3) //gml_Script_tv_create_prompt
+function tv_create_prompt(argument0, argument1, argument2, argument3) //tv_create_prompt
 {
     return [argument0, argument1, argument2, argument3];
 }
 
-function tv_push_prompt(argument0, argument1, argument2, argument3) //gml_Script_tv_push_prompt
+function tv_push_prompt(argument0, argument1, argument2, argument3) //tv_push_prompt
 {
     with (obj_tv)
     {
@@ -67,7 +67,7 @@ function tv_push_prompt(argument0, argument1, argument2, argument3) //gml_Script
     }
 }
 
-function tv_push_prompt_array(argument0) //gml_Script_tv_push_prompt_array
+function tv_push_prompt_array(argument0) //tv_push_prompt_array
 {
     for (var i = 0; i < array_length(argument0); i++)
     {
@@ -79,7 +79,7 @@ function tv_push_prompt_array(argument0) //gml_Script_tv_push_prompt_array
     }
 }
 
-function tv_push_prompt_once(argument0, argument1) //gml_Script_tv_push_prompt_once
+function tv_push_prompt_once(argument0, argument1) //tv_push_prompt_once
 {
     with (obj_tv)
     {
@@ -101,12 +101,12 @@ function tv_push_prompt_once(argument0, argument1) //gml_Script_tv_push_prompt_o
     }
 }
 
-function tv_default_condition() //gml_Script_tv_default_condition
+function tv_default_condition() //tv_default_condition
 {
     return place_meeting(x, y, obj_player);
 }
 
-function tv_do_expression(argument0) //gml_Script_tv_do_expression
+function tv_do_expression(argument0) //tv_do_expression
 {
     with (obj_tv)
     {

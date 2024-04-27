@@ -1,4 +1,4 @@
-function scr_player_graffiti() //gml_Script_scr_player_graffiti
+function scr_player_graffiti() //scr_player_graffiti
 {
     hsp = 0
     vsp = (-grav)

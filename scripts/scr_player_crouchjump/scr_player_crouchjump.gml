@@ -1,4 +1,4 @@
-function scr_player_crouchjump() //gml_Script_scr_player_crouchjump
+function scr_player_crouchjump() //scr_player_crouchjump
 {
     move = (key_left + key_right)
     mask_index = spr_crouchmask

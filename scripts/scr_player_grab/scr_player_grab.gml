@@ -1,4 +1,4 @@
-function scr_player_grab() //gml_Script_scr_player_grab
+function scr_player_grab() //scr_player_grab
 {
     grav = 0.5
     move = (key_left + key_right)

@@ -1,4 +1,4 @@
-function scr_heatup() //gml_Script_scr_heatup
+function scr_heatup() //scr_heatup
 {
     global.baddiespeed += 1
     if ((global.stylethreshold == 2))

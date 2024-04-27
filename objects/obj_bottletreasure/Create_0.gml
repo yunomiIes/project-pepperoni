@@ -1,5 +1,5 @@
 event_inherited()
-got_func = function() //gml_Script_anon_gml_Object_obj_bottletreasure_Create_0_29_gml_Object_obj_bottletreasure_Create_0
+got_func = function() //anon_gml_Object_obj_bottletreasure_Create_0_29_gml_Object_obj_bottletreasure_Create_0
 {
     if ((global.bottlecutscene == -4) || (!global.bottlecutscene))
     {

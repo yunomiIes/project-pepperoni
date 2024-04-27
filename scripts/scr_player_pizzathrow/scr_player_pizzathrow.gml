@@ -1,4 +1,4 @@
-function scr_player_pizzathrow() //gml_Script_scr_player_pizzathrow
+function scr_player_pizzathrow() //scr_player_pizzathrow
 {
     movespeed = 0
     mach2 = 0

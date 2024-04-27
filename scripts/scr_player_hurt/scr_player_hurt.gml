@@ -1,4 +1,4 @@
-function scr_player_hurt() //gml_Script_scr_player_hurt
+function scr_player_hurt() //scr_player_hurt
 {
     if ((sprite_index == spr_hurtjump))
         hsp = (xscale * movespeed)

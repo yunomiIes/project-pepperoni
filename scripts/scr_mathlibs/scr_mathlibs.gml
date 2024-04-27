@@ -1,10 +1,10 @@
-function Vector2(argument0, argument1) constructor //gml_Script_Vector2
+function Vector2(argument0, argument1) constructor //Vector2
 {
     x = argument0
     y = argument1
 }
 
-function cycle(argument0, argument1, argument2) //gml_Script_cycle
+function cycle(argument0, argument1, argument2) //cycle
 {
     var delta = (argument2 - argument1)
     var result = ((argument0 - argument1) % delta)
@@ -13,7 +13,7 @@ function cycle(argument0, argument1, argument2) //gml_Script_cycle
     return (result + argument1);
 }
 
-function angle_rotate(argument0, argument1, argument2) //gml_Script_angle_rotate
+function angle_rotate(argument0, argument1, argument2) //angle_rotate
 {
     var diff = cycle((argument1 - argument0), -180, 180)
     if ((diff < (-argument2)))
@@ -23,12 +23,12 @@ function angle_rotate(argument0, argument1, argument2) //gml_Script_angle_rotate
     return argument1;
 }
 
-function get_velocity(argument0, argument1) //gml_Script_get_velocity
+function get_velocity(argument0, argument1) //get_velocity
 {
     return (argument0 / argument1);
 }
 
-function Wave(argument0, argument1, argument2, argument3, argument4) //gml_Script_Wave
+function Wave(argument0, argument1, argument2, argument3, argument4) //Wave
 {
     if ((argument4 == undefined))
         argument4 = -4
@@ -39,17 +39,17 @@ function Wave(argument0, argument1, argument2, argument3, argument4) //gml_Scrip
     return ((argument0 + a4) + (sin(((((t * 0.001) + (argument2 * argument3)) / argument2) * (2 * pi))) * a4));
 }
 
-function distance_to_pos(argument0, argument1, argument2, argument3, argument4, argument5) //gml_Script_distance_to_pos
+function distance_to_pos(argument0, argument1, argument2, argument3, argument4, argument5) //distance_to_pos
 {
     return ((abs((argument0 - argument2)) <= argument4) && (abs((argument1 - argument3)) <= argument5));
 }
 
-function distance_between_points(argument0, argument1, argument2, argument3) //gml_Script_distance_between_points
+function distance_between_points(argument0, argument1, argument2, argument3) //distance_between_points
 {
     return sqrt((sqr((argument2 - argument0)) + sqr((argument3 - argument1))));
 }
 
-function calculate_jump_velocity_alt(argument0, argument1, argument2, argument3) //gml_Script_calculate_jump_velocity_alt
+function calculate_jump_velocity_alt(argument0, argument1, argument2, argument3) //calculate_jump_velocity_alt
 {
     var xx = (argument0 - x)
     var yy = (argument1 - y)
@@ -79,7 +79,7 @@ function calculate_jump_velocity_alt(argument0, argument1, argument2, argument3)
     return;
 }
 
-function calculate_jump_velocity(argument0, argument1, argument2, argument3) //gml_Script_calculate_jump_velocity
+function calculate_jump_velocity(argument0, argument1, argument2, argument3) //calculate_jump_velocity
 {
     var a = get_projectile_angle(x, y, argument0, argument1, argument2, argument3)
     hsp = lengthdir_x(argument2, a)
@@ -87,7 +87,7 @@ function calculate_jump_velocity(argument0, argument1, argument2, argument3) //g
     return;
 }
 
-function get_projectile_angle(argument0, argument1, argument2, argument3, argument4, argument5) //gml_Script_get_projectile_angle
+function get_projectile_angle(argument0, argument1, argument2, argument3, argument4, argument5) //get_projectile_angle
 {
     var xt = floor((argument2 - argument0))
     var yt = (-(floor((argument3 - argument1))))

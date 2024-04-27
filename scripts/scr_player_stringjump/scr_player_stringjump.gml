@@ -1,4 +1,4 @@
-function scr_player_stringjump() //gml_Script_scr_player_stringjump
+function scr_player_stringjump() //scr_player_stringjump
 {
     hsp = (xscale * movespeed)
     move = (key_left + key_right)
@@ -28,7 +28,7 @@ function scr_player_stringjump() //gml_Script_scr_player_stringjump
     }
 }
 
-function scr_player_stringfall() //gml_Script_scr_player_stringfall
+function scr_player_stringfall() //scr_player_stringfall
 {
     if instance_exists(stringid)
     {

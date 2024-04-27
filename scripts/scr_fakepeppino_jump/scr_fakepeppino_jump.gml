@@ -1,4 +1,4 @@
-function scr_fakepeppino_jump() //gml_Script_scr_fakepeppino_jump
+function scr_fakepeppino_jump() //scr_fakepeppino_jump
 {
     hsp = (image_xscale * movespeed)
     if ((sprite_index == spr_fakepeppino_jumpstart) && (floor(image_index) == (image_number - 1)))

@@ -3,7 +3,7 @@ dmg = 30
 parryable = 0
 parried = 0
 team = 1
-function SUPER_player_hurt_gml_Object_obj_bosshitbox_Create_0(argument0, argument1) //gml_Script_SUPER_player_hurt_gml_Object_obj_bosshitbox_Create_0
+function SUPER_player_hurt_gml_Object_obj_bosshitbox_Create_0(argument0, argument1) //SUPER_player_hurt_gml_Object_obj_bosshitbox_Create_0
 {
     if ((!collisioned) && (argument1.state != (145 << 0)))
     {
@@ -44,7 +44,7 @@ function SUPER_player_hurt_gml_Object_obj_bosshitbox_Create_0(argument0, argumen
     return;
 }
 
-function SUPER_parry_gml_Object_obj_bosshitbox_Create_0() //gml_Script_SUPER_parry_gml_Object_obj_bosshitbox_Create_0
+function SUPER_parry_gml_Object_obj_bosshitbox_Create_0() //SUPER_parry_gml_Object_obj_bosshitbox_Create_0
 {
     if (!parried)
     {
@@ -54,7 +54,7 @@ function SUPER_parry_gml_Object_obj_bosshitbox_Create_0() //gml_Script_SUPER_par
     return;
 }
 
-function SUPER_boss_hurt_gml_Object_obj_bosshitbox_Create_0(argument0) //gml_Script_SUPER_boss_hurt_gml_Object_obj_bosshitbox_Create_0
+function SUPER_boss_hurt_gml_Object_obj_bosshitbox_Create_0(argument0) //SUPER_boss_hurt_gml_Object_obj_bosshitbox_Create_0
 {
     if ((!collisioned) && (team != argument0.team))
     {
@@ -65,19 +65,19 @@ function SUPER_boss_hurt_gml_Object_obj_bosshitbox_Create_0(argument0) //gml_Scr
     return;
 }
 
-function boss_hurt_gml_Object_obj_bosshitbox_Create_0(argument0) //gml_Script_boss_hurt_gml_Object_obj_bosshitbox_Create_0
+function boss_hurt_gml_Object_obj_bosshitbox_Create_0(argument0) //boss_hurt_gml_Object_obj_bosshitbox_Create_0
 {
     self.SUPER_boss_hurt(argument0)
     return;
 }
 
-function parry_gml_Object_obj_bosshitbox_Create_0() //gml_Script_parry_gml_Object_obj_bosshitbox_Create_0
+function parry_gml_Object_obj_bosshitbox_Create_0() //parry_gml_Object_obj_bosshitbox_Create_0
 {
     self.SUPER_parry()
     return;
 }
 
-function player_hurt_gml_Object_obj_bosshitbox_Create_0(argument0, argument1) //gml_Script_player_hurt_gml_Object_obj_bosshitbox_Create_0
+function player_hurt_gml_Object_obj_bosshitbox_Create_0(argument0, argument1) //player_hurt_gml_Object_obj_bosshitbox_Create_0
 {
     self.SUPER_player_hurt(argument0, argument1)
     return;

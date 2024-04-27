@@ -1,4 +1,4 @@
-function EditorRoom(argument0, argument1) constructor //gml_Script_EditorRoom
+function EditorRoom(argument0, argument1) constructor //EditorRoom
 {
     if ((argument0 == undefined))
         argument0 = 960

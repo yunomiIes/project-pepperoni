@@ -1,4 +1,4 @@
-function pal_swap_init_system() //gml_Script_pal_swap_init_system
+function pal_swap_init_system() //pal_swap_init_system
 {
     global.Pal_Shader = argument[0]
     global.Pal_Texel_Size = shader_get_uniform(argument[0], "texel_size")

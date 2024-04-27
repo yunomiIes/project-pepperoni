@@ -1,4 +1,4 @@
-function scr_player_shotgunfreefall() //gml_Script_scr_player_shotgunfreefall
+function scr_player_shotgunfreefall() //scr_player_shotgunfreefall
 {
     image_speed = 0.35
     move = (key_left + key_right)

@@ -1,4 +1,4 @@
-function scr_player_rideweenie() //gml_Script_scr_player_rideweenie
+function scr_player_rideweenie() //scr_player_rideweenie
 {
     hsp = movespeed
     move = (key_right + key_left)

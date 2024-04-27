@@ -1,4 +1,4 @@
-function scr_player_meteorpep() //gml_Script_scr_player_meteorpep
+function scr_player_meteorpep() //scr_player_meteorpep
 {
     mach2 = 0
     landAnim = 1

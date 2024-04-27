@@ -1,4 +1,4 @@
-function scr_hub_bg_init(argument0) //gml_Script_scr_hub_bg_init
+function scr_hub_bg_init(argument0) //scr_hub_bg_init
 {
     if ((argument0 == undefined))
         argument0 = 1
@@ -16,7 +16,7 @@ function scr_hub_bg_init(argument0) //gml_Script_scr_hub_bg_init
     bgclip_surface = -4
 }
 
-function scr_hub_bg_reinit(argument0, argument1) //gml_Script_scr_hub_bg_reinit
+function scr_hub_bg_reinit(argument0, argument1) //scr_hub_bg_reinit
 {
     bgsprite_number = sprite_get_number(bgsprite)
     bgsprite_width = sprite_get_width(bgsprite)
@@ -33,7 +33,7 @@ function scr_hub_bg_reinit(argument0, argument1) //gml_Script_scr_hub_bg_reinit
     }
 }
 
-function scr_hub_bg_step() //gml_Script_scr_hub_bg_step
+function scr_hub_bg_step() //scr_hub_bg_step
 {
     for (var i = 0; i < array_length(bgspritepos); i++)
     {
@@ -52,7 +52,7 @@ function scr_hub_bg_step() //gml_Script_scr_hub_bg_step
     }
 }
 
-function scr_hub_bg_draw(argument0, argument1, argument2, argument3, argument4) //gml_Script_scr_hub_bg_draw
+function scr_hub_bg_draw(argument0, argument1, argument2, argument3, argument4) //scr_hub_bg_draw
 {
     if ((argument4 == undefined))
         argument4 = false

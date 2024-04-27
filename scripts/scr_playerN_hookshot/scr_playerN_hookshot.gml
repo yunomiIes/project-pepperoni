@@ -1,4 +1,4 @@
-function scr_playerN_hookshot() //gml_Script_scr_playerN_hookshot
+function scr_playerN_hookshot() //scr_playerN_hookshot
 {
     move = (key_left + key_right)
     hsp = (movespeed * move)

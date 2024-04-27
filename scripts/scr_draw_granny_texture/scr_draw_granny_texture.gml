@@ -1,4 +1,4 @@
-function scr_draw_granny_texture(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7) //gml_Script_scr_draw_granny_texture
+function scr_draw_granny_texture(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7) //scr_draw_granny_texture
 {
     if ((argument6 == undefined))
         argument6 = spr_pizzagrannytexture

@@ -1,4 +1,4 @@
-function scr_pizzaball_normal() //gml_Script_scr_pizzaball_normal
+function scr_pizzaball_normal() //scr_pizzaball_normal
 {
     if thrown
     {
@@ -100,7 +100,7 @@ function scr_pizzaball_normal() //gml_Script_scr_pizzaball_normal
     }
 }
 
-function scr_pizzaball_roll() //gml_Script_scr_pizzaball_roll
+function scr_pizzaball_roll() //scr_pizzaball_roll
 {
     kicked = 0
     state = (0 << 0)

@@ -1,4 +1,4 @@
-function scr_player_barrel() //gml_Script_scr_player_barrel
+function scr_player_barrel() //scr_player_barrel
 {
     image_speed = (abs(movespeed) / 4)
     if ((image_speed < 0.35))

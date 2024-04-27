@@ -1,4 +1,4 @@
-function cutscene_player_idleanim() //gml_Script_cutscene_player_idleanim
+function cutscene_player_idleanim() //cutscene_player_idleanim
 {
     with (obj_player)
     {

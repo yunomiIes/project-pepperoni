@@ -1,4 +1,4 @@
-function scr_soundeffect() //gml_Script_scr_soundeffect
+function scr_soundeffect() //scr_soundeffect
 {
     var snd = argument[irandom((argument_count - 1))]
     var snd_id = audio_play_sound(snd, 1, false)
@@ -6,7 +6,7 @@ function scr_soundeffect() //gml_Script_scr_soundeffect
     return;
 }
 
-function sfx_gain(argument0) //gml_Script_sfx_gain
+function sfx_gain(argument0) //sfx_gain
 {
     audio_sound_gain(argument0, (audio_sound_get_gain(argument0) * global.option_sfx_volume), 0)
     return;

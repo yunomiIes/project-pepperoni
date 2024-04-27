@@ -1,4 +1,4 @@
-function scr_player_tubeenter() //gml_Script_scr_player_tubeenter
+function scr_player_tubeenter() //scr_player_tubeenter
 {
     visible = false
     with (tube_id)

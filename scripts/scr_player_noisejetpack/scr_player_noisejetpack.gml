@@ -1,4 +1,4 @@
-function scr_player_noisejetpack() //gml_Script_scr_player_noisejetpack
+function scr_player_noisejetpack() //scr_player_noisejetpack
 {
     hsp = (xscale * movespeed)
     move = (key_left + key_right)

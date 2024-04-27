@@ -1,4 +1,4 @@
-function scr_player_Sjumpprep() //gml_Script_scr_player_Sjumpprep
+function scr_player_Sjumpprep() //scr_player_Sjumpprep
 {
     switch character
     {

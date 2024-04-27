@@ -1,4 +1,4 @@
-function scr_player_ratmountbounce() //gml_Script_scr_player_ratmountbounce
+function scr_player_ratmountbounce() //scr_player_ratmountbounce
 {
     if ((character == "NTV"))
     {

@@ -34,7 +34,7 @@ door_object_arr = [223, 608, 806, 604, 602, 254]
 depth = -19998
 if ((instance_number(object_index) > 1))
     instance_destroy()
-function save_editor_objects_gml_Object_obj_fakeeditor_Create_0() //gml_Script_save_editor_objects_gml_Object_obj_fakeeditor_Create_0
+function save_editor_objects_gml_Object_obj_fakeeditor_Create_0() //save_editor_objects_gml_Object_obj_fakeeditor_Create_0
 {
     var myobjects = array_create(0)
     with (all)
@@ -64,7 +64,7 @@ function save_editor_objects_gml_Object_obj_fakeeditor_Create_0() //gml_Script_s
     get_string_async("save code:", objectsstring)
 }
 
-function createeditorobject_gml_Object_obj_fakeeditor_Create_0(argument0) //gml_Script_createeditorobject_gml_Object_obj_fakeeditor_Create_0
+function createeditorobject_gml_Object_obj_fakeeditor_Create_0(argument0) //createeditorobject_gml_Object_obj_fakeeditor_Create_0
 {
     with (instance_create(0, 0, argument0.object_index))
     {
@@ -77,7 +77,7 @@ function createeditorobject_gml_Object_obj_fakeeditor_Create_0(argument0) //gml_
     }
 }
 
-function load_editor_objects_gml_Object_obj_fakeeditor_Create_0(argument0) //gml_Script_load_editor_objects_gml_Object_obj_fakeeditor_Create_0
+function load_editor_objects_gml_Object_obj_fakeeditor_Create_0(argument0) //load_editor_objects_gml_Object_obj_fakeeditor_Create_0
 {
     if ((!is_string(argument0)) || (argument0 == ""))
         show_message_async("No input provided")
@@ -93,7 +93,7 @@ function load_editor_objects_gml_Object_obj_fakeeditor_Create_0(argument0) //gml
     }
 }
 
-function edit_object_var_gml_Object_obj_fakeeditor_Create_0(argument0) //gml_Script_edit_object_var_gml_Object_obj_fakeeditor_Create_0
+function edit_object_var_gml_Object_obj_fakeeditor_Create_0(argument0) //edit_object_var_gml_Object_obj_fakeeditor_Create_0
 {
     var commands = string_split(argument0, " ")
     var i = 1

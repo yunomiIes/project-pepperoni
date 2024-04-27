@@ -1,4 +1,4 @@
-function scr_is_p_rank() //gml_Script_scr_is_p_rank
+function scr_is_p_rank() //scr_is_p_rank
 {
     if ((global.leveltosave != "exit"))
         return (global.lap && (global.secretfound >= 3) && global.treasure && (!global.combodropped) && global.prank_enemykilled);
@@ -6,7 +6,7 @@ function scr_is_p_rank() //gml_Script_scr_is_p_rank
         return (!global.combodropped);
 }
 
-function scr_do_rank(argument0, argument1) //gml_Script_scr_do_rank
+function scr_do_rank(argument0, argument1) //scr_do_rank
 {
     if ((argument0 == undefined))
         argument0 = true

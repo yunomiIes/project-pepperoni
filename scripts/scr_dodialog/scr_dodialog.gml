@@ -1,4 +1,4 @@
-function do_dialog(argument0) //gml_Script_do_dialog
+function do_dialog(argument0) //do_dialog
 {
     with (instance_create(x, y, obj_dialogcontroller))
     {
@@ -29,13 +29,13 @@ function do_dialog(argument0) //gml_Script_do_dialog
     return;
 }
 
-function npc_do_dialog() //gml_Script_npc_do_dialog
+function npc_do_dialog() //npc_do_dialog
 {
     do_dialog(dialog)
     return;
 }
 
-function vigilante_add_battle() //gml_Script_vigilante_add_battle
+function vigilante_add_battle() //vigilante_add_battle
 {
     if ((global.vigilantecutscene1 == -4) || (!global.vigilantecutscene1))
     {
@@ -45,7 +45,7 @@ function vigilante_add_battle() //gml_Script_vigilante_add_battle
     return;
 }
 
-function do_dialog_cutscene(argument0, argument1, argument2) //gml_Script_do_dialog_cutscene
+function do_dialog_cutscene(argument0, argument1, argument2) //do_dialog_cutscene
 {
     if ((argument1 == undefined))
         argument1 = 0

@@ -1,4 +1,4 @@
-function cutscene_player_pos_lerp(argument0, argument1, argument2) //gml_Script_cutscene_player_pos_lerp
+function cutscene_player_pos_lerp(argument0, argument1, argument2) //cutscene_player_pos_lerp
 {
     var _finish = 0
     with (obj_player)

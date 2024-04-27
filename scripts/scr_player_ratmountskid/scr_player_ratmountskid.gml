@@ -1,4 +1,4 @@
-function scr_player_ratmountskid() //gml_Script_scr_player_ratmountskid
+function scr_player_ratmountskid() //scr_player_ratmountskid
 {
     hsp = (xscale * (-movespeed))
     movespeed = Approach(movespeed, 0, 0.8)

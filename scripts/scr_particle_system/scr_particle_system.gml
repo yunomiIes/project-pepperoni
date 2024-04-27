@@ -1,4 +1,4 @@
-function declare_particle(argument0, argument1, argument2, argument3) //gml_Script_declare_particle
+function declare_particle(argument0, argument1, argument2, argument3) //declare_particle
 {
     ds_map_set(global.part_map, argument0, part_type_create())
     ds_map_set(global.part_depth, argument0, argument3)
@@ -11,13 +11,13 @@ function declare_particle(argument0, argument1, argument2, argument3) //gml_Scri
     return p;
 }
 
-function particle_set_scale(argument0, argument1, argument2) //gml_Script_particle_set_scale
+function particle_set_scale(argument0, argument1, argument2) //particle_set_scale
 {
     part_type_scale(ds_map_find_value(global.part_map, argument0), argument1, argument2)
     return;
 }
 
-function create_debris(argument0, argument1, argument2, argument3) //gml_Script_create_debris
+function create_debris(argument0, argument1, argument2, argument3) //create_debris
 {
     if ((argument3 == undefined))
         argument3 = false
@@ -45,7 +45,7 @@ function create_debris(argument0, argument1, argument2, argument3) //gml_Script_
     return q;
 }
 
-function create_heatpuff(argument0, argument1) //gml_Script_create_heatpuff
+function create_heatpuff(argument0, argument1) //create_heatpuff
 {
     var q = create_debris(argument0, argument1, 2809, 1)
     q.grav = 0
@@ -55,7 +55,7 @@ function create_heatpuff(argument0, argument1) //gml_Script_create_heatpuff
     return q;
 }
 
-function create_collect(argument0, argument1, argument2) //gml_Script_create_collect
+function create_collect(argument0, argument1, argument2) //create_collect
 {
     argument0 -= camera_get_view_x(view_camera[0])
     argument1 -= camera_get_view_y(view_camera[0])
@@ -74,7 +74,7 @@ function create_collect(argument0, argument1, argument2) //gml_Script_create_col
     return q;
 }
 
-function create_particle(argument0, argument1, argument2, argument3) //gml_Script_create_particle
+function create_particle(argument0, argument1, argument2, argument3) //create_particle
 {
     if ((argument3 == undefined))
         argument3 = 0

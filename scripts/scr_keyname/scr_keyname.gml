@@ -1,4 +1,4 @@
-function scr_keyname(argument0) //gml_Script_scr_keyname
+function scr_keyname(argument0) //scr_keyname
 {
     switch argument0
     {

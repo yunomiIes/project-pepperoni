@@ -1,4 +1,4 @@
-function scr_text_arr_size(argument0) //gml_Script_scr_text_arr_size
+function scr_text_arr_size(argument0) //scr_text_arr_size
 {
     var w = 0
     var newline = string_height("ABCDEFGHIJKLMNOPQRSTUVWXYZ")

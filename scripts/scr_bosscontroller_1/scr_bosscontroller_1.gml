@@ -1,4 +1,4 @@
-function scr_bosscontroller_particle_hp(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7) //gml_Script_scr_bosscontroller_particle_hp
+function scr_bosscontroller_particle_hp(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7) //scr_bosscontroller_particle_hp
 {
     if ((argument7 == undefined))
         argument7 = -4
@@ -23,7 +23,7 @@ function scr_bosscontroller_particle_hp(argument0, argument1, argument2, argumen
     }
 }
 
-function scr_bosscontroller_particle_anim(argument0, argument1, argument2, argument3, argument4, argument5, argument6) //gml_Script_scr_bosscontroller_particle_anim
+function scr_bosscontroller_particle_anim(argument0, argument1, argument2, argument3, argument4, argument5, argument6) //scr_bosscontroller_particle_anim
 {
     if ((argument5 == undefined))
         argument5 = 546
@@ -49,7 +49,7 @@ function scr_bosscontroller_particle_anim(argument0, argument1, argument2, argum
     }
 }
 
-function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
+function scr_bosscontroller_intro() //scr_bosscontroller_intro
 {
     with (obj_player)
     {
@@ -124,7 +124,7 @@ function scr_bosscontroller_intro() //gml_Script_scr_bosscontroller_intro
     }
 }
 
-function scr_bosscontroller_normal() //gml_Script_scr_bosscontroller_normal
+function scr_bosscontroller_normal() //scr_bosscontroller_normal
 {
     if ((boss_func != -4))
         self.boss_func()
@@ -192,7 +192,7 @@ function scr_bosscontroller_normal() //gml_Script_scr_bosscontroller_normal
     }
 }
 
-function scr_bosscontroller_victory() //gml_Script_scr_bosscontroller_victory
+function scr_bosscontroller_victory() //scr_bosscontroller_victory
 {
     if ((victory_buffer > 0))
         victory_buffer--
@@ -219,7 +219,7 @@ function scr_bosscontroller_victory() //gml_Script_scr_bosscontroller_victory
     }
 }
 
-function scr_bosscontroller_pizzaface_p3_health() //gml_Script_scr_bosscontroller_pizzaface_p3_health
+function scr_bosscontroller_pizzaface_p3_health() //scr_bosscontroller_pizzaface_p3_health
 {
     for (var e = elitehit; e > 2; e -= 2)
     {
@@ -228,7 +228,7 @@ function scr_bosscontroller_pizzaface_p3_health() //gml_Script_scr_bosscontrolle
     return eh;
 }
 
-function scr_bosscontroller_draw_health(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11, argument12, argument13) //gml_Script_scr_bosscontroller_draw_health
+function scr_bosscontroller_draw_health(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11, argument12, argument13) //scr_bosscontroller_draw_health
 {
     if ((argument11 == undefined))
         argument11 = -4
@@ -269,7 +269,7 @@ function scr_bosscontroller_draw_health(argument0, argument1, argument2, argumen
     }
 }
 
-function scr_bosscontroller_get_health_pos(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8) //gml_Script_scr_bosscontroller_get_health_pos
+function scr_bosscontroller_get_health_pos(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8) //scr_bosscontroller_get_health_pos
 {
     if ((argument8 == undefined))
         argument8 = false
@@ -300,7 +300,7 @@ function scr_bosscontroller_get_health_pos(argument0, argument1, argument2, argu
     return undefined;
 }
 
-function scr_collect_hat(argument0) //gml_Script_scr_collect_hat
+function scr_collect_hat(argument0) //scr_collect_hat
 {
     if ((argument0 == undefined))
         argument0 = false

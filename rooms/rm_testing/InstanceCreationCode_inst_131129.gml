@@ -1,4 +1,4 @@
-func = function(argument0) //gml_Script_anon_gml_RoomCC_rm_testing_13_Create_7_gml_RoomCC_rm_testing_13_Create
+func = function(argument0) //anon_gml_RoomCC_rm_testing_13_Create_7_gml_RoomCC_rm_testing_13_Create
 {
     if ((!active) && (argument0.state == (84 << 0)))
     {
@@ -8,7 +8,7 @@ func = function(argument0) //gml_Script_anon_gml_RoomCC_rm_testing_13_Create_7_g
     return;
 }
 
-stepfunc = function() //gml_Script_anon_gml_RoomCC_rm_testing_13_Create_155_gml_RoomCC_rm_testing_13_Create
+stepfunc = function() //anon_gml_RoomCC_rm_testing_13_Create_155_gml_RoomCC_rm_testing_13_Create
 {
     if active
     {

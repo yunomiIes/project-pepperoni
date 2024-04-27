@@ -1,4 +1,4 @@
-function scr_changetoppings() //gml_Script_scr_changetoppings
+function scr_changetoppings() //scr_changetoppings
 {
     with (obj_collect)
     {

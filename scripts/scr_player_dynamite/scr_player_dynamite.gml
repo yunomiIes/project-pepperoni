@@ -1,4 +1,4 @@
-function scr_player_dynamite() //gml_Script_scr_player_dynamite
+function scr_player_dynamite() //scr_player_dynamite
 {
     if grounded
     {

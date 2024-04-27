@@ -1,4 +1,4 @@
-function scr_player_hook() //gml_Script_scr_player_hook
+function scr_player_hook() //scr_player_hook
 {
     if key_jump
     {

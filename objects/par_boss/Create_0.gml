@@ -43,7 +43,7 @@ attacking = 0
 destroyed = 0
 playerdestroyed = 0
 colliding = 1
-function SUPER_player_destroy_gml_Object_par_boss_Create_0(argument0) //gml_Script_SUPER_player_destroy_gml_Object_par_boss_Create_0
+function SUPER_player_destroy_gml_Object_par_boss_Create_0(argument0) //SUPER_player_destroy_gml_Object_par_boss_Create_0
 {
     depth = argument0.depth
     playerdestroyed = 1
@@ -83,7 +83,7 @@ function SUPER_player_destroy_gml_Object_par_boss_Create_0(argument0) //gml_Scri
     return;
 }
 
-function SUPER_boss_destroy_gml_Object_par_boss_Create_0(argument0) //gml_Script_SUPER_boss_destroy_gml_Object_par_boss_Create_0
+function SUPER_boss_destroy_gml_Object_par_boss_Create_0(argument0) //SUPER_boss_destroy_gml_Object_par_boss_Create_0
 {
     destroyed = 1
     depth = argument0.depth
@@ -141,7 +141,7 @@ function SUPER_boss_destroy_gml_Object_par_boss_Create_0(argument0) //gml_Script
     return;
 }
 
-function SUPER_boss_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //gml_Script_SUPER_boss_hurt_gml_Object_par_boss_Create_0
+function SUPER_boss_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //SUPER_boss_hurt_gml_Object_par_boss_Create_0
 {
     if important
         hp -= argument0
@@ -211,7 +211,7 @@ function SUPER_boss_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //gm
     return;
 }
 
-function SUPER_boss_hurt_noplayer_gml_Object_par_boss_Create_0(argument0) //gml_Script_SUPER_boss_hurt_noplayer_gml_Object_par_boss_Create_0
+function SUPER_boss_hurt_noplayer_gml_Object_par_boss_Create_0(argument0) //SUPER_boss_hurt_noplayer_gml_Object_par_boss_Create_0
 {
     if important
         hp -= argument0
@@ -248,7 +248,7 @@ function SUPER_boss_hurt_noplayer_gml_Object_par_boss_Create_0(argument0) //gml_
     return;
 }
 
-function SUPER_player_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //gml_Script_SUPER_player_hurt_gml_Object_par_boss_Create_0
+function SUPER_player_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //SUPER_player_hurt_gml_Object_par_boss_Create_0
 {
     if instance_exists(obj_bosscontroller)
         obj_bosscontroller.player_hp -= argument0
@@ -303,31 +303,31 @@ function SUPER_player_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //
     return;
 }
 
-function player_destroy_gml_Object_par_boss_Create_0(argument0) //gml_Script_player_destroy_gml_Object_par_boss_Create_0
+function player_destroy_gml_Object_par_boss_Create_0(argument0) //player_destroy_gml_Object_par_boss_Create_0
 {
     self.SUPER_player_destroy(argument0)
     return;
 }
 
-function boss_destroy_gml_Object_par_boss_Create_0(argument0) //gml_Script_boss_destroy_gml_Object_par_boss_Create_0
+function boss_destroy_gml_Object_par_boss_Create_0(argument0) //boss_destroy_gml_Object_par_boss_Create_0
 {
     self.SUPER_boss_destroy(argument0)
     return;
 }
 
-function player_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //gml_Script_player_hurt_gml_Object_par_boss_Create_0
+function player_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //player_hurt_gml_Object_par_boss_Create_0
 {
     self.SUPER_player_hurt(argument0, argument1)
     return;
 }
 
-function boss_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //gml_Script_boss_hurt_gml_Object_par_boss_Create_0
+function boss_hurt_gml_Object_par_boss_Create_0(argument0, argument1) //boss_hurt_gml_Object_par_boss_Create_0
 {
     self.SUPER_boss_hurt(argument0, argument1)
     return;
 }
 
-function boss_hurt_noplayer_gml_Object_par_boss_Create_0(argument0) //gml_Script_boss_hurt_noplayer_gml_Object_par_boss_Create_0
+function boss_hurt_noplayer_gml_Object_par_boss_Create_0(argument0) //boss_hurt_noplayer_gml_Object_par_boss_Create_0
 {
     self.SUPER_boss_hurt_noplayer(argument0)
     return;

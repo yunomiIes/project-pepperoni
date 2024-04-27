@@ -1,4 +1,4 @@
-function scr_vigilante_walk() //gml_Script_scr_vigilante_walk
+function scr_vigilante_walk() //scr_vigilante_walk
 {
     image_speed = 0.35
     image_xscale = -1
@@ -95,7 +95,7 @@ function scr_vigilante_walk() //gml_Script_scr_vigilante_walk
     return;
 }
 
-function scr_vigilante_jump() //gml_Script_scr_vigilante_jump
+function scr_vigilante_jump() //scr_vigilante_jump
 {
     if ((floor(image_index) == (image_number - 1)) && (sprite_index == spr_playerV_jump))
         sprite_index = spr_playerV_fall
@@ -153,7 +153,7 @@ function scr_vigilante_jump() //gml_Script_scr_vigilante_jump
     return;
 }
 
-function scr_vigilante_freefallprep() //gml_Script_scr_vigilante_freefallprep
+function scr_vigilante_freefallprep() //scr_vigilante_freefallprep
 {
     if ((sprite_index != spr_playerV_bodyslamprep))
     {
@@ -176,7 +176,7 @@ function scr_vigilante_freefallprep() //gml_Script_scr_vigilante_freefallprep
     return;
 }
 
-function scr_vigilante_freefall() //gml_Script_scr_vigilante_freefall
+function scr_vigilante_freefall() //scr_vigilante_freefall
 {
     if ((sprite_index == spr_playerV_bodyslamprep) && (floor(image_index) == (image_number - 1)))
         sprite_index = spr_playerV_bodyslam
@@ -206,7 +206,7 @@ function scr_vigilante_freefall() //gml_Script_scr_vigilante_freefall
     return;
 }
 
-function scr_vigilante_freefallland() //gml_Script_scr_vigilante_freefallland
+function scr_vigilante_freefallland() //scr_vigilante_freefallland
 {
     if ((floor(image_index) == (image_number - 1)))
     {
@@ -219,7 +219,7 @@ function scr_vigilante_freefallland() //gml_Script_scr_vigilante_freefallland
     return;
 }
 
-function scr_vigilante_throwing() //gml_Script_scr_vigilante_throwing
+function scr_vigilante_throwing() //scr_vigilante_throwing
 {
     image_speed = 0.35
     if ((floor(image_index) == (image_number - 1)))
@@ -274,7 +274,7 @@ function scr_vigilante_throwing() //gml_Script_scr_vigilante_throwing
     return;
 }
 
-function scr_vigilante_revolver() //gml_Script_scr_vigilante_revolver
+function scr_vigilante_revolver() //scr_vigilante_revolver
 {
     image_speed = 0.35
     if ((floor(image_index) == (image_number - 1)))
@@ -326,7 +326,7 @@ function scr_vigilante_revolver() //gml_Script_scr_vigilante_revolver
     return;
 }
 
-function scr_vigilante_dynamite() //gml_Script_scr_vigilante_dynamite
+function scr_vigilante_dynamite() //scr_vigilante_dynamite
 {
     image_speed = 0.35
     if ((floor(image_index) == (image_number - 1)))
@@ -364,7 +364,7 @@ function scr_vigilante_dynamite() //gml_Script_scr_vigilante_dynamite
     return;
 }
 
-function scr_vigilante_climbwall() //gml_Script_scr_vigilante_climbwall
+function scr_vigilante_climbwall() //scr_vigilante_climbwall
 {
     sprite_index = spr_playerV_wallclimb
     hsp = 0
@@ -383,7 +383,7 @@ function scr_vigilante_climbwall() //gml_Script_scr_vigilante_climbwall
     return;
 }
 
-function scr_vigilante_crouch() //gml_Script_scr_vigilante_crouch
+function scr_vigilante_crouch() //scr_vigilante_crouch
 {
     sprite_index = spr_playerV_crouchmove
     hsp = (image_xscale * movespeed)

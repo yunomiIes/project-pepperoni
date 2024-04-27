@@ -1,4 +1,4 @@
-function scr_slope() //gml_Script_scr_slope
+function scr_slope() //scr_slope
 {
     y++
     var slope = instance_place(x, y, obj_slope)

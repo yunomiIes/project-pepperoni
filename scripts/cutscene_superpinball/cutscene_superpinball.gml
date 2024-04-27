@@ -1,4 +1,4 @@
-function cutscene_superpinball_start() //gml_Script_cutscene_superpinball_start
+function cutscene_superpinball_start() //cutscene_superpinball_start
 {
     var _finish = 0
     with (obj_player1)
@@ -20,7 +20,7 @@ function cutscene_superpinball_start() //gml_Script_cutscene_superpinball_start
     }
 }
 
-function cutscene_superpinball_middle() //gml_Script_cutscene_superpinball_middle
+function cutscene_superpinball_middle() //cutscene_superpinball_middle
 {
     var t = noone
     with (obj_superpinballmachine)
@@ -41,7 +41,7 @@ function cutscene_superpinball_middle() //gml_Script_cutscene_superpinball_middl
         cutscene_end_action()
 }
 
-function cutscene_superpinball_middle2() //gml_Script_cutscene_superpinball_middle2
+function cutscene_superpinball_middle2() //cutscene_superpinball_middle2
 {
     with (obj_player)
     {
@@ -55,7 +55,7 @@ function cutscene_superpinball_middle2() //gml_Script_cutscene_superpinball_midd
         cutscene_end_action()
 }
 
-function cutscene_superpinball_middle3() //gml_Script_cutscene_superpinball_middle3
+function cutscene_superpinball_middle3() //cutscene_superpinball_middle3
 {
     with (obj_player)
     {
@@ -68,13 +68,13 @@ function cutscene_superpinball_middle3() //gml_Script_cutscene_superpinball_midd
     cutscene_end_action()
 }
 
-function cutscene_superpinball_middle4() //gml_Script_cutscene_superpinball_middle4
+function cutscene_superpinball_middle4() //cutscene_superpinball_middle4
 {
     if ((obj_player1.y > 540))
         cutscene_end_action()
 }
 
-function cutscene_superpinball_middle5() //gml_Script_cutscene_superpinball_middle5
+function cutscene_superpinball_middle5() //cutscene_superpinball_middle5
 {
     with (obj_player)
     {
@@ -87,7 +87,7 @@ function cutscene_superpinball_middle5() //gml_Script_cutscene_superpinball_midd
     cutscene_end_action()
 }
 
-function cutscene_superpinball_end() //gml_Script_cutscene_superpinball_end
+function cutscene_superpinball_end() //cutscene_superpinball_end
 {
     with (obj_player)
     {
@@ -99,7 +99,7 @@ function cutscene_superpinball_end() //gml_Script_cutscene_superpinball_end
     cutscene_end_action()
 }
 
-function check_player_coop() //gml_Script_check_player_coop
+function check_player_coop() //check_player_coop
 {
     return ((object_index != obj_player2) ? true : global.coop);
 }

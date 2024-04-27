@@ -1,4 +1,4 @@
-function __background_get_internal(argument0, argument1, argument2) //gml_Script___background_get_internal
+function __background_get_internal(argument0, argument1, argument2) //__background_get_internal
 {
     if ((argument2[0] == -1) || (layer_background_exists(argument2[1], argument2[0]) == false))
     {

@@ -1,4 +1,4 @@
-function scr_fakepeppino_walk() //gml_Script_scr_fakepeppino_walk
+function scr_fakepeppino_walk() //scr_fakepeppino_walk
 {
     hsp = (image_xscale * movespeed)
     if (scr_solid(x, (y - 16)) && scr_solid(x, (y - 32)))

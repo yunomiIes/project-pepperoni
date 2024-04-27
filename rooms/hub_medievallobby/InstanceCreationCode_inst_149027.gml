@@ -17,22 +17,22 @@ if ((global.levelcompletename != "CHATEAU"))
             other.backx = backtohubstartx
             other.backy = backtohubstarty
         }
-        scene_info = [[gml_Script_cutscene_medieval_start], [gml_Script_cutscene_waitfor_sprite, 349], [gml_Script_cutscene_medieval_start2], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_player_float, 1], [gml_Script_cutscene_player_pos_lerp, 1173, 997, 0.03], [gml_Script_cutscene_wait, 40], [gml_Script_cutscene_medieval_middle], [gml_Script_cutscene_player_pos_lerp, backx, backy, 0.03], [gml_Script_cutscene_set_player_pos, backx, backy], [gml_Script_cutscene_set_player_visible, 1], [gml_Script_cutscene_player_float, 0], [gml_Script_cutscene_medieval_end], [gml_Script_cutscene_save_game]]
+        scene_info = [[cutscene_medieval_start], [cutscene_waitfor_sprite, 349], [cutscene_medieval_start2], [cutscene_set_player_visible, 0], [cutscene_player_float, 1], [cutscene_player_pos_lerp, 1173, 997, 0.03], [cutscene_wait, 40], [cutscene_medieval_middle], [cutscene_player_pos_lerp, backx, backy, 0.03], [cutscene_set_player_pos, backx, backy], [cutscene_set_player_visible, 1], [cutscene_player_float, 0], [cutscene_medieval_end], [cutscene_save_game]]
     }
     else if global.levelcomplete
     {
         global.levelcomplete = 0
-        scene_info = [[gml_Script_cutscene_save_game]]
+        scene_info = [[cutscene_save_game]]
     }
     else
-        scene_info = [[gml_Script_cutscene_wait, 20]]
+        scene_info = [[cutscene_wait, 20]]
 }
 else if (global.levelcomplete && (!global.chateaucutscene))
 {
     global.levelcomplete = 0
     global.chateaucutscene = 1
     currentroom = room
-    scene_info = [[gml_Script_cutscene_entrance_start], [gml_Script_cutscene_waitfor_sprite, 349], [gml_Script_cutscene_player_idleanim], [gml_Script_cutscene_change_room, 171], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_set_player_pos, 1888, 369], [gml_Script_cutscene_wait, 100], [gml_Script_cutscene_change_room, currentroom], [gml_Script_cutscene_set_player_visible, 1], [function() //gml_Script_anon_gml_RoomCC_hub_medievallobby_7_Create_1403_gml_RoomCC_hub_medievallobby_7_Create
+    scene_info = [[cutscene_entrance_start], [cutscene_waitfor_sprite, 349], [cutscene_player_idleanim], [cutscene_change_room, 171], [cutscene_set_player_visible, 0], [cutscene_set_player_pos, 1888, 369], [cutscene_wait, 100], [cutscene_change_room, currentroom], [cutscene_set_player_visible, 1], [function() //anon_gml_RoomCC_hub_medievallobby_7_Create_1403_gml_RoomCC_hub_medievallobby_7_Create
     {
         with (obj_player)
         {
@@ -46,12 +46,12 @@ else if (global.levelcomplete && (!global.chateaucutscene))
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_save_game]]
+], [cutscene_save_game]]
 }
 else if global.levelcomplete
 {
     global.levelcomplete = 0
-    scene_info = [[gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_save_game]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 20]]
+    scene_info = [[cutscene_wait, 20]]

@@ -1,4 +1,4 @@
-function scr_destroy_destructibles(argument0, argument1) //gml_Script_scr_destroy_destructibles
+function scr_destroy_destructibles(argument0, argument1) //scr_destroy_destructibles
 {
     var _num = instance_place_list((x + argument0), (y + argument1), obj_destructibles, global.instancelist, false)
     if ((_num > 0))

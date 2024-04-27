@@ -1,4 +1,4 @@
-function object_get_depth(argument0) //gml_Script_object_get_depth
+function object_get_depth(argument0) //object_get_depth
 {
     var objID = argument0
     var ret = 0

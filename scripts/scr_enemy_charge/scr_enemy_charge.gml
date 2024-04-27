@@ -1,4 +1,4 @@
-function scr_enemy_charge() //gml_Script_scr_enemy_charge
+function scr_enemy_charge() //scr_enemy_charge
 {
     if ((object_index == obj_peasanto))
     {

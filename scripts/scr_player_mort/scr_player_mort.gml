@@ -1,4 +1,4 @@
-function scr_player_mort() //gml_Script_scr_player_mort
+function scr_player_mort() //scr_player_mort
 {
     move = (key_right + key_left)
     hsp = movespeed
@@ -71,7 +71,7 @@ function scr_player_mort() //gml_Script_scr_player_mort
     return;
 }
 
-function mort_attack() //gml_Script_mort_attack
+function mort_attack() //mort_attack
 {
     if ((character == "NTV"))
     {
@@ -133,7 +133,7 @@ function mort_attack() //gml_Script_mort_attack
     return;
 }
 
-function Mort_DownMovement() //gml_Script_Mort_DownMovement
+function Mort_DownMovement() //Mort_DownMovement
 {
     if ((image_angle == 270))
     {

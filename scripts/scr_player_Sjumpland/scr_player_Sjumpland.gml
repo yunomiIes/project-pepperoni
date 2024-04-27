@@ -1,4 +1,4 @@
-function scr_player_Sjumpland() //gml_Script_scr_player_Sjumpland
+function scr_player_Sjumpland() //scr_player_Sjumpland
 {
     mach2 = 0
     jumpAnim = 1

@@ -4,17 +4,17 @@ if ((global.levelcompletename == "FOREST"))
     {
         currentroom = room
         global.forestcutscene = 1
-        scene_info = [[gml_Script_cutscene_entrance_start], [gml_Script_cutscene_waitfor_sprite, 349], [gml_Script_cutscene_player_idleanim], [gml_Script_cutscene_change_room, 631], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_player_float, 1], [gml_Script_cutscene_set_player_pos, 836, 434], [gml_Script_cutscene_wait, 150], [gml_Script_cutscene_change_room, currentroom], [gml_Script_cutscene_player_float, 0], [gml_Script_cutscene_set_player_visible, 1], [gml_Script_cutscene_forest_end]]
+        scene_info = [[cutscene_entrance_start], [cutscene_waitfor_sprite, 349], [cutscene_player_idleanim], [cutscene_change_room, 631], [cutscene_set_player_visible, 0], [cutscene_player_float, 1], [cutscene_set_player_pos, 836, 434], [cutscene_wait, 150], [cutscene_change_room, currentroom], [cutscene_player_float, 0], [cutscene_set_player_visible, 1], [cutscene_forest_end]]
     }
     else
-        scene_info = [[gml_Script_cutscene_wait, 20]]
+        scene_info = [[cutscene_wait, 20]]
 }
 else if (global.levelcomplete && (!global.beachcutscene) && (global.levelcompletename != "FOREST"))
 {
     currentroom = room
     peppermanactorID = noone
     boatactorID = noone
-    scene_info = [[gml_Script_cutscene_entrance_start], [gml_Script_cutscene_waitfor_sprite, 349], [gml_Script_cutscene_player_idleanim], [gml_Script_cutscene_change_room, 665], [gml_Script_cutscene_set_player_visible, 0], [gml_Script_cutscene_player_float, 1], [gml_Script_cutscene_set_player_pos, 923, 281], [gml_Script_cutscene_wait, 60], [function() //gml_Script_anon_gml_RoomCC_hub_island_4_Create_1020_gml_RoomCC_hub_island_4_Create
+    scene_info = [[cutscene_entrance_start], [cutscene_waitfor_sprite, 349], [cutscene_player_idleanim], [cutscene_change_room, 665], [cutscene_set_player_visible, 0], [cutscene_player_float, 1], [cutscene_set_player_pos, 923, 281], [cutscene_wait, 60], [function() //anon_gml_RoomCC_hub_island_4_Create_1020_gml_RoomCC_hub_island_4_Create
     {
         boatactorID = instance_create(632, 32, obj_actor)
         boatactorID.sprite_index = spr_cheeseboat
@@ -25,7 +25,7 @@ else if (global.levelcomplete && (!global.beachcutscene) && (global.levelcomplet
         cutscene_end_action()
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_island_4_Create_1386_gml_RoomCC_hub_island_4_Create
+], [function() //anon_gml_RoomCC_hub_island_4_Create_1386_gml_RoomCC_hub_island_4_Create
     {
         var _finish = 0
         with (boatactorID)
@@ -45,7 +45,7 @@ else if (global.levelcomplete && (!global.beachcutscene) && (global.levelcomplet
             cutscene_end_action()
         return;
     }
-], [function() //gml_Script_anon_gml_RoomCC_hub_island_4_Create_1654_gml_RoomCC_hub_island_4_Create
+], [function() //anon_gml_RoomCC_hub_island_4_Create_1654_gml_RoomCC_hub_island_4_Create
     {
         _finish = 0
         with (boatactorID)
@@ -64,7 +64,7 @@ else if (global.levelcomplete && (!global.beachcutscene) && (global.levelcomplet
         global.beachcutscene = 1
         return;
     }
-], [gml_Script_cutscene_camera_shake, 4, (3 / room_speed)], [gml_Script_cutscene_soundeffect, 57], [gml_Script_cutscene_wait, 60], [gml_Script_cutscene_change_room, currentroom], [gml_Script_cutscene_player_float, 0], [gml_Script_cutscene_set_player_visible, 1], [gml_Script_cutscene_beach_end]]
+], [cutscene_camera_shake, 4, (3 / room_speed)], [cutscene_soundeffect, 57], [cutscene_wait, 60], [cutscene_change_room, currentroom], [cutscene_player_float, 0], [cutscene_set_player_visible, 1], [cutscene_beach_end]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 20]]
+    scene_info = [[cutscene_wait, 20]]

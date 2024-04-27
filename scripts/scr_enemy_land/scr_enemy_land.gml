@@ -1,4 +1,4 @@
-function scr_enemy_land() //gml_Script_scr_enemy_land
+function scr_enemy_land() //scr_enemy_land
 {
     if ((vsp > 0))
         hsp = 0

@@ -4,7 +4,7 @@ surface = -4
 scroll_y = 0
 scroll_ymax = 0
 hovered_object = -1
-OnSelect = function() //gml_Script_anon_gml_Object_obj_objectlist_Create_0_109_gml_Object_obj_objectlist_Create_0
+OnSelect = function() //anon_gml_Object_obj_objectlist_Create_0_109_gml_Object_obj_objectlist_Create_0
 {
     if ((hovered_object >= 0) && (object_list != -4))
     {

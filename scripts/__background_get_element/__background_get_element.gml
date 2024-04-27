@@ -1,5 +1,5 @@
 var __result;
-function __background_get_element(argument0) //gml_Script___background_get_element
+function __background_get_element(argument0) //__background_get_element
 {
     __result[0] = -1
     __result[1] = -1

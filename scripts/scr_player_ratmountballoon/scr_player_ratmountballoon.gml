@@ -1,4 +1,4 @@
-function scr_player_ratmountballoon() //gml_Script_scr_player_ratmountballoon
+function scr_player_ratmountballoon() //scr_player_ratmountballoon
 {
     sprite_index = spr_player_ratmountballoon
     hsp = movespeed

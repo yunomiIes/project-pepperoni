@@ -1,4 +1,4 @@
-function scr_editor_init_objects() //gml_Script_scr_editor_init_objects
+function scr_editor_init_objects() //scr_editor_init_objects
 {
     add_object(0, "SOLID", 156, 337, 16, 16)
     add_object(0, "PLATFORM", 1681, 531, 16, 16)

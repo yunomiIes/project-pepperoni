@@ -1,4 +1,4 @@
-function scr_player_barreljump() //gml_Script_scr_player_barreljump
+function scr_player_barreljump() //scr_player_barreljump
 {
     image_speed = 0.35
     hsp = movespeed

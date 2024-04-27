@@ -1,4 +1,4 @@
-function scr_boss_grabbed() //gml_Script_scr_boss_grabbed
+function scr_boss_grabbed() //scr_boss_grabbed
 {
     if (!(variable_instance_exists(self, "pizzahead")))
         pizzahead = 0
@@ -42,7 +42,7 @@ function scr_boss_grabbed() //gml_Script_scr_boss_grabbed
     state = (272 << 0)
 }
 
-function scr_boss_pizzaheadjump() //gml_Script_scr_boss_pizzaheadjump
+function scr_boss_pizzaheadjump() //scr_boss_pizzaheadjump
 {
     if ((object_index != obj_noisey))
         hsp = 0
@@ -89,7 +89,7 @@ function scr_boss_pizzaheadjump() //gml_Script_scr_boss_pizzaheadjump
     }
 }
 
-function boss_update_pizzaheadKO(argument0, argument1) //gml_Script_boss_update_pizzaheadKO
+function boss_update_pizzaheadKO(argument0, argument1) //boss_update_pizzaheadKO
 {
     if (pizzahead && pizzaheadKO && (!instance_exists(pizzaheadKO_ID)))
     {
@@ -107,7 +107,7 @@ function boss_update_pizzaheadKO(argument0, argument1) //gml_Script_boss_update_
     }
 }
 
-function boss_hurt_gustavo() //gml_Script_boss_hurt_gustavo
+function boss_hurt_gustavo() //boss_hurt_gustavo
 {
     if pizzahead
     {
@@ -139,7 +139,7 @@ function boss_hurt_gustavo() //gml_Script_boss_hurt_gustavo
     }
 }
 
-function boss_do_pizzaheadKO() //gml_Script_boss_do_pizzaheadKO
+function boss_do_pizzaheadKO() //boss_do_pizzaheadKO
 {
     if (pizzahead && pizzaheadKO && (state != (270 << 0)) && (elitehit <= 3))
     {
@@ -149,7 +149,7 @@ function boss_do_pizzaheadKO() //gml_Script_boss_do_pizzaheadKO
     }
 }
 
-function scr_boss_pizzaheadKO() //gml_Script_scr_boss_pizzaheadKO
+function scr_boss_pizzaheadKO() //scr_boss_pizzaheadKO
 {
     if grounded
         hsp = Approach(hsp, 0, 0.2)
@@ -178,7 +178,7 @@ function scr_boss_pizzaheadKO() //gml_Script_scr_boss_pizzaheadKO
     }
 }
 
-function scr_boss_genericintro(argument0) //gml_Script_scr_boss_genericintro
+function scr_boss_genericintro(argument0) //scr_boss_genericintro
 {
     if ((sprite_index != argument0))
     {
@@ -215,7 +215,7 @@ function scr_boss_genericintro(argument0) //gml_Script_scr_boss_genericintro
     }
 }
 
-function scr_boss_do_hurt_phase2(argument0, argument1) //gml_Script_scr_boss_do_hurt_phase2
+function scr_boss_do_hurt_phase2(argument0, argument1) //scr_boss_do_hurt_phase2
 {
     if ((argument1 == undefined))
         argument1 = 100
@@ -247,7 +247,7 @@ function scr_boss_do_hurt_phase2(argument0, argument1) //gml_Script_scr_boss_do_
     instance_create(0, 0, obj_bossdark)
 }
 
-function scr_boss_phase1hurt(argument0) //gml_Script_scr_boss_phase1hurt
+function scr_boss_phase1hurt(argument0) //scr_boss_phase1hurt
 {
     if ((argument0 == undefined))
         argument0 = -4

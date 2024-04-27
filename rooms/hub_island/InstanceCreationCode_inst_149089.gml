@@ -1,12 +1,12 @@
 sprite_index = spr_pepperman_idle
 pm_dialog[0] = [dialog_create("Seems you don't have either a bottle or a piece of paper.")]
 pm_dialog[1] = [dialog_create("Beach	 boat")]
-pm_scene_info = [[gml_Script_cutscene_do_dialog, [dialog_create("Here you go")]], [gml_Script_cutscene_waitfor_dialog], [gml_Script_cutscene_set_player_actor], [gml_Script_cutscene_set_object_pos, 116722, 1696, 576], [gml_Script_cutscene_do_dialog, [dialog_create("Go ahead", -4, function() //gml_Script_anon_gml_RoomCC_hub_island_5_Create_397_gml_RoomCC_hub_island_5_Create
+pm_scene_info = [[cutscene_do_dialog, [dialog_create("Here you go")]], [cutscene_waitfor_dialog], [cutscene_set_player_actor], [cutscene_set_object_pos, 116722, 1696, 576], [cutscene_do_dialog, [dialog_create("Go ahead", -4, function() //anon_gml_RoomCC_hub_island_5_Create_397_gml_RoomCC_hub_island_5_Create
 {
     return;
 }
 )]]]
-dialog_func = function() //gml_Script_anon_gml_RoomCC_hub_island_5_Create_438_gml_RoomCC_hub_island_5_Create
+dialog_func = function() //anon_gml_RoomCC_hub_island_5_Create_438_gml_RoomCC_hub_island_5_Create
 {
     if ((!global.bottlecutscene) || (!global.papercutscene))
         do_dialog(pm_dialog[0])

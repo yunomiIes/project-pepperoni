@@ -1,4 +1,4 @@
-function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
+function scr_collide_destructibles() //scr_collide_destructibles
 {
     with (obj_player)
     {

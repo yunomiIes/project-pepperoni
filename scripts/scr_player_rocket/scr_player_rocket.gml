@@ -1,4 +1,4 @@
-function scr_player_rocket() //gml_Script_scr_player_rocket
+function scr_player_rocket() //scr_player_rocket
 {
     hsp = (xscale * movespeed)
     move = (key_right + key_left)

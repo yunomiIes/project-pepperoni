@@ -1,4 +1,4 @@
-function totem_empty(argument0) //gml_Script_totem_empty
+function totem_empty(argument0) //totem_empty
 {
     with (argument0)
     {
@@ -11,7 +11,7 @@ function totem_empty(argument0) //gml_Script_totem_empty
     }
 }
 
-function totem_add(argument0, argument1) //gml_Script_totem_add
+function totem_add(argument0, argument1) //totem_add
 {
     with (argument0)
     {
@@ -27,7 +27,7 @@ function totem_add(argument0, argument1) //gml_Script_totem_add
     }
 }
 
-function totem_clear(argument0) //gml_Script_totem_clear
+function totem_clear(argument0) //totem_clear
 {
     with (argument0)
     {
@@ -43,7 +43,7 @@ function totem_clear(argument0) //gml_Script_totem_clear
     }
 }
 
-function totem_count(argument0) //gml_Script_totem_count
+function totem_count(argument0) //totem_count
 {
     var c = 0
     with (argument0)

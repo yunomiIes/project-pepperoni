@@ -1,4 +1,4 @@
-function cutscene_move_player(argument0, argument1, argument2, argument3) //gml_Script_cutscene_move_player
+function cutscene_move_player(argument0, argument1, argument2, argument3) //cutscene_move_player
 {
     var player = argument0
     var x_to = argument1

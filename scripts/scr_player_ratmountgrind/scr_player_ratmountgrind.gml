@@ -1,4 +1,4 @@
-function scr_player_ratmountgrind() //gml_Script_scr_player_ratmountgrind
+function scr_player_ratmountgrind() //scr_player_ratmountgrind
 {
     hsp = movespeed
     vsp = 0

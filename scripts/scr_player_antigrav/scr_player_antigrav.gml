@@ -1,4 +1,4 @@
-function scr_player_antigrav() //gml_Script_scr_player_antigrav
+function scr_player_antigrav() //scr_player_antigrav
 {
     if ((character == "NTV"))
     {

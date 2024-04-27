@@ -1,4 +1,4 @@
-function scr_player_ratmountladder() //gml_Script_scr_player_ratmountladder
+function scr_player_ratmountladder() //scr_player_ratmountladder
 {
     movespeed = 0
     hsp = 0

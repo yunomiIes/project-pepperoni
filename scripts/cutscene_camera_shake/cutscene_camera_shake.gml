@@ -1,4 +1,4 @@
-function cutscene_camera_shake(argument0, argument1) //gml_Script_cutscene_camera_shake
+function cutscene_camera_shake(argument0, argument1) //cutscene_camera_shake
 {
     with (obj_camera)
     {

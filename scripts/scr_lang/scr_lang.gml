@@ -1,4 +1,4 @@
-function scr_get_languages() //gml_Script_scr_get_languages
+function scr_get_languages() //scr_get_languages
 {
     global.lang_map = ds_map_create()
     global.lang = "en"
@@ -21,7 +21,7 @@ function scr_get_languages() //gml_Script_scr_get_languages
     global.credits_arr = scr_lang_get_credits()
 }
 
-function scr_lang_get_credits() //gml_Script_scr_lang_get_credits
+function scr_lang_get_credits() //scr_lang_get_credits
 {
     var fo = file_text_open_read("credits.txt")
     var arr = array_create(0)
@@ -31,7 +31,7 @@ function scr_lang_get_credits() //gml_Script_scr_lang_get_credits
     return arr;
 }
 
-function lang_get_value(argument0) //gml_Script_lang_get_value
+function lang_get_value(argument0) //lang_get_value
 {
     var n = ds_map_find_value(ds_map_find_value(global.lang_map, global.lang), argument0)
     if is_undefined(n)
@@ -46,12 +46,12 @@ function lang_get_value(argument0) //gml_Script_lang_get_value
     return n;
 }
 
-function lang_get_value_newline(argument0) //gml_Script_lang_get_value_newline
+function lang_get_value_newline(argument0) //lang_get_value_newline
 {
     return string_replace_all(lang_get_value(argument0), "\\n", "\n");
 }
 
-function lang_parse(argument0) //gml_Script_lang_parse
+function lang_parse(argument0) //lang_parse
 {
     var list = ds_list_create()
     lang_lexer(list, argument0)
@@ -61,7 +61,7 @@ function lang_parse(argument0) //gml_Script_lang_parse
     ds_list_destroy(list)
 }
 
-function lang_lexer(argument0, argument1) //gml_Script_lang_lexer
+function lang_lexer(argument0, argument1) //lang_lexer
 {
     var len = string_length(argument1)
     var pos = 1
@@ -186,7 +186,7 @@ function lang_lexer(argument0, argument1) //gml_Script_lang_lexer
     ds_list_add(argument0, [(4 << 0), (len + 1)])
 }
 
-function lang_get_identifier(argument0, argument1) //gml_Script_lang_get_identifier
+function lang_get_identifier(argument0, argument1) //lang_get_identifier
 {
     if argument1
         return ((argument0 == 95) ? true : (((argument0 >= 97) && (argument0 <= 122)) ? true : (((argument0 >= 65) && (argument0 <= 90)) ? true : ((argument0 >= 48) && (argument0 <= 57)))));
@@ -194,7 +194,7 @@ function lang_get_identifier(argument0, argument1) //gml_Script_lang_get_identif
         return ((argument0 == 95) ? true : (((argument0 >= 97) && (argument0 <= 122)) ? true : ((argument0 >= 65) && (argument0 <= 90))));
 }
 
-function lang_exec(argument0) //gml_Script_lang_exec
+function lang_exec(argument0) //lang_exec
 {
     var map = ds_map_create()
     var len = ds_list_size(argument0)
@@ -215,7 +215,7 @@ function lang_exec(argument0) //gml_Script_lang_exec
     return map;
 }
 
-function lang_get_custom_font(argument0, argument1) //gml_Script_lang_get_custom_font
+function lang_get_custom_font(argument0, argument1) //lang_get_custom_font
 {
     var _dir = concat(argument0, "_dir")
     if ((ds_map_find_value(argument1, _dir) != -4))
@@ -233,7 +233,7 @@ function lang_get_custom_font(argument0, argument1) //gml_Script_lang_get_custom
         return lang_get_font(argument0);
 }
 
-function lang_get_font(argument0) //gml_Script_lang_get_font
+function lang_get_font(argument0) //lang_get_font
 {
     var n = ds_map_find_value(global.font_map, lang_get_value(argument0))
     if (!is_undefined(n))

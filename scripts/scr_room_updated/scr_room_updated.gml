@@ -1,4 +1,4 @@
-function scr_room_updated(argument0) //gml_Script_scr_room_updated
+function scr_room_updated(argument0) //scr_room_updated
 {
     if ((argument0 == room) || ((room == live_blank_room) && (live_live_room == argument0)))
     {

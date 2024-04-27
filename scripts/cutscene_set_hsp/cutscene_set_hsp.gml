@@ -1,4 +1,4 @@
-function cutscene_set_hsp(argument0, argument1) //gml_Script_cutscene_set_hsp
+function cutscene_set_hsp(argument0, argument1) //cutscene_set_hsp
 {
     var _obj = argument0
     var _hsp = argument1
@@ -8,7 +8,7 @@ function cutscene_set_hsp(argument0, argument1) //gml_Script_cutscene_set_hsp
     return;
 }
 
-function cutscene_set_vsp(argument0, argument1) //gml_Script_cutscene_set_vsp
+function cutscene_set_vsp(argument0, argument1) //cutscene_set_vsp
 {
     with (argument0)
         vsp = argument1

@@ -1,4 +1,4 @@
-function scr_enemy_idle() //gml_Script_scr_enemy_idle
+function scr_enemy_idle() //scr_enemy_idle
 {
     hsp = 0
     if ((vsp > 1) && (grounded || (grounded && (!(place_meeting(x, y, obj_platform))))))

@@ -1,4 +1,4 @@
-function scr_do_command(argument0) //gml_Script_scr_do_command
+function scr_do_command(argument0) //scr_do_command
 {
     with (obj_editor)
     {
@@ -14,7 +14,7 @@ function scr_do_command(argument0) //gml_Script_scr_do_command
     }
 }
 
-function scr_undo_command() //gml_Script_scr_undo_command
+function scr_undo_command() //scr_undo_command
 {
     if (!ds_list_empty(commandlist))
     {
@@ -29,7 +29,7 @@ function scr_undo_command() //gml_Script_scr_undo_command
     }
 }
 
-function scr_redo_command() //gml_Script_scr_redo_command
+function scr_redo_command() //scr_redo_command
 {
     if (!ds_list_empty(commandlist))
     {

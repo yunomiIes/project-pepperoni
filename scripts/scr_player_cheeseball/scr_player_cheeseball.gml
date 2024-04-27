@@ -1,4 +1,4 @@
-function scr_player_cheeseball() //gml_Script_scr_player_cheeseball
+function scr_player_cheeseball() //scr_player_cheeseball
 {
     image_speed = 0.35
     if (((x + hsp) == xprevious))

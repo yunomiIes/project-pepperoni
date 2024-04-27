@@ -1,4 +1,4 @@
-function scr_player_freefallprep() //gml_Script_scr_player_freefallprep
+function scr_player_freefallprep() //scr_player_freefallprep
 {
     move = (key_left + key_right)
     if (!grounded)

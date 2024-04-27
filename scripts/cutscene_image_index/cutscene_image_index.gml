@@ -1,4 +1,4 @@
-function cutscene_image_index(argument0, argument1) //gml_Script_cutscene_image_index
+function cutscene_image_index(argument0, argument1) //cutscene_image_index
 {
     var _obj = argument0
     var _index = argument1

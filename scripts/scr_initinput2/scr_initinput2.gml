@@ -1,4 +1,4 @@
-function scr_initinput2() //gml_Script_scr_initinput2
+function scr_initinput2() //scr_initinput2
 {
     ini_open("saveData.ini")
     global.key_upN = ini_read_string("ControlsKeys2", "up", 87)

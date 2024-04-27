@@ -1,4 +1,4 @@
-function scr_hurtplayer(argument0) //gml_Script_scr_hurtplayer
+function scr_hurtplayer(argument0) //scr_hurtplayer
 {
     var _hurt = 0
     with (argument0)

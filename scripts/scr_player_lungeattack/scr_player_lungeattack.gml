@@ -1,4 +1,4 @@
-function scr_player_lungeattack() //gml_Script_scr_player_lungeattack
+function scr_player_lungeattack() //scr_player_lungeattack
 {
     if ((sprite_index != spr_player_backflip))
     {
@@ -91,7 +91,7 @@ function scr_player_lungeattack() //gml_Script_scr_player_lungeattack
     return;
 }
 
-function randomize_animations(argument0) //gml_Script_randomize_animations
+function randomize_animations(argument0) //randomize_animations
 {
     if ((ds_list_size(animlist) >= array_length(argument0)))
         ds_list_clear(animlist)
@@ -102,7 +102,7 @@ function randomize_animations(argument0) //gml_Script_randomize_animations
     return;
 }
 
-function DoFinisher() //gml_Script_DoFinisher
+function DoFinisher() //DoFinisher
 {
     ds_list_clear(hitlist)
     input_finisher_buffer = 0

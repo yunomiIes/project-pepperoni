@@ -1,4 +1,4 @@
-function scr_player_mach1() //gml_Script_scr_player_mach1
+function scr_player_mach1() //scr_player_mach1
 {
     image_speed = 0.5
     landAnim = 0

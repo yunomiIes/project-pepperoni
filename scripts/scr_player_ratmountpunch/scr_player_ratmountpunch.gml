@@ -1,4 +1,4 @@
-function scr_player_ratmountpunch() //gml_Script_scr_player_ratmountpunch
+function scr_player_ratmountpunch() //scr_player_ratmountpunch
 {
     image_speed = (abs(movespeed) / 12)
     hsp = movespeed

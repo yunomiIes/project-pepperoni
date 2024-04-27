@@ -1,4 +1,4 @@
-function scr_player_shotgunjump() //gml_Script_scr_player_shotgunjump
+function scr_player_shotgunjump() //scr_player_shotgunjump
 {
     image_speed = 0.35
     move = (key_left + key_right)

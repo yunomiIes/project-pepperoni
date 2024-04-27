@@ -1,4 +1,4 @@
-function scr_checkanygamepad() //gml_Script_scr_checkanygamepad
+function scr_checkanygamepad() //scr_checkanygamepad
 {
     if gamepad_button_check_pressed(0, gp_face1)
         return 32769;

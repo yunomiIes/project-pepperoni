@@ -1,4 +1,4 @@
-function scr_player_bee() //gml_Script_scr_player_bee
+function scr_player_bee() //scr_player_bee
 {
     image_speed = 0.8
     sprite_index = spr_hurtwalk

@@ -1,4 +1,4 @@
-function __init_action() //gml_Script___init_action
+function __init_action() //__init_action
 {
     global.__part_emit = []
     global.__part_type = []

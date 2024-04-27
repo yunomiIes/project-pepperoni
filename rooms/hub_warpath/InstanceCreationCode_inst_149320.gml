@@ -1,6 +1,6 @@
 sprite_index = spr_soldier_walk
 g_dialog[0] = [dialog_create("Don't have anything to do")]
-g_dialog[1] = [dialog_create("The robot is busted", -4, function() //gml_Script_anon_gml_RoomCC_hub_warpath_3_Create_147_gml_RoomCC_hub_warpath_3_Create
+g_dialog[1] = [dialog_create("The robot is busted", -4, function() //anon_gml_RoomCC_hub_warpath_3_Create_147_gml_RoomCC_hub_warpath_3_Create
 {
     if (!global.mrstickcutscene1)
     {
@@ -11,7 +11,7 @@ g_dialog[1] = [dialog_create("The robot is busted", -4, function() //gml_Script_
 }
 )]
 g_dialog[2] = [dialog_create("The robot has no gasoline")]
-g_dialog[3] = [dialog_create("Go right ahead", -4, function() //gml_Script_anon_gml_RoomCC_hub_warpath_3_Create_419_gml_RoomCC_hub_warpath_3_Create
+g_dialog[3] = [dialog_create("Go right ahead", -4, function() //anon_gml_RoomCC_hub_warpath_3_Create_419_gml_RoomCC_hub_warpath_3_Create
 {
     if (!global.ghostsoldiercutscene)
     {
@@ -23,7 +23,7 @@ g_dialog[3] = [dialog_create("Go right ahead", -4, function() //gml_Script_anon_
     return;
 }
 )]
-dialog_func = function() //gml_Script_anon_gml_RoomCC_hub_warpath_3_Create_645_gml_RoomCC_hub_warpath_3_Create
+dialog_func = function() //anon_gml_RoomCC_hub_warpath_3_Create_645_gml_RoomCC_hub_warpath_3_Create
 {
     if (!global.kidspartycutscene)
         do_dialog(g_dialog[0])

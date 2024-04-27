@@ -1,4 +1,4 @@
-function Instakill() //gml_Script_Instakill
+function Instakill() //Instakill
 {
     if ((other.baddieID.elitegrab == 0))
     {

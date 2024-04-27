@@ -1,4 +1,4 @@
-function scr_player_shotgun() //gml_Script_scr_player_shotgun
+function scr_player_shotgun() //scr_player_shotgun
 {
     if ((sprite_index == spr_shotgunpullout))
     {

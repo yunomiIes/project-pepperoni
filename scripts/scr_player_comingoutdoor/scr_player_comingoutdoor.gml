@@ -1,4 +1,4 @@
-function scr_player_comingoutdoor() //gml_Script_scr_player_comingoutdoor
+function scr_player_comingoutdoor() //scr_player_comingoutdoor
 {
     mach2 = 0
     jumpAnim = 1

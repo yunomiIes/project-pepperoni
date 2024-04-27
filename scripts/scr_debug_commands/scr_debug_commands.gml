@@ -1,4 +1,4 @@
-function string_split(argument0, argument1) //gml_Script_string_split
+function string_split(argument0, argument1) //string_split
 {
     argument0 += " "
     var _current_str = ""
@@ -17,7 +17,7 @@ function string_split(argument0, argument1) //gml_Script_string_split
     return _list;
 }
 
-function function_overload(argument0, argument1) //gml_Script_function_overload
+function function_overload(argument0, argument1) //function_overload
 {
     var _size = array_length(argument0)
     switch (_size - 1)
@@ -50,13 +50,13 @@ function function_overload(argument0, argument1) //gml_Script_function_overload
 
 }
 
-function DebugCommand(argument0, argument1, argument2, argument3) constructor //gml_Script_DebugCommand
+function DebugCommand(argument0, argument1, argument2, argument3) constructor //DebugCommand
 {
     command_id = argument0
     description = argument1
     format = argument2
     func = argument3
-    Invoke = function(argument0) //gml_Script_anon_DebugCommand_gml_GlobalScript_scr_debug_commands_1321_DebugCommand_gml_GlobalScript_scr_debug_commands
+    Invoke = function(argument0) //anon_DebugCommand_gml_GlobalScript_scr_debug_commands_1321_DebugCommand_gml_GlobalScript_scr_debug_commands
     {
         if ((argument0 != undefined))
             function_overload(argument0, func)
@@ -66,7 +66,7 @@ function DebugCommand(argument0, argument1, argument2, argument3) constructor //
 
 }
 
-function TextList_Add(argument0, argument1) //gml_Script_TextList_Add
+function TextList_Add(argument0, argument1) //TextList_Add
 {
     with (obj_debugcontroller)
     {

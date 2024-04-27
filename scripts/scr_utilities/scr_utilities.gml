@@ -1,4 +1,4 @@
-function Approach(argument0, argument1, argument2) //gml_Script_Approach
+function Approach(argument0, argument1, argument2) //Approach
 {
     if ((argument0 < argument1))
     {
@@ -15,12 +15,12 @@ function Approach(argument0, argument1, argument2) //gml_Script_Approach
     return argument0;
 }
 
-function approachSP(argument0, argument1, argument2) //gml_Script_approachSP
+function approachSP(argument0, argument1, argument2) //approachSP
 {
     return (argument0 + clamp((argument1 - argument0), (-argument2), argument2));
 }
 
-function waveSP(argument0, argument1, argument2, argument3, argument4) //gml_Script_waveSP
+function waveSP(argument0, argument1, argument2, argument3, argument4) //waveSP
 {
     if ((argument4 == undefined))
         argument4 = current_time
@@ -28,27 +28,27 @@ function waveSP(argument0, argument1, argument2, argument3, argument4) //gml_Scr
     return ((argument0 + a4) + (sin(((((argument4 * 0.001) + (argument2 * argument3)) / argument2) * (2 * pi))) * a4));
 }
 
-function get_milliseconds() //gml_Script_get_milliseconds
+function get_milliseconds() //get_milliseconds
 {
     return (get_timer() / 1000);
 }
 
-function time_in_frames(argument0, argument1) //gml_Script_time_in_frames
+function time_in_frames(argument0, argument1) //time_in_frames
 {
     return (((argument0 * 60) + argument1) * 60);
 }
 
-function frames_in_seconds(argument0) //gml_Script_frames_in_seconds
+function frames_in_seconds(argument0) //frames_in_seconds
 {
     return floor((argument0 / room_speed));
 }
 
-function frames_in_minutes(argument0) //gml_Script_frames_in_minutes
+function frames_in_minutes(argument0) //frames_in_minutes
 {
     return floor((argument0 / (room_speed * 60)));
 }
 
-function camera_zoom(argument0, argument1) //gml_Script_camera_zoom
+function camera_zoom(argument0, argument1) //camera_zoom
 {
     with (obj_camera)
     {
@@ -59,13 +59,13 @@ function camera_zoom(argument0, argument1) //gml_Script_camera_zoom
     }
 }
 
-function camera_set_zoom(argument0) //gml_Script_camera_set_zoom
+function camera_set_zoom(argument0) //camera_set_zoom
 {
     with (obj_camera)
         zoom = argument0
 }
 
-function try_solid(argument0, argument1, argument2, argument3) //gml_Script_try_solid
+function try_solid(argument0, argument1, argument2, argument3) //try_solid
 {
     var old_x = x
     var old_y = y
@@ -88,7 +88,7 @@ function try_solid(argument0, argument1, argument2, argument3) //gml_Script_try_
     return n;
 }
 
-function ledge_bump(argument0) //gml_Script_ledge_bump
+function ledge_bump(argument0) //ledge_bump
 {
     var old_x = x
     var old_y = y
@@ -110,7 +110,7 @@ function ledge_bump(argument0) //gml_Script_ledge_bump
     return 1;
 }
 
-function instance_create_unique(argument0, argument1, argument2) //gml_Script_instance_create_unique
+function instance_create_unique(argument0, argument1, argument2) //instance_create_unique
 {
     if instance_exists(argument2)
         return -4;
@@ -118,7 +118,7 @@ function instance_create_unique(argument0, argument1, argument2) //gml_Script_in
     return b;
 }
 
-function get_solid_difference(argument0, argument1, argument2) //gml_Script_get_solid_difference
+function get_solid_difference(argument0, argument1, argument2) //get_solid_difference
 {
     var old_x = x
     var old_y = y
@@ -135,7 +135,7 @@ function get_solid_difference(argument0, argument1, argument2) //gml_Script_get_
     return n;
 }
 
-function trace() //gml_Script_trace
+function trace() //trace
 {
     var _string = ""
     for (var i = 0; i < argument_count; i++)
@@ -144,7 +144,7 @@ function trace() //gml_Script_trace
     return;
 }
 
-function concat() //gml_Script_concat
+function concat() //concat
 {
     var _string = ""
     for (var i = 0; i < argument_count; i++)
@@ -152,7 +152,7 @@ function concat() //gml_Script_concat
     return _string;
 }
 
-function ds_list_add_unique(argument0) //gml_Script_ds_list_add_unique
+function ds_list_add_unique(argument0) //ds_list_add_unique
 {
     if ((argument_count > 1))
     {
@@ -165,7 +165,7 @@ function ds_list_add_unique(argument0) //gml_Script_ds_list_add_unique
     }
 }
 
-function point_in_camera(argument0, argument1, argument2) //gml_Script_point_in_camera
+function point_in_camera(argument0, argument1, argument2) //point_in_camera
 {
     var cam_x = camera_get_view_x(argument2)
     var cam_y = camera_get_view_y(argument2)
@@ -174,7 +174,7 @@ function point_in_camera(argument0, argument1, argument2) //gml_Script_point_in_
     return point_in_rectangle(argument0, argument1, cam_x, cam_y, (cam_x + cam_w), (cam_y + cam_h));
 }
 
-function point_in_camera_ext(argument0, argument1, argument2, argument3, argument4) //gml_Script_point_in_camera_ext
+function point_in_camera_ext(argument0, argument1, argument2, argument3, argument4) //point_in_camera_ext
 {
     var cam_x = camera_get_view_x(argument2)
     var cam_y = camera_get_view_y(argument2)
@@ -183,7 +183,7 @@ function point_in_camera_ext(argument0, argument1, argument2, argument3, argumen
     return point_in_rectangle(argument0, argument1, (cam_x - argument3), (cam_y - argument4), ((cam_x + cam_w) + argument3), ((cam_y + cam_h) + argument4));
 }
 
-function bbox_in_camera(argument0, argument1) //gml_Script_bbox_in_camera
+function bbox_in_camera(argument0, argument1) //bbox_in_camera
 {
     if is_undefined(argument1)
         argument1 = 0
@@ -194,7 +194,7 @@ function bbox_in_camera(argument0, argument1) //gml_Script_bbox_in_camera
     return ((bbox_left < ((cam_x + cam_w) + argument1)) && (bbox_right > (cam_x - argument1)) && (bbox_top < ((cam_y + cam_h) + argument1)) && (bbox_bottom > (cam_y - argument1)));
 }
 
-function instance_nearest_random(argument0, argument1) //gml_Script_instance_nearest_random
+function instance_nearest_random(argument0, argument1) //instance_nearest_random
 {
     var l = instance_furthest(x, y, argument0)
     var list = ds_list_create()
@@ -217,12 +217,12 @@ function instance_nearest_random(argument0, argument1) //gml_Script_instance_nea
     return b;
 }
 
-function instance_random(argument0) //gml_Script_instance_random
+function instance_random(argument0) //instance_random
 {
     return instance_find(argument0, irandom((instance_number(argument0) - 1)));
 }
 
-function heat_calculate(argument0) //gml_Script_heat_calculate
+function heat_calculate(argument0) //heat_calculate
 {
     trace(global.stylemultiplier)
     return (argument0 + round((argument0 * global.stylemultiplier)));

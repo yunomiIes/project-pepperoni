@@ -1,4 +1,4 @@
-function scr_playersounds() //gml_Script_scr_playersounds
+function scr_playersounds() //scr_playersounds
 {
     with (obj_player)
     {

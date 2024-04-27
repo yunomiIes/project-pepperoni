@@ -1,4 +1,4 @@
-function scr_player_dashtumble() //gml_Script_scr_player_dashtumble
+function scr_player_dashtumble() //scr_player_dashtumble
 {
     landAnim = 0
     momemtum = 1

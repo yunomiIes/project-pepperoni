@@ -1,5 +1,5 @@
 event_inherited()
-got_func = function() //gml_Script_anon_gml_Object_obj_papertreasure_Create_0_29_gml_Object_obj_papertreasure_Create_0
+got_func = function() //anon_gml_Object_obj_papertreasure_Create_0_29_gml_Object_obj_papertreasure_Create_0
 {
     if ((global.papercutscene == -4) || (!global.papercutscene))
     {

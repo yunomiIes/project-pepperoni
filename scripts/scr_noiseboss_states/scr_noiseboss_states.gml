@@ -1,4 +1,4 @@
-function boss_noise_decide_attack() //gml_Script_boss_noise_decide_attack
+function boss_noise_decide_attack() //boss_noise_decide_attack
 {
     if ((attack_cooldown > 0))
         attack_cooldown--
@@ -12,7 +12,7 @@ function boss_noise_decide_attack() //gml_Script_boss_noise_decide_attack
     return;
 }
 
-function get_attack() //gml_Script_get_attack
+function get_attack() //get_attack
 {
     var chance = (irandom(100) > 40)
     c = (0 << 0)
@@ -28,7 +28,7 @@ function get_attack() //gml_Script_get_attack
     return c;
 }
 
-function boss_noise_do_attack() //gml_Script_boss_noise_do_attack
+function boss_noise_do_attack() //boss_noise_do_attack
 {
     targetstunned = 0
     state = current_attack
@@ -42,7 +42,7 @@ function boss_noise_do_attack() //gml_Script_boss_noise_do_attack
     return;
 }
 
-function noise_do_attack_normal() //gml_Script_noise_do_attack_normal
+function noise_do_attack_normal() //noise_do_attack_normal
 {
     switch state
     {
@@ -130,7 +130,7 @@ function noise_do_attack_normal() //gml_Script_noise_do_attack_normal
     return;
 }
 
-function noise_do_attack_angry() //gml_Script_noise_do_attack_angry
+function noise_do_attack_angry() //noise_do_attack_angry
 {
     switch state
     {
@@ -237,7 +237,7 @@ function noise_do_attack_angry() //gml_Script_noise_do_attack_angry
     return;
 }
 
-function noise_behaviour_none() //gml_Script_noise_behaviour_none
+function noise_behaviour_none() //noise_behaviour_none
 {
     move = 0
     if ((distance_to_object(targetplayer) < 300))
@@ -273,7 +273,7 @@ function noise_behaviour_none() //gml_Script_noise_behaviour_none
     return;
 }
 
-function noise_behaviour_close() //gml_Script_noise_behaviour_close
+function noise_behaviour_close() //noise_behaviour_close
 {
     var dx = abs((targetplayer.x - x))
     move = ((dx > 80) ? sign((targetplayer.x - x)) : 0)
@@ -306,7 +306,7 @@ function noise_behaviour_close() //gml_Script_noise_behaviour_close
     return;
 }
 
-function noise_behaviour_anywhere() //gml_Script_noise_behaviour_anywhere
+function noise_behaviour_anywhere() //noise_behaviour_anywhere
 {
     image_speed = 0.35
     sprite_index = idlespr
@@ -316,7 +316,7 @@ function noise_behaviour_anywhere() //gml_Script_noise_behaviour_anywhere
     return;
 }
 
-function noise_behaviour_far() //gml_Script_noise_behaviour_far
+function noise_behaviour_far() //noise_behaviour_far
 {
     dx = abs((targetplayer.x - x))
     image_speed = 0.35
@@ -338,7 +338,7 @@ function noise_behaviour_far() //gml_Script_noise_behaviour_far
     return;
 }
 
-function boss_noise_normal() //gml_Script_boss_noise_normal
+function boss_noise_normal() //boss_noise_normal
 {
     boss_noise_decide_attack()
     switch current_behaviour
@@ -360,7 +360,7 @@ function boss_noise_normal() //gml_Script_boss_noise_normal
     return;
 }
 
-function boss_noise_handstandjump() //gml_Script_boss_noise_handstandjump
+function boss_noise_handstandjump() //boss_noise_handstandjump
 {
     image_speed = 0.35
     hsp = (image_xscale * movespeed)
@@ -417,7 +417,7 @@ function boss_noise_handstandjump() //gml_Script_boss_noise_handstandjump
     return;
 }
 
-function boss_noise_crouchslide() //gml_Script_boss_noise_crouchslide
+function boss_noise_crouchslide() //boss_noise_crouchslide
 {
     image_speed = 0.35
     hsp = (image_xscale * movespeed)
@@ -455,7 +455,7 @@ function boss_noise_crouchslide() //gml_Script_boss_noise_crouchslide
     return;
 }
 
-function boss_noise_jump() //gml_Script_boss_noise_jump
+function boss_noise_jump() //boss_noise_jump
 {
     image_speed = 0.35
     hsp = (image_xscale * movespeed)
@@ -487,7 +487,7 @@ function boss_noise_jump() //gml_Script_boss_noise_jump
     return;
 }
 
-function boss_noise_skateboard() //gml_Script_boss_noise_skateboard
+function boss_noise_skateboard() //boss_noise_skateboard
 {
     image_speed = 0.35
     hsp = (image_xscale * movespeed)
@@ -518,7 +518,7 @@ function boss_noise_skateboard() //gml_Script_boss_noise_skateboard
     return;
 }
 
-function boss_noise_skateboardturn() //gml_Script_boss_noise_skateboardturn
+function boss_noise_skateboardturn() //boss_noise_skateboardturn
 {
     hsp = (image_xscale * movespeed)
     if ((movespeed > 0))
@@ -540,7 +540,7 @@ function boss_noise_skateboardturn() //gml_Script_boss_noise_skateboardturn
     return;
 }
 
-function boss_noise_throwing() //gml_Script_boss_noise_throwing
+function boss_noise_throwing() //boss_noise_throwing
 {
     image_speed = 0.35
     hsp = (image_xscale * movespeed)
@@ -585,7 +585,7 @@ function boss_noise_throwing() //gml_Script_boss_noise_throwing
     return;
 }
 
-function boss_noise_pogo() //gml_Script_boss_noise_pogo
+function boss_noise_pogo() //boss_noise_pogo
 {
     image_speed = 0.35
     hsp = (image_xscale * movespeed)
@@ -645,7 +645,7 @@ function boss_noise_pogo() //gml_Script_boss_noise_pogo
     return;
 }
 
-function boss_noise_jetpackstart() //gml_Script_boss_noise_jetpackstart
+function boss_noise_jetpackstart() //boss_noise_jetpackstart
 {
     image_speed = 0.5
     hsp = 0
@@ -659,7 +659,7 @@ function boss_noise_jetpackstart() //gml_Script_boss_noise_jetpackstart
     return;
 }
 
-function boss_noise_jetpack() //gml_Script_boss_noise_jetpack
+function boss_noise_jetpack() //boss_noise_jetpack
 {
     image_speed = 0.5
     var maxjetpack = 15
@@ -701,7 +701,7 @@ function boss_noise_jetpack() //gml_Script_boss_noise_jetpack
     return;
 }
 
-function boss_noise_jetpackspin() //gml_Script_boss_noise_jetpackspin
+function boss_noise_jetpackspin() //boss_noise_jetpackspin
 {
     image_speed = 0.35
     move = 0

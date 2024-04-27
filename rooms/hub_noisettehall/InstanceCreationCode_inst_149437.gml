@@ -1,7 +1,7 @@
 if (global.levelcomplete && (!global.streetcutscene))
 {
     currentroom = room
-    scene_info = [[function() //gml_Script_anon_gml_RoomCC_hub_noisettehall_3_Create_92_gml_RoomCC_hub_noisettehall_3_Create
+    scene_info = [[function() //anon_gml_RoomCC_hub_noisettehall_3_Create_92_gml_RoomCC_hub_noisettehall_3_Create
     {
         with (obj_player)
         {
@@ -16,12 +16,12 @@ if (global.levelcomplete && (!global.streetcutscene))
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_save_game]]
+], [cutscene_save_game]]
 }
 else if global.levelcomplete
 {
     global.levelcomplete = 0
-    scene_info = [[gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_save_game]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 15]]
+    scene_info = [[cutscene_wait, 15]]

@@ -1,4 +1,4 @@
-function cutscene_change_room(argument0) //gml_Script_cutscene_change_room
+function cutscene_change_room(argument0) //cutscene_change_room
 {
     with (obj_player)
         targetRoom = argument0

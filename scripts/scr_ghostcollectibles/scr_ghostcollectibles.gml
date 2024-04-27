@@ -1,4 +1,4 @@
-function scr_ghostcollectible(argument0) //gml_Script_scr_ghostcollectible
+function scr_ghostcollectible(argument0) //scr_ghostcollectible
 {
     if ((argument0 == undefined))
         argument0 = 0

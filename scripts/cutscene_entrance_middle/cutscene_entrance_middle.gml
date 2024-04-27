@@ -1,4 +1,4 @@
-function cutscene_entrance_middle() //gml_Script_cutscene_entrance_middle
+function cutscene_entrance_middle() //cutscene_entrance_middle
 {
     with (obj_solidpillar)
     {

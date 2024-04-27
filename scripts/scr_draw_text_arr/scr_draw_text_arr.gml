@@ -1,4 +1,4 @@
-function scr_draw_text_arr(argument0, argument1, argument2, argument3, argument4, argument5, argument6) //gml_Script_scr_draw_text_arr
+function scr_draw_text_arr(argument0, argument1, argument2, argument3, argument4, argument5, argument6) //scr_draw_text_arr
 {
     if ((argument3 == undefined))
         argument3 = c_white

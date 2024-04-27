@@ -1,4 +1,4 @@
-function __init_background() //gml_Script___init_background
+function __init_background() //__init_background
 {
 }
 

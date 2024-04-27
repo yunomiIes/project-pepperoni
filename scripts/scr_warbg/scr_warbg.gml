@@ -1,4 +1,4 @@
-function warbg_start() //gml_Script_warbg_start
+function warbg_start() //warbg_start
 {
     if ((event_type == 8) && (event_number == 0))
     {
@@ -12,13 +12,13 @@ function warbg_start() //gml_Script_warbg_start
     }
 }
 
-function warbg_end() //gml_Script_warbg_end
+function warbg_end() //warbg_end
 {
     if ((event_type == 8) && (event_number == 0))
         shader_reset()
 }
 
-function warbg_generic(argument0, argument1, argument2) //gml_Script_warbg_generic
+function warbg_generic(argument0, argument1, argument2) //warbg_generic
 {
     if ((argument2 == undefined))
         argument2 = -4
@@ -49,14 +49,14 @@ function warbg_generic(argument0, argument1, argument2) //gml_Script_warbg_gener
     }
 }
 
-function warbg_init() //gml_Script_warbg_init
+function warbg_init() //warbg_init
 {
     if ((room != rank_room))
-        warbg_generic(gml_Script_warbg_start, gml_Script_warbg_end)
+        warbg_generic(warbg_start, warbg_end)
 }
 
-function warbg_stop() //gml_Script_warbg_stop
+function warbg_stop() //warbg_stop
 {
-    warbg_generic(-4, gml_Script_warbg_end)
+    warbg_generic(-4, warbg_end)
 }
 

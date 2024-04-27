@@ -1,4 +1,4 @@
-function cutscene_farm_middle() //gml_Script_cutscene_farm_middle
+function cutscene_farm_middle() //cutscene_farm_middle
 {
     var _finish = 0
     with (obj_mort_inline)
@@ -15,7 +15,7 @@ function cutscene_farm_middle() //gml_Script_cutscene_farm_middle
     return;
 }
 
-function cutscene_farm_end() //gml_Script_cutscene_farm_end
+function cutscene_farm_end() //cutscene_farm_end
 {
     with (obj_player)
     {

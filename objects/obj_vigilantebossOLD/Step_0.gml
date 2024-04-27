@@ -32,10 +32,10 @@ switch phase
     case 4:
     case 5:
     case 6:
-        normal_func = gml_Script_boss_vigilante_normal_phase4
+        normal_func = boss_vigilante_normal_phase4
         break
     default:
-        normal_func = gml_Script_boss_vigilante_normal
+        normal_func = boss_vigilante_normal
 }
 
 switch state
@@ -127,7 +127,7 @@ switch state
         break
     case (134 << 0):
         grav = 0.5
-        state_boss_walk(gml_Script_boss_vigilante_decide_attack)
+        state_boss_walk(boss_vigilante_decide_attack)
         inv_timer = 2
         invincible = 1
         break

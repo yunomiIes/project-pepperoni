@@ -1,4 +1,4 @@
-function scr_dotaunt() //gml_Script_scr_dotaunt
+function scr_dotaunt() //scr_dotaunt
 {
     if (key_taunt2 || (input_finisher_buffer > 0))
     {

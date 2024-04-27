@@ -1,5 +1,5 @@
 var _temp_local_var_4;
-function scr_monster_collide() //gml_Script_scr_monster_collide
+function scr_monster_collide() //scr_monster_collide
 {
     var _temp_local_var_4 = abs(vsp)
     if ((abs(vsp) <= 0))
@@ -66,7 +66,7 @@ function scr_monster_collide() //gml_Script_scr_monster_collide
     grounded = scr_monster_solid(x, (y + 1))
 }
 
-function scr_monster_solid(argument0, argument1) //gml_Script_scr_monster_solid
+function scr_monster_solid(argument0, argument1) //scr_monster_solid
 {
     var old_x = x
     var old_y = y

@@ -1,4 +1,4 @@
-function scr_player_gameover() //gml_Script_scr_player_gameover
+function scr_player_gameover() //scr_player_gameover
 {
     image_speed = 0.35
     cutscene = 1

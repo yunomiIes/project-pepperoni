@@ -1,4 +1,4 @@
-function scr_player_slipnslide() //gml_Script_scr_player_slipnslide
+function scr_player_slipnslide() //scr_player_slipnslide
 {
     mach2 = 0
     jumpAnim = 1

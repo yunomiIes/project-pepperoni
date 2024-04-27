@@ -1,4 +1,4 @@
-function scr_pizzaball_hit() //gml_Script_scr_pizzaball_hit
+function scr_pizzaball_hit() //scr_pizzaball_hit
 {
     x = (hitX + irandom_range(-6, 6))
     y = (hitY + irandom_range(-6, 6))
@@ -19,7 +19,7 @@ function scr_pizzaball_hit() //gml_Script_scr_pizzaball_hit
     }
 }
 
-function scr_pizzaball_grabbed() //gml_Script_scr_pizzaball_grabbed
+function scr_pizzaball_grabbed() //scr_pizzaball_grabbed
 {
     var pl = ((grabbedby == 1) ? obj_player1 : obj_player2)
     with (pl)
@@ -35,7 +35,7 @@ function scr_pizzaball_grabbed() //gml_Script_scr_pizzaball_grabbed
     state = (148 << 0)
 }
 
-function scr_pizzaball_go_to_thrown(argument0, argument1, argument2) //gml_Script_scr_pizzaball_go_to_thrown
+function scr_pizzaball_go_to_thrown(argument0, argument1, argument2) //scr_pizzaball_go_to_thrown
 {
     if ((argument2 == undefined))
         argument2 = 1

@@ -1,4 +1,4 @@
-function scr_player_handstandjump() //gml_Script_scr_player_handstandjump
+function scr_player_handstandjump() //scr_player_handstandjump
 {
     landAnim = 0
     hsp = (xscale * movespeed)

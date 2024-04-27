@@ -1,4 +1,4 @@
-function wrap() //gml_Script_wrap
+function wrap() //wrap
 {
     var _val = argument[0]
     var _max = argument[2]

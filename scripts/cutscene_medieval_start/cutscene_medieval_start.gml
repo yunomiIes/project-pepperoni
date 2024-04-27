@@ -1,4 +1,4 @@
-function cutscene_medieval_start() //gml_Script_cutscene_medieval_start
+function cutscene_medieval_start() //cutscene_medieval_start
 {
     with (obj_player)
     {
@@ -24,7 +24,7 @@ function cutscene_medieval_start() //gml_Script_cutscene_medieval_start
     return;
 }
 
-function cutscene_medieval_start2() //gml_Script_cutscene_medieval_start2
+function cutscene_medieval_start2() //cutscene_medieval_start2
 {
     with (obj_actor)
     {

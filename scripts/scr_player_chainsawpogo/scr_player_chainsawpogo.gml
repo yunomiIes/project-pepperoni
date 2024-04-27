@@ -1,4 +1,4 @@
-function scr_player_chainsawpogo() //gml_Script_scr_player_chainsawpogo
+function scr_player_chainsawpogo() //scr_player_chainsawpogo
 {
     hsp = (xscale * movespeed)
     if ((scr_solid((x + 1), y) && (xscale == 1)) || (scr_solid((x - 1), y) && (xscale == -1)))

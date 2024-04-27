@@ -1,4 +1,4 @@
-function pal_swap_index_palette() //gml_Script_pal_swap_index_palette
+function pal_swap_index_palette() //pal_swap_index_palette
 {
     if (!(ds_map_exists(global.Pal_Map, argument[0])))
     {

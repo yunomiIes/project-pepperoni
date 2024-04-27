@@ -1,4 +1,4 @@
-function scr_player_tumble() //gml_Script_scr_player_tumble
+function scr_player_tumble() //scr_player_tumble
 {
     if place_meeting(x, (y + 1), obj_railparent)
     {

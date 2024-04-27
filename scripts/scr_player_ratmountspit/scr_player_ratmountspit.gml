@@ -1,4 +1,4 @@
-function scr_player_ratmountspit() //gml_Script_scr_player_ratmountspit
+function scr_player_ratmountspit() //scr_player_ratmountspit
 {
     image_speed = 0.6
     hsp = 0

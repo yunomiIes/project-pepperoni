@@ -1,4 +1,4 @@
-function scr_destroy_tiles(argument0, argument1, argument2) //gml_Script_scr_destroy_tiles
+function scr_destroy_tiles(argument0, argument1, argument2) //scr_destroy_tiles
 {
     if ((argument2 == undefined))
         argument2 = 0
@@ -20,14 +20,14 @@ function scr_destroy_tiles(argument0, argument1, argument2) //gml_Script_scr_des
     }
 }
 
-function scr_destroy_tile(argument0, argument1, argument2) //gml_Script_scr_destroy_tile
+function scr_destroy_tile(argument0, argument1, argument2) //scr_destroy_tile
 {
     var data = tilemap_get_at_pixel(argument2, argument0, argument1)
     data = tile_set_empty(data)
     tilemap_set_at_pixel(argument2, data, argument0, argument1)
 }
 
-function scr_solid_line(argument0) //gml_Script_scr_solid_line
+function scr_solid_line(argument0) //scr_solid_line
 {
     if ((collision_line(x, y, argument0.x, argument0.y, obj_solid, false, true) != -4))
         return 1;
@@ -36,7 +36,7 @@ function scr_solid_line(argument0) //gml_Script_scr_solid_line
     return 0;
 }
 
-function scr_destroy_nearby_tiles() //gml_Script_scr_destroy_nearby_tiles
+function scr_destroy_nearby_tiles() //scr_destroy_nearby_tiles
 {
     instance_destroy(instance_place((x + 1), y, obj_tiledestroy))
     instance_destroy(instance_place((x - 1), y, obj_tiledestroy))

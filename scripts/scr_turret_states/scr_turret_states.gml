@@ -1,4 +1,4 @@
-function state_turret_normal() //gml_Script_state_turret_normal
+function state_turret_normal() //state_turret_normal
 {
     sprite_index = idlespr
     can_fire = 1
@@ -16,7 +16,7 @@ function state_turret_normal() //gml_Script_state_turret_normal
     return;
 }
 
-function state_turret_charge() //gml_Script_state_turret_charge
+function state_turret_charge() //state_turret_charge
 {
     sprite_index = shootspr
     if ((charge_buffer > 0))

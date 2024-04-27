@@ -1,4 +1,4 @@
-function state_boss_chainsaw() //gml_Script_state_boss_chainsaw
+function state_boss_chainsaw() //state_boss_chainsaw
 {
     hsp = 0
     vsp = 0
@@ -17,7 +17,7 @@ function state_boss_chainsaw() //gml_Script_state_boss_chainsaw
     }
 }
 
-function state_boss_walk(argument0) //gml_Script_state_boss_walk
+function state_boss_walk(argument0) //state_boss_walk
 {
     image_speed = 0.35
     sprite_index = fallspr
@@ -43,7 +43,7 @@ function state_boss_walk(argument0) //gml_Script_state_boss_walk
     }
 }
 
-function state_boss_bump() //gml_Script_state_boss_bump
+function state_boss_bump() //state_boss_bump
 {
     movespeed = 0
     sprite_index = bumpspr
@@ -54,7 +54,7 @@ function state_boss_bump() //gml_Script_state_boss_bump
         state = (0 << 0)
 }
 
-function state_boss_arenaround() //gml_Script_state_boss_arenaround
+function state_boss_arenaround() //state_boss_arenaround
 {
     image_speed = 0.35
     var is_playerside = ((targetplayer.x > (room_width / 2)) ? (x > (room_width / 5)) : (x < (room_width - (room_width / 5))))
@@ -76,11 +76,11 @@ function state_boss_arenaround() //gml_Script_state_boss_arenaround
         sprite_index = fallspr
 }
 
-function boss_decide_taunt(argument0) //gml_Script_boss_decide_taunt
+function boss_decide_taunt(argument0) //boss_decide_taunt
 {
 }
 
-function state_boss_taunt() //gml_Script_state_boss_taunt
+function state_boss_taunt() //state_boss_taunt
 {
     image_speed = 0
     hsp = 0
@@ -127,7 +127,7 @@ function state_boss_taunt() //gml_Script_state_boss_taunt
     }
 }
 
-function state_boss_parry() //gml_Script_state_boss_parry
+function state_boss_parry() //state_boss_parry
 {
     image_speed = 0.35
     hsp = (movespeed * (-image_xscale))
@@ -142,7 +142,7 @@ function state_boss_parry() //gml_Script_state_boss_parry
         movespeed = 0
 }
 
-function state_player_arenaround() //gml_Script_state_player_arenaround
+function state_player_arenaround() //state_player_arenaround
 {
     var _normal_spd = 6
     var is_bossside = ((x < (room_width / 2)) ? (x > (room_width / 5)) : (x < (room_width - (room_width / 5))))

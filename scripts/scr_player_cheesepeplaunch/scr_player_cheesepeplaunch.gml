@@ -1,4 +1,4 @@
-function scr_player_cheesepeplaunch() //gml_Script_scr_player_cheesepeplaunch
+function scr_player_cheesepeplaunch() //scr_player_cheesepeplaunch
 {
     hsp = (xscale * movespeed)
     if ((floor(image_index) == (image_number - 1)))

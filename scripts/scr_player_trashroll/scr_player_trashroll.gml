@@ -1,4 +1,4 @@
-function scr_player_trashroll() //gml_Script_scr_player_trashroll
+function scr_player_trashroll() //scr_player_trashroll
 {
     image_speed = 0.35
     hsp = (xscale * movespeed)

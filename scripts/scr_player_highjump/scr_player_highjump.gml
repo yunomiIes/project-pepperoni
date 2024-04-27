@@ -1,4 +1,4 @@
-function scr_player_highjump() //gml_Script_scr_player_highjump
+function scr_player_highjump() //scr_player_highjump
 {
     move = (key_left + key_right)
     if ((momemtum == 0))

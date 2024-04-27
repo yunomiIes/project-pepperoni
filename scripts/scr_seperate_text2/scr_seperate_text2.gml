@@ -1,4 +1,4 @@
-function scr_separate_text2(argument0, argument1, argument2) //gml_Script_scr_separate_text2
+function scr_separate_text2(argument0, argument1, argument2) //scr_separate_text2
 {
     draw_set_font(argument1)
     while ((scr_string_width(argument0) > (argument2 - string_width("a"))))

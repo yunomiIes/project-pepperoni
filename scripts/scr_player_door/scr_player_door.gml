@@ -1,4 +1,4 @@
-function scr_player_door() //gml_Script_scr_player_door
+function scr_player_door() //scr_player_door
 {
     hsp = 0
     mach2 = 0

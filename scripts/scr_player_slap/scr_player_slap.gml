@@ -1,4 +1,4 @@
-function scr_player_slap() //gml_Script_scr_player_slap
+function scr_player_slap() //scr_player_slap
 {
     if (!grounded)
     {

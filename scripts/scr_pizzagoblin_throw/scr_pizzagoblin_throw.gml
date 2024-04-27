@@ -1,4 +1,4 @@
-function scr_pizzagoblin_throw() //gml_Script_scr_pizzagoblin_throw
+function scr_pizzagoblin_throw() //scr_pizzagoblin_throw
 {
     if (!variable_global_exists("throw_data"))
     {

@@ -1,4 +1,4 @@
-function scr_player_shotguncrouch() //gml_Script_scr_player_shotguncrouch
+function scr_player_shotguncrouch() //scr_player_shotguncrouch
 {
     image_speed = 0.35
     mask_index = spr_crouchmask

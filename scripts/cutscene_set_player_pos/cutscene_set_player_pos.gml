@@ -1,4 +1,4 @@
-function cutscene_set_player_pos(argument0, argument1) //gml_Script_cutscene_set_player_pos
+function cutscene_set_player_pos(argument0, argument1) //cutscene_set_player_pos
 {
     with (obj_player)
     {

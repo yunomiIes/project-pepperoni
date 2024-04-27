@@ -1,4 +1,4 @@
-function scr_player_boxxedpep() //gml_Script_scr_player_boxxedpep
+function scr_player_boxxedpep() //scr_player_boxxedpep
 {
     mask_index = spr_crouchmask
     if ((boxxeddash == 1))

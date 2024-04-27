@@ -1,4 +1,4 @@
-function __view_get(argument0, argument1) //gml_Script___view_get
+function __view_get(argument0, argument1) //__view_get
 {
     var __res = -1
     switch argument0

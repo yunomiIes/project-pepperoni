@@ -1,4 +1,4 @@
-function scr_enemy_chase() //gml_Script_scr_enemy_chase
+function scr_enemy_chase() //scr_enemy_chase
 {
     if ((object_index == obj_minijohn) || (object_index == obj_banditochicken) || (object_index == obj_golfdemon))
     {

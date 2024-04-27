@@ -1,4 +1,4 @@
-function scr_player_jetpackjump() //gml_Script_scr_player_jetpackjump
+function scr_player_jetpackjump() //scr_player_jetpackjump
 {
     alarm[5] = 2
     alarm[7] = 60

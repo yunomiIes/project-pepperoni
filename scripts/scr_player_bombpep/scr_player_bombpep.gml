@@ -1,4 +1,4 @@
-function scr_player_bombgrab() //gml_Script_scr_player_bombgrab
+function scr_player_bombgrab() //scr_player_bombgrab
 {
     move = (key_left + key_right)
     if ((sprite_index != spr_uppercutfinishingblow) && (sprite_index != spr_player_throw))
@@ -132,7 +132,7 @@ function scr_player_bombgrab() //gml_Script_scr_player_bombgrab
     return;
 }
 
-function scr_player_bombpepup() //gml_Script_scr_player_bombpepup
+function scr_player_bombpepup() //scr_player_bombpepup
 {
     image_speed = 0.35
     vsp = (bombup_dir * 11)
@@ -198,7 +198,7 @@ function scr_player_bombpepup() //gml_Script_scr_player_bombpepup
     return;
 }
 
-function scr_player_bombpepside() //gml_Script_scr_player_bombpepside
+function scr_player_bombpepside() //scr_player_bombpepside
 {
     hsp = (xscale * movespeed)
     vsp = 0
@@ -248,7 +248,7 @@ function scr_player_bombpepside() //gml_Script_scr_player_bombpepside
     return;
 }
 
-function scr_player_bombpep() //gml_Script_scr_player_bombpep
+function scr_player_bombpep() //scr_player_bombpep
 {
     alarm[8] = 30
     alarm[7] = 120

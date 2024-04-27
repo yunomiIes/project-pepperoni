@@ -1,4 +1,4 @@
-function pal_swap_set_tiles() //gml_Script_pal_swap_set_tiles
+function pal_swap_set_tiles() //pal_swap_set_tiles
 {
     var _low = (argument[2] + 1)
     var _high = (argument[3] - 1)

@@ -1,4 +1,4 @@
-function scr_player_barrelclimbwall() //gml_Script_scr_player_barrelclimbwall
+function scr_player_barrelclimbwall() //scr_player_barrelclimbwall
 {
     if ((character == "NTV"))
     {

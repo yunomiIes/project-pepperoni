@@ -1,4 +1,4 @@
-function scr_player_chainsaw() //gml_Script_scr_player_chainsaw
+function scr_player_chainsaw() //scr_player_chainsaw
 {
     hsp = 0
     vsp = 0

@@ -1,4 +1,4 @@
-function scr_player_shotgundash() //gml_Script_scr_player_shotgundash
+function scr_player_shotgundash() //scr_player_shotgundash
 {
     image_speed = 0.35
     hsp = (xscale * movespeed)

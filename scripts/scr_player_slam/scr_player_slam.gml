@@ -1,4 +1,4 @@
-function scr_player_slam() //gml_Script_scr_player_slam
+function scr_player_slam() //scr_player_slam
 {
     if ((windingAnim < 200))
         windingAnim += 5

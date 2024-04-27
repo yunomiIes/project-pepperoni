@@ -1,5 +1,5 @@
 sprite_index = spr_mrstick_idle
-dialog = [dialog_create("alright lets fight", -4, function() //gml_Script_anon_gml_RoomCC_hub_pizzatowercomplex_6_Create_82_gml_RoomCC_hub_pizzatowercomplex_6_Create
+dialog = [dialog_create("alright lets fight", -4, function() //anon_gml_RoomCC_hub_pizzatowercomplex_6_Create_82_gml_RoomCC_hub_pizzatowercomplex_6_Create
 {
     if (!global.mrstickcutscene2)
     {

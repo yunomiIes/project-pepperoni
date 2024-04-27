@@ -1,4 +1,4 @@
-function scr_player_ratmountclimbwall() //gml_Script_scr_player_ratmountclimbwall
+function scr_player_ratmountclimbwall() //scr_player_ratmountclimbwall
 {
     image_speed = 0.5
     hsp = 0

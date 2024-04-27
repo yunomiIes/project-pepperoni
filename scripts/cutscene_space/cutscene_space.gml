@@ -1,10 +1,10 @@
-function cutscene_space_middle() //gml_Script_cutscene_space_middle
+function cutscene_space_middle() //cutscene_space_middle
 {
     instance_create(1024, -128, obj_cheeseboat)
     cutscene_end_action()
 }
 
-function cutscene_space_end() //gml_Script_cutscene_space_end
+function cutscene_space_end() //cutscene_space_end
 {
     with (obj_player)
     {

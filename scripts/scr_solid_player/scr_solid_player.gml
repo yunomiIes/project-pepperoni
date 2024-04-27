@@ -1,4 +1,4 @@
-function scr_solid_player(argument0, argument1) //gml_Script_scr_solid_player
+function scr_solid_player(argument0, argument1) //scr_solid_player
 {
     var old_x = x
     var old_y = y
@@ -86,7 +86,7 @@ function scr_solid_player(argument0, argument1) //gml_Script_scr_solid_player
     return false;
 }
 
-function check_slope_player(argument0) //gml_Script_check_slope_player
+function check_slope_player(argument0) //check_slope_player
 {
     var slope = instance_place(x, y, argument0)
     if slope

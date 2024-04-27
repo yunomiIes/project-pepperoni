@@ -10,7 +10,7 @@ key_max = 5
 updown_buffer = 0
 updown_max = 10
 depth = -100
-function set_audio_config() //gml_Script_set_audio_config
+function set_audio_config() //set_audio_config
 {
     global.option_master_volume = (audiosaved_master / 100)
     global.option_music_volume = (audiosaved_music / 100)

@@ -1,4 +1,4 @@
-function scr_player_actor() //gml_Script_scr_player_actor
+function scr_player_actor() //scr_player_actor
 {
     if ((sprite_index == spr_player_givepizza) || (sprite_index == spr_player_gnomecutscene2))
     {

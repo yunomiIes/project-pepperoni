@@ -1,4 +1,4 @@
-function cutscene_gustavo_start() //gml_Script_cutscene_gustavo_start
+function cutscene_gustavo_start() //cutscene_gustavo_start
 {
     var _id = id
     with (obj_cutscene_handler)

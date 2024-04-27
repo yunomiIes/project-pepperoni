@@ -1,4 +1,4 @@
-function scr_player_pistol() //gml_Script_scr_player_pistol
+function scr_player_pistol() //scr_player_pistol
 {
     move = (key_right + key_left)
     hsp = (xscale * movespeed)

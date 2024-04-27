@@ -1,4 +1,4 @@
-function scr_getinput2() //gml_Script_scr_getinput2
+function scr_getinput2() //scr_getinput2
 {
     if (instance_exists(obj_debugcontroller) && obj_debugcontroller.active)
         return;

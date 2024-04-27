@@ -1,7 +1,7 @@
 if (global.levelcomplete && (!global.pinballcutscene))
 {
     currentroom = room
-    scene_info = [[function() //gml_Script_anon_gml_RoomCC_hub_pub_2_Create_93_gml_RoomCC_hub_pub_2_Create
+    scene_info = [[function() //anon_gml_RoomCC_hub_pub_2_Create_93_gml_RoomCC_hub_pub_2_Create
     {
         with (obj_player)
         {
@@ -16,12 +16,12 @@ if (global.levelcomplete && (!global.pinballcutscene))
         cutscene_end_action()
         return;
     }
-], [gml_Script_cutscene_save_game]]
+], [cutscene_save_game]]
 }
 else if global.levelcomplete
 {
     global.levelcomplete = 0
-    scene_info = [[gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_save_game]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 20]]
+    scene_info = [[cutscene_wait, 20]]

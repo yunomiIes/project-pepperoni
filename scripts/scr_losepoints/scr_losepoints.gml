@@ -1,4 +1,4 @@
-function scr_losepoints() //gml_Script_scr_losepoints
+function scr_losepoints() //scr_losepoints
 {
     return;
 }

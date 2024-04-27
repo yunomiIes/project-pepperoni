@@ -9,7 +9,7 @@ if ((global.hatcutscene2 == -4))
 if ((global.hatcutscene3 == -4))
     global.hatcutscene3 = quick_ini_read_real(get_savefile_ini(), "cutscene", "hat3", 0)
 sprite_index = spr_playerV_idle
-v_dialog[0] = [dialog_create("wash my darn hat", -4, function() //gml_Script_anon_gml_RoomCC_hub_noisettecafe_2_Create_623_gml_RoomCC_hub_noisettecafe_2_Create
+v_dialog[0] = [dialog_create("wash my darn hat", -4, function() //anon_gml_RoomCC_hub_noisettecafe_2_Create_623_gml_RoomCC_hub_noisettecafe_2_Create
 {
     if ((global.hatcutscene1 == -4) || (!global.hatcutscene1))
     {
@@ -19,7 +19,7 @@ v_dialog[0] = [dialog_create("wash my darn hat", -4, function() //gml_Script_ano
     return;
 }
 )]
-v_dialog[1] = [[gml_Script_cutscene_do_dialog, [dialog_create("there you go, a jetpack")]], [function() //gml_Script_anon_gml_RoomCC_hub_noisettecafe_2_Create_886_gml_RoomCC_hub_noisettecafe_2_Create
+v_dialog[1] = [[cutscene_do_dialog, [dialog_create("there you go, a jetpack")]], [function() //anon_gml_RoomCC_hub_noisettecafe_2_Create_886_gml_RoomCC_hub_noisettecafe_2_Create
 {
     if (!instance_exists(obj_noisejetpack))
         instance_create(498, 952, obj_noisejetpack)
@@ -27,7 +27,7 @@ v_dialog[1] = [[gml_Script_cutscene_do_dialog, [dialog_create("there you go, a j
 }
 ]]
 v_dialog[2] = [dialog_create("you washed my darn hat")]
-dialog_func = function() //gml_Script_anon_gml_RoomCC_hub_noisettecafe_2_Create_1068_gml_RoomCC_hub_noisettecafe_2_Create
+dialog_func = function() //anon_gml_RoomCC_hub_noisettecafe_2_Create_1068_gml_RoomCC_hub_noisettecafe_2_Create
 {
     if ((!global.hatcutscene1) || (!global.hatcutscene3))
         do_dialog(v_dialog[0])

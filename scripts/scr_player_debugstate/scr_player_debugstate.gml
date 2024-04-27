@@ -1,4 +1,4 @@
-function scr_player_debugstate() //gml_Script_scr_player_debugstate
+function scr_player_debugstate() //scr_player_debugstate
 {
     visible = true
     image_blend = c_white

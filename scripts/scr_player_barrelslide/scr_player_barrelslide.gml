@@ -1,4 +1,4 @@
-function scr_player_barrelslide() //gml_Script_scr_player_barrelslide
+function scr_player_barrelslide() //scr_player_barrelslide
 {
     image_speed = (abs(movespeed) / 8)
     if ((image_speed < 0.35))

@@ -1,4 +1,4 @@
-function cutscene_set_player_normal() //gml_Script_cutscene_set_player_normal
+function cutscene_set_player_normal() //cutscene_set_player_normal
 {
     with (obj_player)
     {

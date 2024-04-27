@@ -1,4 +1,4 @@
-function scr_player_stringfling() //gml_Script_scr_player_stringfling
+function scr_player_stringfling() //scr_player_stringfling
 {
     sprite_index = spr_pmrpinch
     hsp = (move * movespeed)

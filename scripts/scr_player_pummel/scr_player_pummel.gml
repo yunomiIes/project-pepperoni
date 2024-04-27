@@ -1,4 +1,4 @@
-function scr_player_pummel() //gml_Script_scr_player_pummel
+function scr_player_pummel() //scr_player_pummel
 {
     image_speed = 0.35
     if ((movespeed > 0))

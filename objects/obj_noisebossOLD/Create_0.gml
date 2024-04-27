@@ -106,7 +106,7 @@ targetstunnedminus[5] = 30
 targetstunnedminus[6] = 30
 targetstunnedminus[7] = 30
 targetstunnedminus[8] = 30
-function boss_destroy_gml_Object_obj_noisebossOLD_Create_0(argument0) //gml_Script_boss_destroy_gml_Object_obj_noisebossOLD_Create_0
+function boss_destroy_gml_Object_obj_noisebossOLD_Create_0(argument0) //boss_destroy_gml_Object_obj_noisebossOLD_Create_0
 {
     self.SUPER_boss_destroy(argument0)
     targetstunned = 1000
@@ -132,7 +132,7 @@ function boss_destroy_gml_Object_obj_noisebossOLD_Create_0(argument0) //gml_Scri
     return;
 }
 
-function boss_hurt_gml_Object_obj_noisebossOLD_Create_0(argument0, argument1) //gml_Script_boss_hurt_gml_Object_obj_noisebossOLD_Create_0
+function boss_hurt_gml_Object_obj_noisebossOLD_Create_0(argument0, argument1) //boss_hurt_gml_Object_obj_noisebossOLD_Create_0
 {
     if ((targetstunned > 0))
     {
@@ -152,7 +152,7 @@ function boss_hurt_gml_Object_obj_noisebossOLD_Create_0(argument0, argument1) //
     return;
 }
 
-function boss_hurt_noplayer_gml_Object_obj_noisebossOLD_Create_0(argument0) //gml_Script_boss_hurt_noplayer_gml_Object_obj_noisebossOLD_Create_0
+function boss_hurt_noplayer_gml_Object_obj_noisebossOLD_Create_0(argument0) //boss_hurt_noplayer_gml_Object_obj_noisebossOLD_Create_0
 {
     if ((targetstunned > 0))
     {
@@ -167,7 +167,7 @@ function boss_hurt_noplayer_gml_Object_obj_noisebossOLD_Create_0(argument0) //gm
     return;
 }
 
-function player_hurt_gml_Object_obj_noisebossOLD_Create_0(argument0, argument1) //gml_Script_player_hurt_gml_Object_obj_noisebossOLD_Create_0
+function player_hurt_gml_Object_obj_noisebossOLD_Create_0(argument0, argument1) //player_hurt_gml_Object_obj_noisebossOLD_Create_0
 {
     if ((!argument1.inv_frames) && ((argument1.state != (84 << 0)) || (argument1.parry_inst == -4)))
     {

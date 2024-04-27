@@ -1,4 +1,4 @@
-function scr_player_ratmounttrickjump() //gml_Script_scr_player_ratmounttrickjump
+function scr_player_ratmounttrickjump() //scr_player_ratmounttrickjump
 {
     hsp = (movespeed * xscale)
     if ((sprite_index != spr_supertaunt1))

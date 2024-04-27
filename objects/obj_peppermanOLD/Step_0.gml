@@ -12,13 +12,13 @@ switch phase
 {
     case 1:
     case 2:
-        normal_func = gml_Script_boss_pepperman_normal
+        normal_func = boss_pepperman_normal
         break
     case 3:
     case 4:
     case 5:
     case 6:
-        normal_func = gml_Script_boss_pepperman_phase3normal
+        normal_func = boss_pepperman_phase3normal
         break
 }
 
@@ -88,7 +88,7 @@ switch state
         break
     case (134 << 0):
         grav = 0.5
-        state_boss_walk(gml_Script_boss_pepperman_decide_attack)
+        state_boss_walk(boss_pepperman_decide_attack)
         invincible = 1
         inv_timer = 2
         break

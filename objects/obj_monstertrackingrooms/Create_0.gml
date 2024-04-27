@@ -66,7 +66,7 @@ effect_buffer = 0
 effect_max = 1800
 player_posX = ds_grid_value_x(room_grid, 0, 0, (map_width - 1), (map_height - 1), room_get_name(room))
 player_posY = ds_grid_value_y(room_grid, 0, 0, (map_width - 1), (map_height - 1), room_get_name(room))
-function robot_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //gml_Script_robot_create_gml_Object_obj_monstertrackingrooms_Create_0
+function robot_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //robot_create_gml_Object_obj_monstertrackingrooms_Create_0
 {
     if (!instance_exists(obj_robotmonster))
     {
@@ -117,7 +117,7 @@ function robot_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, ar
     return;
 }
 
-function blob_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //gml_Script_blob_create_gml_Object_obj_monstertrackingrooms_Create_0
+function blob_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //blob_create_gml_Object_obj_monstertrackingrooms_Create_0
 {
     if (!instance_exists(obj_blobmonster))
     {
@@ -176,13 +176,13 @@ function blob_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, arg
     return;
 }
 
-function puppet_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //gml_Script_puppet_create_gml_Object_obj_monstertrackingrooms_Create_0
+function puppet_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //puppet_create_gml_Object_obj_monstertrackingrooms_Create_0
 {
     instance_create_unique(0, 0, 782)
     return;
 }
 
-function hillbilly_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //gml_Script_hillbilly_create_gml_Object_obj_monstertrackingrooms_Create_0
+function hillbilly_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //hillbilly_create_gml_Object_obj_monstertrackingrooms_Create_0
 {
     if (!instance_exists(obj_hillbillymonster))
     {
@@ -233,7 +233,7 @@ function hillbilly_create_gml_Object_obj_monstertrackingrooms_Create_0(argument0
     return;
 }
 
-function grid_meeting_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //gml_Script_grid_meeting_gml_Object_obj_monstertrackingrooms_Create_0
+function grid_meeting_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //grid_meeting_gml_Object_obj_monstertrackingrooms_Create_0
 {
     if ((argument0 < 0) || (argument0 > (map_width - 1)) || (argument1 < 0) || (argument1 > (map_height - 1)))
         return false;
@@ -242,7 +242,7 @@ function grid_meeting_gml_Object_obj_monstertrackingrooms_Create_0(argument0, ar
     return false;
 }
 
-function grid_length_x_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1, argument2) //gml_Script_grid_length_x_gml_Object_obj_monstertrackingrooms_Create_0
+function grid_length_x_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1, argument2) //grid_length_x_gml_Object_obj_monstertrackingrooms_Create_0
 {
     var count = 0
     while self.grid_meeting((argument0 + argument2), argument1)
@@ -253,7 +253,7 @@ function grid_length_x_gml_Object_obj_monstertrackingrooms_Create_0(argument0, a
     return count;
 }
 
-function room_place_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //gml_Script_room_place_gml_Object_obj_monstertrackingrooms_Create_0
+function room_place_gml_Object_obj_monstertrackingrooms_Create_0(argument0, argument1) //room_place_gml_Object_obj_monstertrackingrooms_Create_0
 {
     if ((argument0 < 0) || (argument0 > (map_width - 1)) || (argument1 < 0) || (argument1 > (map_height - 1)))
         return -4;

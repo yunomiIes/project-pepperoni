@@ -1,4 +1,4 @@
-function scr_player_lungegrab() //gml_Script_scr_player_lungegrab
+function scr_player_lungegrab() //scr_player_lungegrab
 {
     hsp = (xscale * movespeed)
     vsp = 0

@@ -1,4 +1,4 @@
-function scr_player_backkick() //gml_Script_scr_player_backkick
+function scr_player_backkick() //scr_player_backkick
 {
     move = (key_left + key_right)
     if grounded

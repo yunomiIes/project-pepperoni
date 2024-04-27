@@ -1,4 +1,4 @@
-function following_character_init() //gml_Script_following_character_init
+function following_character_init() //following_character_init
 {
     xoffset = 25
     yoffset = 2
@@ -22,7 +22,7 @@ function following_character_init() //gml_Script_following_character_init
     interp = 1
 }
 
-function following_character_delete() //gml_Script_following_character_delete
+function following_character_delete() //following_character_delete
 {
     var p = ds_list_find_index(global.followerlist, id)
     if ((p != -1))
@@ -40,7 +40,7 @@ function following_character_delete() //gml_Script_following_character_delete
     }
 }
 
-function following_character_calculate() //gml_Script_following_character_calculate
+function following_character_calculate() //following_character_calculate
 {
     with (obj_followcharacter)
     {
@@ -49,7 +49,7 @@ function following_character_calculate() //gml_Script_following_character_calcul
     }
 }
 
-function following_add_to_front() //gml_Script_following_add_to_front
+function following_add_to_front() //following_add_to_front
 {
     if ((ds_list_find_index(global.followerlist, id) != -1))
         ds_list_delete(global.followerlist, ds_list_find_index(global.followerlist, id))
@@ -59,7 +59,7 @@ function following_add_to_front() //gml_Script_following_add_to_front
     following_character_calculate()
 }
 
-function farmer_rearrange() //gml_Script_farmer_rearrange
+function farmer_rearrange() //farmer_rearrange
 {
     with (obj_farmer1follow)
     {
@@ -68,7 +68,7 @@ function farmer_rearrange() //gml_Script_farmer_rearrange
     }
 }
 
-function following_has_follower(argument0) //gml_Script_following_has_follower
+function following_has_follower(argument0) //following_has_follower
 {
     for (var i = 0; i < ds_list_size(global.followerlist); i++)
     {
@@ -79,7 +79,7 @@ function following_has_follower(argument0) //gml_Script_following_has_follower
     return false;
 }
 
-function following_count(argument0) //gml_Script_following_count
+function following_count(argument0) //following_count
 {
     var n = 0
     for (i = 0; i < ds_list_size(global.followerlist); i++)

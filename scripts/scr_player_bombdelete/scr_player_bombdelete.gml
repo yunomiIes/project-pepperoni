@@ -1,4 +1,4 @@
-function scr_player_bombdelete() //gml_Script_scr_player_bombdelete
+function scr_player_bombdelete() //scr_player_bombdelete
 {
     image_speed = 0.35
     hsp = (move * movespeed)

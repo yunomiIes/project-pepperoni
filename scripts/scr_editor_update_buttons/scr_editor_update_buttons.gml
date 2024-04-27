@@ -1,4 +1,4 @@
-function scr_editor_update_buttons() //gml_Script_scr_editor_update_buttons
+function scr_editor_update_buttons() //scr_editor_update_buttons
 {
     button = noone
     with (obj_button)

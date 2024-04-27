@@ -1,4 +1,4 @@
-function scr_player_hit() //gml_Script_scr_player_hit
+function scr_player_hit() //scr_player_hit
 {
     hsp = 0
     vsp = 0

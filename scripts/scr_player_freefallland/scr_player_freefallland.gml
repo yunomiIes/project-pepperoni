@@ -1,4 +1,4 @@
-function scr_player_freefallland() //gml_Script_scr_player_freefallland
+function scr_player_freefallland() //scr_player_freefallland
 {
     mach2 = 0
     jumpAnim = 1

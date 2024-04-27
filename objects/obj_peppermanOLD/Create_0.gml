@@ -75,13 +75,13 @@ fist_dmg_player = 20
 superattack_hpthreshold = 500
 superattack_buffer = 0
 superattack_max = 360
-function player_destroy_gml_Object_obj_peppermanOLD_Create_0(argument0) //gml_Script_player_destroy_gml_Object_obj_peppermanOLD_Create_0
+function player_destroy_gml_Object_obj_peppermanOLD_Create_0(argument0) //player_destroy_gml_Object_obj_peppermanOLD_Create_0
 {
     self.SUPER_player_destroy(argument0)
     return;
 }
 
-function boss_destroy_gml_Object_obj_peppermanOLD_Create_0(argument0) //gml_Script_boss_destroy_gml_Object_obj_peppermanOLD_Create_0
+function boss_destroy_gml_Object_obj_peppermanOLD_Create_0(argument0) //boss_destroy_gml_Object_obj_peppermanOLD_Create_0
 {
     hitstate = (0 << 0)
     self.SUPER_boss_destroy(argument0)
@@ -94,7 +94,7 @@ function boss_destroy_gml_Object_obj_peppermanOLD_Create_0(argument0) //gml_Scri
     return;
 }
 
-function boss_hurt_gml_Object_obj_peppermanOLD_Create_0(argument0, argument1) //gml_Script_boss_hurt_gml_Object_obj_peppermanOLD_Create_0
+function boss_hurt_gml_Object_obj_peppermanOLD_Create_0(argument0, argument1) //boss_hurt_gml_Object_obj_peppermanOLD_Create_0
 {
     if ((targetstunned > 0))
     {
@@ -110,7 +110,7 @@ function boss_hurt_gml_Object_obj_peppermanOLD_Create_0(argument0, argument1) //
     return;
 }
 
-function boss_hurt_noplayer_gml_Object_obj_peppermanOLD_Create_0(argument0) //gml_Script_boss_hurt_noplayer_gml_Object_obj_peppermanOLD_Create_0
+function boss_hurt_noplayer_gml_Object_obj_peppermanOLD_Create_0(argument0) //boss_hurt_noplayer_gml_Object_obj_peppermanOLD_Create_0
 {
     if ((targetstunned > 0))
     {
@@ -125,7 +125,7 @@ function boss_hurt_noplayer_gml_Object_obj_peppermanOLD_Create_0(argument0) //gm
     return;
 }
 
-function player_hurt_gml_Object_obj_peppermanOLD_Create_0(argument0, argument1) //gml_Script_player_hurt_gml_Object_obj_peppermanOLD_Create_0
+function player_hurt_gml_Object_obj_peppermanOLD_Create_0(argument0, argument1) //player_hurt_gml_Object_obj_peppermanOLD_Create_0
 {
     if ((argument1.state != (84 << 0)) || (argument1.parry_inst == -4))
     {

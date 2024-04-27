@@ -1,4 +1,4 @@
-function scr_player_ladder() //gml_Script_scr_player_ladder
+function scr_player_ladder() //scr_player_ladder
 {
     jumpAnim = 1
     dashAnim = 1

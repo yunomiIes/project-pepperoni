@@ -1,4 +1,4 @@
-function cutscene_taxi_start(argument0) //gml_Script_cutscene_taxi_start
+function cutscene_taxi_start(argument0) //cutscene_taxi_start
 {
     var player = argument0
     with (player)

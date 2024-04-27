@@ -13,7 +13,7 @@ vibration[0][2] = 0
 vibration[1][0] = 0
 vibration[1][1] = 0
 vibration[1][2] = 0
-setVibration = function(argument0, argument1, argument2, argument3) //gml_Script_anon_gml_Object_obj_inputAssigner_Create_0_362_gml_Object_obj_inputAssigner_Create_0
+setVibration = function(argument0, argument1, argument2, argument3) //anon_gml_Object_obj_inputAssigner_Create_0_362_gml_Object_obj_inputAssigner_Create_0
 {
     vibration[argument0][0] = argument1
     vibration[argument0][1] = argument2
@@ -22,7 +22,7 @@ setVibration = function(argument0, argument1, argument2, argument3) //gml_Script
     return;
 }
 
-function CheckUsedIndex_gml_Object_obj_inputAssigner_Create_0(argument0) //gml_Script_CheckUsedIndex_gml_Object_obj_inputAssigner_Create_0
+function CheckUsedIndex_gml_Object_obj_inputAssigner_Create_0(argument0) //CheckUsedIndex_gml_Object_obj_inputAssigner_Create_0
 {
     for (var _x = 0; _x < 2; _x++)
     {

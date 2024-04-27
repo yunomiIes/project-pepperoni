@@ -1,4 +1,4 @@
-function cutscene_instance_create(argument0, argument1, argument2, argument3) //gml_Script_cutscene_instance_create
+function cutscene_instance_create(argument0, argument1, argument2, argument3) //cutscene_instance_create
 {
     var _obj = argument0
     var xx = argument1

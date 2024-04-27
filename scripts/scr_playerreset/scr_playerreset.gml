@@ -1,4 +1,4 @@
-function scr_playerreset() //gml_Script_scr_playerreset
+function scr_playerreset() //scr_playerreset
 {
     trace("playerreset")
     global.lap = 0

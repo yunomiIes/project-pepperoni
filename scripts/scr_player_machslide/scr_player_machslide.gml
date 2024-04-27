@@ -1,4 +1,4 @@
-function scr_player_machslide() //gml_Script_scr_player_machslide
+function scr_player_machslide() //scr_player_machslide
 {
     if (!(place_meeting(x, (y + 1), obj_railparent)))
         hsp = (xscale * movespeed)

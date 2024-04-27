@@ -1,4 +1,4 @@
-function secret_add(argument0, argument1) //gml_Script_secret_add
+function secret_add(argument0, argument1) //secret_add
 {
     with (obj_secretmanager)
     {
@@ -9,20 +9,20 @@ function secret_add(argument0, argument1) //gml_Script_secret_add
     return;
 }
 
-function secret_add_touchall(argument0, argument1, argument2) //gml_Script_secret_add_touchall
+function secret_add_touchall(argument0, argument1, argument2) //secret_add_touchall
 {
     with (obj_secretmanager)
         ds_list_add(touchall, [argument0, argument1, argument2])
     return;
 }
 
-function secret_add_touchall_requirement(argument0, argument1) //gml_Script_secret_add_touchall_requirement
+function secret_add_touchall_requirement(argument0, argument1) //secret_add_touchall_requirement
 {
     touchrequirement[argument0] = [argument1, 0]
     return;
 }
 
-function secret_check_touchall() //gml_Script_secret_check_touchall
+function secret_check_touchall() //secret_check_touchall
 {
     if ((touchrequirement != -4) && is_array(touchrequirement))
     {
@@ -56,7 +56,7 @@ function secret_check_touchall() //gml_Script_secret_check_touchall
     return false;
 }
 
-function secret_check_trigger(argument0) //gml_Script_secret_check_trigger
+function secret_check_trigger(argument0) //secret_check_trigger
 {
     var _found = 0
     with (obj_secrettrigger)
@@ -75,7 +75,7 @@ function secret_check_trigger(argument0) //gml_Script_secret_check_trigger
     return _found;
 }
 
-function secret_open_portal(argument0) //gml_Script_secret_open_portal
+function secret_open_portal(argument0) //secret_open_portal
 {
     with (obj_secretportal)
     {
@@ -85,7 +85,7 @@ function secret_open_portal(argument0) //gml_Script_secret_open_portal
     return;
 }
 
-function secret_close_portal(argument0, argument1) //gml_Script_secret_close_portal
+function secret_close_portal(argument0, argument1) //secret_close_portal
 {
     if ((argument1 == undefined))
         argument1 = 0
@@ -104,7 +104,7 @@ function secret_close_portal(argument0, argument1) //gml_Script_secret_close_por
     return;
 }
 
-function secret_close_portalID(argument0) //gml_Script_secret_close_portalID
+function secret_close_portalID(argument0) //secret_close_portalID
 {
     with (argument0)
     {

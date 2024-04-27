@@ -1,4 +1,4 @@
-function scr_player_runonball() //gml_Script_scr_player_runonball
+function scr_player_runonball() //scr_player_runonball
 {
     move = (key_left + key_right)
     if (!key_attack)

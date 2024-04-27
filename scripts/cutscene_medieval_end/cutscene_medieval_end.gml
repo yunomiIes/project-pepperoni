@@ -1,4 +1,4 @@
-function cutscene_medieval_end() //gml_Script_cutscene_medieval_end
+function cutscene_medieval_end() //cutscene_medieval_end
 {
     instance_destroy(obj_actor)
     with (obj_player)

@@ -1,3 +1,3 @@
-function gml_Script_scr_playerN_machcancelstart() {
+function scr_playerN_machcancelstart() {
     return;
 }

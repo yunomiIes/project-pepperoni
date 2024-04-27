@@ -2,7 +2,7 @@ event_inherited()
 dmg = 30
 spd = 25
 parryable = 1
-function player_hurt_gml_Object_obj_revolvershot_Create_0(argument0, argument1) //gml_Script_player_hurt_gml_Object_obj_revolvershot_Create_0
+function player_hurt_gml_Object_obj_revolvershot_Create_0(argument0, argument1) //player_hurt_gml_Object_obj_revolvershot_Create_0
 {
     if (!collisioned)
     {
@@ -22,7 +22,7 @@ function player_hurt_gml_Object_obj_revolvershot_Create_0(argument0, argument1) 
     return;
 }
 
-function parry_gml_Object_obj_revolvershot_Create_0() //gml_Script_parry_gml_Object_obj_revolvershot_Create_0
+function parry_gml_Object_obj_revolvershot_Create_0() //parry_gml_Object_obj_revolvershot_Create_0
 {
     var prevparried = parried
     self.SUPER_parry()

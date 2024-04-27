@@ -1,4 +1,4 @@
-function scr_player_cheesepep() //gml_Script_scr_player_cheesepep
+function scr_player_cheesepep() //scr_player_cheesepep
 {
     key_particles = 0
     mach2 = 0

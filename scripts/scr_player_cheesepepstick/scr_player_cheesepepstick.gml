@@ -1,4 +1,4 @@
-function scr_player_cheesepepstick() //gml_Script_scr_player_cheesepepstick
+function scr_player_cheesepepstick() //scr_player_cheesepepstick
 {
     hsp = 0
     vsp = 0
@@ -53,7 +53,7 @@ function scr_player_cheesepepstick() //gml_Script_scr_player_cheesepepstick
     return;
 }
 
-function scr_player_cheesepepstickside() //gml_Script_scr_player_cheesepepstickside
+function scr_player_cheesepepstickside() //scr_player_cheesepepstickside
 {
     sprite_index = spr_cheesepepstickside
     image_speed = 0.35
@@ -163,7 +163,7 @@ function scr_player_cheesepepstickside() //gml_Script_scr_player_cheesepepsticks
     return;
 }
 
-function scr_player_cheesepepstickup() //gml_Script_scr_player_cheesepepstickup
+function scr_player_cheesepepstickup() //scr_player_cheesepepstickup
 {
     sprite_index = ((stickdir == -1) ? spr_cheesepepstickceiling : spr_cheesepepstickfloor)
     image_speed = 0.35

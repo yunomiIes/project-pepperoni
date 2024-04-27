@@ -1,4 +1,4 @@
-function scr_player_cheesepepjump() //gml_Script_scr_player_cheesepepjump
+function scr_player_cheesepepjump() //scr_player_cheesepepjump
 {
     image_speed = 0.35
     if ((floor(image_index) == (image_number - 1)))

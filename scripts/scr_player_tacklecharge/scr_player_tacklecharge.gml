@@ -1,4 +1,4 @@
-function scr_player_tacklecharge() //gml_Script_scr_player_tacklecharge
+function scr_player_tacklecharge() //scr_player_tacklecharge
 {
     if ((windingAnim < 2000))
         windingAnim++

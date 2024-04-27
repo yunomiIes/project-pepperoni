@@ -1,4 +1,4 @@
-function scr_player_trashjump() //gml_Script_scr_player_trashjump
+function scr_player_trashjump() //scr_player_trashjump
 {
     image_speed = 0.35
     hsp = movespeed

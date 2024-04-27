@@ -1,4 +1,4 @@
-function scr_panicbg_start() //gml_Script_scr_panicbg_start
+function scr_panicbg_start() //scr_panicbg_start
 {
     if ((!variable_global_exists("panicbg_surface")) || (!surface_exists(global.panicbg_surface)))
         global.panicbg_surface = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]))

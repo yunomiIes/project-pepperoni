@@ -5,12 +5,12 @@ if (global.levelcomplete && (!global.graveyardcutscene))
         other.backx = backtohubstartx
         other.backy = backtohubstarty
     }
-    scene_info = [[gml_Script_cutscene_graveyard_end], [gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_graveyard_end], [cutscene_save_game]]
 }
 else if global.levelcomplete
 {
     global.levelcomplete = 0
-    scene_info = [[gml_Script_cutscene_save_game]]
+    scene_info = [[cutscene_save_game]]
 }
 else
-    scene_info = [[gml_Script_cutscene_wait, 20]]
+    scene_info = [[cutscene_wait, 20]]

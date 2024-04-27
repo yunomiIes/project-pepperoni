@@ -1,4 +1,4 @@
-function scr_player_backbreaker() //gml_Script_scr_player_backbreaker
+function scr_player_backbreaker() //scr_player_backbreaker
 {
     mach2 = 0
     if ((sprite_index != spr_player_machfreefall))

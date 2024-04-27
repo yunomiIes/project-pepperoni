@@ -1,4 +1,4 @@
-function get_dark(argument0, argument1) //gml_Script_get_dark
+function get_dark(argument0, argument1) //get_dark
 {
     if argument1
     {

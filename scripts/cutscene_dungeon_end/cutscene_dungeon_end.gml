@@ -1,4 +1,4 @@
-function cutscene_dungeon_end() //gml_Script_cutscene_dungeon_end
+function cutscene_dungeon_end() //cutscene_dungeon_end
 {
     with (obj_player)
     {

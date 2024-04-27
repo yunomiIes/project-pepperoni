@@ -1,4 +1,4 @@
-function scr_anybutton_pressed(argument0) //gml_Script_scr_anybutton_pressed
+function scr_anybutton_pressed(argument0) //scr_anybutton_pressed
 {
     var _index = argument0
     if keyboard_check_pressed(vk_anykey)

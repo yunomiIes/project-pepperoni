@@ -1,4 +1,4 @@
-function scr_robot_normal() //gml_Script_scr_robot_normal
+function scr_robot_normal() //scr_robot_normal
 {
     image_speed = 0.35
     sprite_index = walkspr
@@ -18,7 +18,7 @@ function scr_robot_normal() //gml_Script_scr_robot_normal
     return;
 }
 
-function scr_robot_turn() //gml_Script_scr_robot_turn
+function scr_robot_turn() //scr_robot_turn
 {
     image_speed = 0.25
     hsp = 0
@@ -32,7 +32,7 @@ function scr_robot_turn() //gml_Script_scr_robot_turn
     return;
 }
 
-function scr_robot_chase() //gml_Script_scr_robot_chase
+function scr_robot_chase() //scr_robot_chase
 {
     sprite_index = chasespr
     if (((playerinst.x - x) != 0))
@@ -53,7 +53,7 @@ function scr_robot_chase() //gml_Script_scr_robot_chase
     return;
 }
 
-function scr_robot_attack() //gml_Script_scr_robot_attack
+function scr_robot_attack() //scr_robot_attack
 {
     sprite_index = spr_monstershroom_idle
     hsp = 0
@@ -73,7 +73,7 @@ function scr_robot_attack() //gml_Script_scr_robot_attack
     return;
 }
 
-function scr_robot_detect() //gml_Script_scr_robot_detect
+function scr_robot_detect() //scr_robot_detect
 {
     _col = collision_line(x, y, playerinst.x, playerinst.y, obj_solid, false, true)
     var _player_colX = ((image_xscale > 0) ? ((playerinst.x < (x + threshold_x)) && (playerinst.x > x)) : ((playerinst.x > (x - threshold_x)) && (playerinst.x < x)))

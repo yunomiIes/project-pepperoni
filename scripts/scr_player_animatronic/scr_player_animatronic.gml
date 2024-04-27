@@ -1,4 +1,4 @@
-function scr_player_animatronic() //gml_Script_scr_player_animatronic
+function scr_player_animatronic() //scr_player_animatronic
 {
     if ((character == "NTV"))
     {

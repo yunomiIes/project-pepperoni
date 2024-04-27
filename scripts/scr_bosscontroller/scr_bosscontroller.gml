@@ -1,4 +1,4 @@
-function noise_start_round() //gml_Script_noise_start_round
+function noise_start_round() //noise_start_round
 {
     if ((round_count == 6) || ((round_count == 3) && extrarounds))
     {
@@ -16,7 +16,7 @@ function noise_start_round() //gml_Script_noise_start_round
     }
 }
 
-function mrstick_start_round() //gml_Script_mrstick_start_round
+function mrstick_start_round() //mrstick_start_round
 {
     with (obj_mrstickboss)
     {
@@ -39,7 +39,7 @@ function mrstick_start_round() //gml_Script_mrstick_start_round
     }
 }
 
-function mrstick_end_round() //gml_Script_mrstick_end_round
+function mrstick_end_round() //mrstick_end_round
 {
     with (par_boss)
     {

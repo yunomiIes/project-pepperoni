@@ -1,4 +1,4 @@
-function scr_get_gamepadicon(argument0) //gml_Script_scr_get_gamepadicon
+function scr_get_gamepadicon(argument0) //scr_get_gamepadicon
 {
     switch argument0
     {

@@ -1,4 +1,4 @@
-function pal_swap_set() //gml_Script_pal_swap_set
+function pal_swap_set() //pal_swap_set
 {
     var _pal_sprite = argument[0]
     var _pal_index = argument[1]

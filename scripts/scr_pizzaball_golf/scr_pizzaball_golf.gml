@@ -1,4 +1,4 @@
-function scr_pizzaball_golf() //gml_Script_scr_pizzaball_golf
+function scr_pizzaball_golf() //scr_pizzaball_golf
 {
     sprite_index = spr_pizzaball_stun
     image_speed = 0.35

@@ -1,4 +1,4 @@
-function scr_fakepeppino_idle() //gml_Script_scr_fakepeppino_idle
+function scr_fakepeppino_idle() //scr_fakepeppino_idle
 {
     hsp = (image_xscale * movespeed)
     if ((x != obj_player.x))

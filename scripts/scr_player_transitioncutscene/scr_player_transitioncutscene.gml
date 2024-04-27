@@ -1,4 +1,4 @@
-function scr_player_transitioncutscene() //gml_Script_scr_player_transitioncutscene
+function scr_player_transitioncutscene() //scr_player_transitioncutscene
 {
     costumercutscenetimer--
     global.heattime = 60

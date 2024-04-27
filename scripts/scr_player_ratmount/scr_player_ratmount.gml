@@ -1,4 +1,4 @@
-function scr_player_ratmount() //gml_Script_scr_player_ratmount
+function scr_player_ratmount() //scr_player_ratmount
 {
     move = (key_left + key_right)
     doublejump = 0
@@ -261,7 +261,7 @@ function scr_player_ratmount() //gml_Script_scr_player_ratmount
     return;
 }
 
-function ratmount_dotaunt() //gml_Script_ratmount_dotaunt
+function ratmount_dotaunt() //ratmount_dotaunt
 {
     if (key_taunt2 && (state != (84 << 0)) && brick)
     {
@@ -280,7 +280,7 @@ function ratmount_dotaunt() //gml_Script_ratmount_dotaunt
     return;
 }
 
-function ratmount_kickbrick() //gml_Script_ratmount_kickbrick
+function ratmount_kickbrick() //ratmount_kickbrick
 {
     var _pad = 32
     scr_soundeffect(sfx_killingblow)
@@ -300,7 +300,7 @@ function ratmount_kickbrick() //gml_Script_ratmount_kickbrick
     return;
 }
 
-function ratmount_shootpowerup() //gml_Script_ratmount_shootpowerup
+function ratmount_shootpowerup() //ratmount_shootpowerup
 {
     if (key_shoot2 && (ratpowerup != -4) && (ratshootbuffer <= 0))
     {

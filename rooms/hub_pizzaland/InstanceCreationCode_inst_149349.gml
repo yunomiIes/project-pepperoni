@@ -1,13 +1,13 @@
 sprite_index = spr_canongoblin_walk
 ag_dialog[0] = [dialog_create("I need a burger if you wanna blow up the factory wall")]
-ag_dialog[1] = [dialog_create("Meet me outside the factory wall", -4, function() //gml_Script_anon_gml_RoomCC_hub_pizzaland_4_Create_194_gml_RoomCC_hub_pizzaland_4_Create
+ag_dialog[1] = [dialog_create("Meet me outside the factory wall", -4, function() //anon_gml_RoomCC_hub_pizzaland_4_Create_194_gml_RoomCC_hub_pizzaland_4_Create
 {
     global.anarchistcutscene1 = 1
     quick_ini_write_real(get_savefile_ini(), "cutscene", "anarchist1", 1)
     return;
 }
 )]
-dialog_func = function() //gml_Script_anon_gml_RoomCC_hub_pizzaland_4_Create_335_gml_RoomCC_hub_pizzaland_4_Create
+dialog_func = function() //anon_gml_RoomCC_hub_pizzaland_4_Create_335_gml_RoomCC_hub_pizzaland_4_Create
 {
     if global.burgercutscene
         do_dialog(ag_dialog[1])

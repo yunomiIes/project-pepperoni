@@ -9,7 +9,7 @@ with (obj_player)
             {
                 with (other)
                 {
-                    dialog[0] = dialog_create("Not one step closer!", -4, gml_Script_vigilante_add_battle)
+                    dialog[0] = dialog_create("Not one step closer!", -4, vigilante_add_battle)
                     do_dialog(dialog)
                     dialog = -4
                     warned = 1
@@ -46,7 +46,7 @@ if (waitforhurt && (!instance_exists(obj_dialogcontroller)))
     if (!b)
     {
         waitforhurt = 0
-        dialog[0] = dialog_create("You gotta fight me!", -4, gml_Script_vigilante_add_battle)
+        dialog[0] = dialog_create("You gotta fight me!", -4, vigilante_add_battle)
         do_dialog(dialog)
         dialog = -4
         warned = 1

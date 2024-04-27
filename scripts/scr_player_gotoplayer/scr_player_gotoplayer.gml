@@ -1,4 +1,4 @@
-function scr_player_gotoplayer() //gml_Script_scr_player_gotoplayer
+function scr_player_gotoplayer() //scr_player_gotoplayer
 {
     pogochargeactive = 0
     movespeed = 0

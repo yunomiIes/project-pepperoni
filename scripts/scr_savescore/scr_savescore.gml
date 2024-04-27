@@ -1,4 +1,4 @@
-function scr_savescore(argument0) //gml_Script_scr_savescore
+function scr_savescore(argument0) //scr_savescore
 {
     if (((global.collect + global.collectN) >= global.srank))
     {

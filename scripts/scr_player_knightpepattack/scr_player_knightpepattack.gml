@@ -1,4 +1,4 @@
-function scr_player_knightpepattack() //gml_Script_scr_player_knightpepattack
+function scr_player_knightpepattack() //scr_player_knightpepattack
 {
     alarm[5] = 2
     alarm[7] = 60

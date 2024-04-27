@@ -1,4 +1,4 @@
-function scr_editor_state_objects() //gml_Script_scr_editor_state_objects
+function scr_editor_state_objects() //scr_editor_state_objects
 {
     var mx = mouse_x
     var my = mouse_y
@@ -19,7 +19,7 @@ function scr_editor_state_objects() //gml_Script_scr_editor_state_objects
     }
 }
 
-function scr_editor_get_object_mouse(argument0, argument1) //gml_Script_scr_editor_get_object_mouse
+function scr_editor_get_object_mouse(argument0, argument1) //scr_editor_get_object_mouse
 {
     scr_editor_clear_selectedobjects()
     var num = instance_place_list(argument0, argument1, obj_fakeobject, global.instancelist, true)
@@ -38,7 +38,7 @@ function scr_editor_get_object_mouse(argument0, argument1) //gml_Script_scr_edit
         ds_list_add(selectedobjects, o)
 }
 
-function scr_editor_clear_selectedobjects() //gml_Script_scr_editor_clear_selectedobjects
+function scr_editor_clear_selectedobjects() //scr_editor_clear_selectedobjects
 {
     for (i = 0; i < ds_list_size(selectedobjects); i++)
     {

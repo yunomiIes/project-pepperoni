@@ -1,5 +1,5 @@
 var __result;
-function __background_set_element(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11, argument12, argument13, argument14) //gml_Script___background_set_element
+function __background_set_element(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8, argument9, argument10, argument11, argument12, argument13, argument14) //__background_set_element
 {
     var __nearestdepth = 1000000000
     var __farthestdepth = -1000000000

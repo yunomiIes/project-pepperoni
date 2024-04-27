@@ -1,4 +1,4 @@
-function scr_player_arenaintro() //gml_Script_scr_player_arenaintro
+function scr_player_arenaintro() //scr_player_arenaintro
 {
     hsp = 0
     hurted = 0

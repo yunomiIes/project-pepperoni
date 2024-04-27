@@ -1,16 +1,16 @@
-function scr_editor_init_buttons() //gml_Script_scr_editor_init_buttons
+function scr_editor_init_buttons() //scr_editor_init_buttons
 {
     with (instance_create_depth(0, 0, -100, obj_button))
     {
         sprite_index = spr_bigbutton
         spr_icon = spr_menuicon
-        OnSelect = function() //gml_Script_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_164_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
+        OnSelect = function() //anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_164_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
         {
             var a = [["SAVE", -4, -4], ["LOAD LEVEL", -4, -4], ["EXIT EDITOR", -4, -4]]
             create_buttons_array(0, 64, 32, 24, a)
         }
 
-        OnDeselect = function() //gml_Script_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_320_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
+        OnDeselect = function() //anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_320_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
         {
             with (obj_button)
             {
@@ -30,9 +30,9 @@ function scr_editor_init_buttons() //gml_Script_scr_editor_init_buttons
         sprite_index = spr_bigbutton
         spr_icon = spr_objecticon
         selectedid = 0
-        OnSelect = function() //gml_Script_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_692_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
+        OnSelect = function() //anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_692_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
         {
-            onselect = function() //gml_Script_anon_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_692_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_721_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_692_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
+            onselect = function() //anon_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_692_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_721_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_692_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
             {
                 with (parent)
                     selectedid = other.buttonid
@@ -65,7 +65,7 @@ function scr_editor_init_buttons() //gml_Script_scr_editor_init_buttons
             }
         }
 
-        OnDeselect = function() //gml_Script_anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_1550_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
+        OnDeselect = function() //anon_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons_1550_scr_editor_init_buttons_gml_GlobalScript_scr_editor_init_buttons
         {
             with (obj_button)
             {

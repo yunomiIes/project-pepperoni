@@ -1,4 +1,4 @@
-function state_boss_stun() //gml_Script_state_boss_stun
+function state_boss_stun() //state_boss_stun
 {
     stunned -= 1
     if ((stuntouchbuffer > 0))

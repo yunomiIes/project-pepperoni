@@ -1,4 +1,4 @@
-function cutscene_desert_end() //gml_Script_cutscene_desert_end
+function cutscene_desert_end() //cutscene_desert_end
 {
     with (obj_player)
     {

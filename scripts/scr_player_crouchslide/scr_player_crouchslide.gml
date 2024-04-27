@@ -1,4 +1,4 @@
-function scr_player_crouchslide() //gml_Script_scr_player_crouchslide
+function scr_player_crouchslide() //scr_player_crouchslide
 {
     if (!(place_meeting(x, (y + 1), obj_railparent)))
         hsp = (xscale * movespeed)

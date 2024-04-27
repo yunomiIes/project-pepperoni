@@ -1,5 +1,5 @@
 sprite_index = spr_canongoblin_walk
-scene_info = [[gml_Script_cutscene_do_dialog, [dialog_create("Lets blow this thing then")]], [gml_Script_cutscene_waitfor_dialog], [gml_Script_cutscene_set_player_actor], [gml_Script_cutscene_wait, 20], [function() //gml_Script_anon_gml_RoomCC_hub_industrialcomplex_2_Create_196_gml_RoomCC_hub_industrialcomplex_2_Create
+scene_info = [[cutscene_do_dialog, [dialog_create("Lets blow this thing then")]], [cutscene_waitfor_dialog], [cutscene_set_player_actor], [cutscene_wait, 20], [function() //anon_gml_RoomCC_hub_industrialcomplex_2_Create_196_gml_RoomCC_hub_industrialcomplex_2_Create
 {
     anarchist = 128596
     with (anarchist)
@@ -15,19 +15,19 @@ scene_info = [[gml_Script_cutscene_do_dialog, [dialog_create("Lets blow this thi
     cutscene_end_action()
     return;
 }
-], [function() //gml_Script_anon_gml_RoomCC_hub_industrialcomplex_2_Create_418_gml_RoomCC_hub_industrialcomplex_2_Create
+], [function() //anon_gml_RoomCC_hub_industrialcomplex_2_Create_418_gml_RoomCC_hub_industrialcomplex_2_Create
 {
     if (!instance_exists(obj_pizzagoblinbomb))
         cutscene_end_action()
     return;
 }
-], [gml_Script_cutscene_wait, 10], [gml_Script_cutscene_do_dialog, [dialog_create("Let's go fella", -4, function() //gml_Script_anon_gml_RoomCC_hub_industrialcomplex_2_Create_590_gml_RoomCC_hub_industrialcomplex_2_Create
+], [cutscene_wait, 10], [cutscene_do_dialog, [dialog_create("Let's go fella", -4, function() //anon_gml_RoomCC_hub_industrialcomplex_2_Create_590_gml_RoomCC_hub_industrialcomplex_2_Create
 {
     global.anarchistcutscene2 = 1
     quick_ini_write_real(get_savefile_ini(), "cutscene", "anarchist2", 1)
     return;
 }
-)]], [gml_Script_cutscene_waitfor_dialog], [gml_Script_cutscene_set_player_actor], [function() //gml_Script_anon_gml_RoomCC_hub_industrialcomplex_2_Create_776_gml_RoomCC_hub_industrialcomplex_2_Create
+)]], [cutscene_waitfor_dialog], [cutscene_set_player_actor], [function() //anon_gml_RoomCC_hub_industrialcomplex_2_Create_776_gml_RoomCC_hub_industrialcomplex_2_Create
 {
     with (anarchist)
     {
@@ -41,8 +41,8 @@ scene_info = [[gml_Script_cutscene_do_dialog, [dialog_create("Lets blow this thi
     }
     return;
 }
-], [gml_Script_cutscene_set_player_normal]]
-dialog_func = function() //gml_Script_anon_gml_RoomCC_hub_industrialcomplex_2_Create_973_gml_RoomCC_hub_industrialcomplex_2_Create
+], [cutscene_set_player_normal]]
+dialog_func = function() //anon_gml_RoomCC_hub_industrialcomplex_2_Create_973_gml_RoomCC_hub_industrialcomplex_2_Create
 {
     do_dialog_cutscene(scene_info)
     return;

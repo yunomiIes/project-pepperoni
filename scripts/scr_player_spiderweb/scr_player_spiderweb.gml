@@ -1,4 +1,4 @@
-function scr_player_spiderweb() //gml_Script_scr_player_spiderweb
+function scr_player_spiderweb() //scr_player_spiderweb
 {
     hsp = 0
     vsp = 0

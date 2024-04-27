@@ -1,5 +1,5 @@
 sprite_index = spr_playerN_idle
-n_dialog[0] = [dialog_create("fight the noise", -4, function() //gml_Script_anon_gml_RoomCC_hub_noisettecafe_3_Create_84_gml_RoomCC_hub_noisettecafe_3_Create
+n_dialog[0] = [dialog_create("fight the noise", -4, function() //anon_gml_RoomCC_hub_noisettecafe_3_Create_84_gml_RoomCC_hub_noisettecafe_3_Create
 {
     if (!global.noisecutscene1)
     {
@@ -10,7 +10,7 @@ n_dialog[0] = [dialog_create("fight the noise", -4, function() //gml_Script_anon
 }
 )]
 n_dialog[1] = [dialog_create("you fought the noise")]
-dialog_func = function() //gml_Script_anon_gml_RoomCC_hub_noisettecafe_3_Create_308_gml_RoomCC_hub_noisettecafe_3_Create
+dialog_func = function() //anon_gml_RoomCC_hub_noisettecafe_3_Create_308_gml_RoomCC_hub_noisettecafe_3_Create
 {
     if (!global.noisecutscene2)
         do_dialog(n_dialog[0])

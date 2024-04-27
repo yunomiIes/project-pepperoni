@@ -1,4 +1,4 @@
-function cutscene_taxi_end(argument0, argument1) //gml_Script_cutscene_taxi_end
+function cutscene_taxi_end(argument0, argument1) //cutscene_taxi_end
 {
     var player = argument0
     var target_room = argument1

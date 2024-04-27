@@ -1,4 +1,4 @@
-function scr_initenemy() //gml_Script_scr_initenemy
+function scr_initenemy() //scr_initenemy
 {
     santaID = -4
     rattime = 0

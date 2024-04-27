@@ -1,4 +1,4 @@
-function scr_player_ridecow() //gml_Script_scr_player_ridecow
+function scr_player_ridecow() //scr_player_ridecow
 {
     doublejump = 0
     hsp = 0

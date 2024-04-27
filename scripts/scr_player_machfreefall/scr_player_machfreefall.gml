@@ -1,4 +1,4 @@
-function scr_player_machfreefall() //gml_Script_scr_player_machfreefall
+function scr_player_machfreefall() //scr_player_machfreefall
 {
     if ((mach2 == 0))
     {

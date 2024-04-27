@@ -1,4 +1,4 @@
-function scr_player_motorcycle() //gml_Script_scr_player_motorcycle
+function scr_player_motorcycle() //scr_player_motorcycle
 {
     hsp = (xscale * movespeed)
     if (grounded || (!jumped))

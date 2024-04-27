@@ -1,4 +1,4 @@
-function scr_player_blockstance() //gml_Script_scr_player_blockstance
+function scr_player_blockstance() //scr_player_blockstance
 {
     hsp = Approach(hsp, 0, 0.5)
     movespeed = 0

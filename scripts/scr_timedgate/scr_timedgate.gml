@@ -1,4 +1,4 @@
-function scr_timedgate_object(argument0) //gml_Script_scr_timedgate_object
+function scr_timedgate_object(argument0) //scr_timedgate_object
 {
     if timedgate
     {
@@ -14,7 +14,7 @@ function scr_timedgate_object(argument0) //gml_Script_scr_timedgate_object
     }
 }
 
-function timedgate_trigger() //gml_Script_timedgate_trigger
+function timedgate_trigger() //timedgate_trigger
 {
     with (obj_timedgatespawn)
     {
@@ -32,7 +32,7 @@ function timedgate_trigger() //gml_Script_timedgate_trigger
     }
 }
 
-function timedgate_add_objects(argument0, argument1) //gml_Script_timedgate_add_objects
+function timedgate_add_objects(argument0, argument1) //timedgate_add_objects
 {
     with (argument0)
     {

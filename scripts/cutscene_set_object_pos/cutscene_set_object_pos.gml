@@ -1,4 +1,4 @@
-function cutscene_set_object_pos(argument0, argument1, argument2) //gml_Script_cutscene_set_object_pos
+function cutscene_set_object_pos(argument0, argument1, argument2) //cutscene_set_object_pos
 {
     with (argument0)
     {

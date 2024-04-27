@@ -1,4 +1,4 @@
-function scr_ratblock_destroy() //gml_Script_scr_ratblock_destroy
+function scr_ratblock_destroy() //scr_ratblock_destroy
 {
     with (obj_player)
     {

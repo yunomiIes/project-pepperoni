@@ -29,7 +29,7 @@ bombgrabID = -4
 knightbuffer = 0
 spawnpool = [492, 458]
 hitplayer = 0
-function player_hurt_gml_Object_obj_pizzafacebossOLD_Create_0(argument0, argument1) //gml_Script_player_hurt_gml_Object_obj_pizzafacebossOLD_Create_0
+function player_hurt_gml_Object_obj_pizzafacebossOLD_Create_0(argument0, argument1) //player_hurt_gml_Object_obj_pizzafacebossOLD_Create_0
 {
     var _prevstate = state
     if ((phase < 2))
@@ -43,7 +43,7 @@ function player_hurt_gml_Object_obj_pizzafacebossOLD_Create_0(argument0, argumen
     }
 }
 
-function boss_hurt_gml_Object_obj_pizzafacebossOLD_Create_0(argument0, argument1) //gml_Script_boss_hurt_gml_Object_obj_pizzafacebossOLD_Create_0
+function boss_hurt_gml_Object_obj_pizzafacebossOLD_Create_0(argument0, argument1) //boss_hurt_gml_Object_obj_pizzafacebossOLD_Create_0
 {
     if ((phase == 0))
         self.SUPER_boss_hurt(argument0, argument1)
@@ -74,7 +74,7 @@ function boss_hurt_gml_Object_obj_pizzafacebossOLD_Create_0(argument0, argument1
     }
 }
 
-function boss_hurt_noplayer_gml_Object_obj_pizzafacebossOLD_Create_0(argument0) //gml_Script_boss_hurt_noplayer_gml_Object_obj_pizzafacebossOLD_Create_0
+function boss_hurt_noplayer_gml_Object_obj_pizzafacebossOLD_Create_0(argument0) //boss_hurt_noplayer_gml_Object_obj_pizzafacebossOLD_Create_0
 {
     if ((inv_timer <= 0))
     {

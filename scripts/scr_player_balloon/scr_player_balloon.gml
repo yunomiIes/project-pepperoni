@@ -1,4 +1,4 @@
-function scr_player_balloon() //gml_Script_scr_player_balloon
+function scr_player_balloon() //scr_player_balloon
 {
     if ((character == "NTV"))
     {

@@ -1,4 +1,4 @@
-function scr_enemy_rage() //gml_Script_scr_enemy_rage
+function scr_enemy_rage() //scr_enemy_rage
 {
     switch object_index
     {

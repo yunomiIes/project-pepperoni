@@ -1,4 +1,4 @@
-function cutscene_customer_check(argument0, argument1, argument2) //gml_Script_cutscene_customer_check
+function cutscene_customer_check(argument0, argument1, argument2) //cutscene_customer_check
 {
     with (obj_gnome_checklist)
         gnome_check[argument0] = 1
@@ -16,7 +16,7 @@ function cutscene_customer_check(argument0, argument1, argument2) //gml_Script_c
     return;
 }
 
-function cutscene_customer_end(argument0) //gml_Script_cutscene_customer_end
+function cutscene_customer_end(argument0) //cutscene_customer_end
 {
     with (obj_customeractor)
         happy = 1

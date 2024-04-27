@@ -1,4 +1,4 @@
-function scr_pepperman_walk() //gml_Script_scr_pepperman_walk
+function scr_pepperman_walk() //scr_pepperman_walk
 {
     hsp = 0
     sprite_index = spr_pepperman_idle
@@ -29,7 +29,7 @@ function scr_pepperman_walk() //gml_Script_scr_pepperman_walk
     return;
 }
 
-function pepperman_nearestspot() //gml_Script_pepperman_nearestspot
+function pepperman_nearestspot() //pepperman_nearestspot
 {
     if ((elitehit > 1))
     {
@@ -59,7 +59,7 @@ function pepperman_nearestspot() //gml_Script_pepperman_nearestspot
     return;
 }
 
-function scr_pepperman_jump() //gml_Script_scr_pepperman_jump
+function scr_pepperman_jump() //scr_pepperman_jump
 {
     if ((hsp != 0))
         image_xscale = sign(hsp)
@@ -76,7 +76,7 @@ function scr_pepperman_jump() //gml_Script_scr_pepperman_jump
     return;
 }
 
-function scr_pepperman_freefall() //gml_Script_scr_pepperman_freefall
+function scr_pepperman_freefall() //scr_pepperman_freefall
 {
     vsp = 20
     if grounded
@@ -159,7 +159,7 @@ function scr_pepperman_freefall() //gml_Script_scr_pepperman_freefall
     return;
 }
 
-function scr_pepperman_shoulderbash() //gml_Script_scr_pepperman_shoulderbash
+function scr_pepperman_shoulderbash() //scr_pepperman_shoulderbash
 {
     hsp = (image_xscale * (8 + wastedhits))
     if ((floor(image_index) == (image_number - 1)) && (sprite_index == spr_pepperman_shoulderstart))

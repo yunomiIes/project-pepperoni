@@ -1,4 +1,4 @@
-function scr_player_facestomp() //gml_Script_scr_player_facestomp
+function scr_player_facestomp() //scr_player_facestomp
 {
     move = (key_left + key_right)
     jumpAnim = 0

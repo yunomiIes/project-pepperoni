@@ -1,4 +1,4 @@
-function scr_enemy_hit() //gml_Script_scr_enemy_hit
+function scr_enemy_hit() //scr_enemy_hit
 {
     x = (hitX + random_range(-6, 6))
     y = (hitY + random_range(-6, 6))

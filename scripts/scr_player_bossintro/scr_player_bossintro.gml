@@ -1,4 +1,4 @@
-function scr_player_bossintro() //gml_Script_scr_player_bossintro
+function scr_player_bossintro() //scr_player_bossintro
 {
     hsp = 0
     xscale = 1

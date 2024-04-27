@@ -1,4 +1,4 @@
-function scr_player_boxxedpepspin() //gml_Script_scr_player_boxxedpepspin
+function scr_player_boxxedpepspin() //scr_player_boxxedpepspin
 {
     image_speed = 0.5
     hsp = (xscale * movespeed)

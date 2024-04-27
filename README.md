@@ -1,5 +1,5 @@
-# Pizza Tower: Refried Eggplant "v1"
-- A work in progress decompilation of Pizza Tower: Refried Eggplant (Hope it's optimized.apk)
+# Pizza Tower: Project Pepperoni v1
+- A work in progress decompilation of Pizza Tower: Project Pepperoni (Hope it's optimized.apk)
 - I am not affiliated with Tour De Pizza, Cashier, or the original Fried Eggplant team in any way.
 
 # Requirements

@@ -1,0 +1,24 @@
+{
+  "conversionMode": 0,
+  "compression": 1,
+  "volume": 0.54,
+  "preload": true,
+  "bitRate": 128,
+  "sampleRate": 48000,
+  "type": 1,
+  "bitDepth": 1,
+  "audioGroupId": {
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default"
+  },
+  "soundFile": "sfx_door.ogg",
+  "duration": 1.928,
+  "parent": {
+    "name": "Sounds",
+    "path": "folders/Sounds.yy"
+  },
+  "resourceVersion": "1.0",
+  "name": "sfx_door",
+  "tags": [],
+  "resourceType": "GMSound"
+}

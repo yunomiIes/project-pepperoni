@@ -1,0 +1,6 @@
+objectlist[0] = [435]
+objectlist[1] = [435]
+objectlist[2] = [459, 435]
+objectlist[3] = [459]
+objectlist[4] = [460]
+objectlist[5] = [435]

@@ -1,0 +1,27 @@
+currentselect = 0
+optionbuffer = 0
+visualselect = 0
+state = (18 << 0)
+image_speed = 0.35
+depth = 0
+mainmenu_sprite = -1
+controls_sprite = -1
+angrybuffer = 0
+savedsprite = -4
+savedindex = 0
+deleteselect = 1
+exitselect = 1
+percvisual = 0
+jumpscarecount = 0
+john = 1
+snotty = 1
+judgement = "confused"
+deletebuffer = 0
+percentage = 0
+perstatus_icon = 0
+extrauialpha = 0
+punch_x = 0
+punch_y = 0
+key_jump = 0
+index = 0
+scr_getinput()

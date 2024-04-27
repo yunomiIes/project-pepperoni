@@ -1,0 +1,3 @@
+scr_soundeffect(sfx_alarm)
+scr_soundeffect(sfx_enemyrarescream)
+scr_soundeffect(sfx_step)

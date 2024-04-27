@@ -1,0 +1,15 @@
+hsp = 0
+vsp = 0
+depth = -5
+movespeed = 2
+image_alpha = 0
+targetalpha = 0.75
+image_speed = 0.35
+blur_effect = 0
+state = (200 << 0)
+startx = x
+starty = y
+x = obj_player1.x
+y = obj_player1.y
+savedx = x
+savedy = y
